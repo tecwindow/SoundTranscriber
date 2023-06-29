@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.0.0",
+  "release_notes": {
+    "Arabic": "الإصدار الأول",
+    "English": "the first version"
+  },
+  "download_url": "https://github.com/tecwindow/WikiSearch/releases/download/V1.4.0/WikiSearchV1.4.0.exe",
+  "supported_versions": {
+    "1.0.0": true
+  }
+}
