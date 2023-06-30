@@ -6,6 +6,6 @@
   },
   "download_url": "https://github.com/tecwindow/WikiSearch/releases/download/V1.4.0/WikiSearchV1.4.0.exe",
   "supported_versions": {
-    "1.0.0": false
+    "1.0.0": true
   }
 }
