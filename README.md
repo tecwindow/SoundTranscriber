@@ -5,7 +5,7 @@ Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
 ## Download:
 
-[download Sound Transcriber version 1.0.0.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.0.0/SoundTranscriberV1.0.0.exe)
+[download Sound Transcriber version 1.1.0.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.1.0/SoundTranscriberV1.1.0.exe)
 
 ## Sound Transcriber User Guide.
 
@@ -53,7 +53,7 @@ Please take note of the following important information:
 
 Sound Transcriber supports the following file extensions for conversion:
 
-.mp3, .wav, .aac, .flac, .oga, .opus, .mp4, .avi, .mkv, .mov.
+.mp3, .wav, .aac, .flac, .oga, .opus, .mp4, .avi, .mkv, .mov, .m4a, .ogg, .ram, .rm, .wma, .wmv, .3gp, .flv.
 
 ## Obtaining API Keys:
 
@@ -200,6 +200,7 @@ Sound Transcriber provides several keyboard shortcuts to enhance speed and ease 
 - Ctrl+2: Switch to the Wit.ai service.
 - Ctrl+3: Switch to Whisper.
 - Ctrl+Enter: Start the conversion process.
+- P: Display the current percentage of conversion progress.
 - Ctrl+S: Open the save options.
 - Ctrl+Shift+S: Save the result as .srt.
 - Ctrl+Shift+T: Save the result as .txt.
