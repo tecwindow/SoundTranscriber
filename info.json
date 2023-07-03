@@ -7,6 +7,7 @@
   "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.1.0/SoundTranscriberV1.1.0.exe",
   "supported_versions": {
     "1.0.0": true,
-    "1.1.0": true
+    "1.1.0": true,
+    "1.1.1": true
   }
 }
