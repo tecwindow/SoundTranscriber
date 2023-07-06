@@ -1,5 +1,15 @@
 # What's new in Sound Transcriber?
 
+## Version 1.1.2:
+
+- Fixed a bug that prevented proper conversion of .mp4 files.
+- Fixed a bug that caused the saved file format to retain the extension of the original file with the output files, and sometimes saved the output files with the same extension as the original file when opening a file via the clipboard.
+- You can no longer switch between services and open Sound Transcriber settings during the conversion process.
+- Sound Transcriber will now attempt to alert you when converting using an incorrect wit.ai API key.
+- Fixed a bug that caused the "Edit" button to appear twice after adding a wit.ai key.
+- Fixed a bug that caused the Update and Cancel buttons to appear in English when using Sound Transcriber in Arabic..
+- Various other bug fixes.
+
 ## Version 1.1.1:
 
 - Fixed a bug that caused the cursor position to move to the beginning of the text constantly with the screen reader while extracting text.

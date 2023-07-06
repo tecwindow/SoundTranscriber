@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.1.1",
+  "latest_version": "1.1.2",
   "release_notes": {
-    "Arabic": "تم إصلاح خطأ كان يجعل موضع المؤشر ينتقل إلى بداية النص باستمرار مع قارئ الشاشة أثناء استخراج النص.\nتم إصلاح خطأ كان يجعل خيارات الحفظ لا تعمل بعد انتهاء عملية استخراج النص.\nتم إصلاح بعض الأخطاء الصغيرة.",
-    "English": "Fixed a bug that caused the cursor position to move to the beginning of the text constantly with the screen reader while extracting text.\nFixed a bug that caused the save options to not work after the text extraction process was finished.\nFix some other bugs."
+    "Arabic": "- تم إصلاح خطأ كان يمنع تحويل ملفات .mp4 بشكل صحيح.\nتم إصلاح خطأ كان يتسبب بحفظ صيغة اسم الملف الأصل مع الملفات الناتجة, وأحيانا حفظ الملفات الناتجة بنفس امتداد الملف الأصل عند فتح ملف عن طريق الحافظة.\nلم يعد بإمكانك التبديل بين الخدمات وفتح إعدادات Sound Transcriber أثناء تقدم عملية التحويل.\nسيحاول Sound Transcriber أن ينبهك عند التحويل باستخدام مفتاح wit.ai غير صحيح.\nتم إصلاح خطأ كان يتسبب في ظهور زر باسم "تعديل" مرتين بعد إضافة مفتاح wit.ai.\n تم إصلاح خطأ كان يتسبب في ظهور أزرار التحديث والإلغاء بالأسماء الإنجليزية عند استخدام Sound Transcriber باللغة العربية.\nتم إصلاح بعض الأخطاء الأخرى.",
+    "English": "Fixed a bug that prevented proper conversion of .mp4 files.\nFixed a bug that caused the saved file format to retain the extension of the original file with the output files, and sometimes saved the output files with the same extension as the original file when opening a file via the clipboard.\nYou can no longer switch between services and open Sound Transcriber settings during the conversion process.\nSound Transcriber will now attempt to alert you when converting using an incorrect wit.ai API key.\nFixed a bug that caused the "Edit" button to appear twice after adding a wit.ai key.\nFixed a bug that caused the Update and Cancel buttons to appear in English when using Sound Transcriber in Arabic..\nVarious other bug fixes."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.1.1/SoundTranscriberV1.1.1.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.1.2/SoundTranscriberV1.1.2.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,
