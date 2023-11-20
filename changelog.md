@@ -1,5 +1,25 @@
 # What's new in Sound Transcriber?
 
+## Version 1.2.0:
+
+Important, starting with this version, Sound Transcriber will only support 64 bit versions of Windows.
+
+- Added Spanish translation. Many thanks to Georgiana Frincu.
+- You can now convert videos from Youtube, Facebook, Twitter (X) and other services into text, so that Sound Transcriber will download the video and then convert it.
+- You can choose to keep the original file after conversion or delete it from the settings.
+- Pause and resume feature has been added to the transcription process.
+- You can now paste file paths to be converted.
+- You can specify the file extension that is sent to wit.ai for conversion from settings.
+- Sound Transcriber will try to handle files with names contain Emojis.
+- Sound Transcriber no longer stops during conversion. If this happens, you will still be able to continue the process.
+- Small improvements here and there.
+
+### Notes
+
+- Pausing is supported while extracting text but not while splitting files.
+- If you temporarily stop a process and then start a new conversion process, you will lose everything related to the previous process; Therefore, it is advisable to save the current result before starting a new conversion.
+- Choosing the wav format in wit.ai settings speeds up file splitting but leads to slower conversion and increased data usage. Consider trying .ogg and sharing your feedback on the results.
+
 ## Version 1.1.2:
 
 - Fixed a bug that prevented proper conversion of .mp4 files.

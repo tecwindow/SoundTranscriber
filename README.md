@@ -5,7 +5,7 @@ Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
 ## Download:
 
-[download Sound Transcriber version 1.1.2.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.1.2/SoundTranscriberV1.1.2.exe)
+[download Sound Transcriber version 1.2.0.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.2.0/SoundTranscriberV1.2.0.exe)
 
 ## Sound Transcriber User Guide.
 
@@ -99,7 +99,7 @@ Click the "Start" button to initiate the conversion process.
 
 Next, you will find the "Save As" button, which allows you to specify the output saving preferences.
 
-Below that, there is a read-only edit box indicating the path of the file to be transcribed.
+Below that, there is a read-only edit box indicating the path or the link of the file to be transcribed.
 
 Use the "Browse" button to locate and select the file you want to transcribe.
 
@@ -157,8 +157,9 @@ The options in this section affect the saving functionality in the program's Fil
 - Save as .txt: Enable automatic file saving with the .txt extension.
 - Save as .docx: Save the file with the .docx extension.
 - Save as Subtitle File: Save the file with the .srt extension.
+- Keep downloaded files. Files downloaded from the Internet will be kept after conversion. If it is disabled, the file will be downloaded, converted and then deleted.
 
-If the autosave feature is disabled, the "Save" option in the "File" menu will perform the same function, saving files according to the specified extensions and path.
+If the AutoSave feature is disabled, the "Save" option in the "File" menu will perform the same function, saving files according to the specified extensions and path.
 
 ### Google:
 
@@ -185,6 +186,10 @@ Select the language matching your application in Wit.ai, paste the key, and clic
 Repeat these steps for each language you intend to use. After obtaining a key from the Wit.ai site, return to the settings window to add it.
 
 You can delete individual keys or all saved keys associated with this service using the provided buttons.
+
+Choose audio format: To specify the file extension when converting, choose ogg or mp3. If your internet connection is bad.
+
+Choosing wav will quickly split the file, but it will be larger.
 
 Lastly, you can specify the duration of each file segment, ranging from 4 to 20 seconds. Choose the duration that yields the best results.
 
@@ -213,14 +218,24 @@ Sound Transcriber provides several keyboard shortcuts to enhance speed and ease 
 
 To convert files, open Sound Transcriber and either browse for the file by clicking "Browse" or use the shortcut Ctrl+O. Alternatively, you can copy the file from your device and paste it using Ctrl+V.
 
+Or copy a video link from sites such as Facebook, Twitter (X), Youtube, SoundCloud and others.
+
 Choose the desired language and service using the provided shortcuts or adjust them in the settings. Press "Start" or use the shortcut Ctrl+Enter to initiate the conversion.
+
+### Notes:
+
+- While the conversion process is in progress, you can pause it while extracting the text, and during downloading, but if you start a new process, everything related to the previous process will be ignored.
+- If the process is stopped during splitting the files, it cannot be resumed.
 
 ## Report Bugs:
 
 If you encounter any bug with Sound Transcriber, you can use the communication methods available in the "Contact Us" menu under the "Help" section. Provide a detailed explanation of the actions that led to the bug. We recommend sharing the Sound Transcriber.log file, which will assist us in understanding and resolving the bug more effectively.
+
 You can find the file in the following path:
+
 AppData\Roaming\tecwindow\SoundTranscriber
 
 ## special thanks:
 
-Many thanks to Riad Assoum for translating the user guide into English and proofreading the program's English and Arabic strings.
+- Many thanks to Riad Assoum for translating the user guide into English and proofreading the program's English and Arabic strings.
+- Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
