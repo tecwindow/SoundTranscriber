@@ -5,7 +5,7 @@ Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
 ## Download:
 
-[download Sound Transcriber version 1.2.0.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.2.0/SoundTranscriberV1.2.0.exe)
+[download Sound Transcriber version 1.3.1.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.1/SoundTranscriberV1.3.1.exe)
 
 ## Sound Transcriber User Guide.
 
@@ -74,7 +74,7 @@ Although the following steps may appear extensive, they are straightforward and 
 - Finally click "Create".
 - Find the name of the application you created, click on it, and then navigate to the "Management" button.
 - When you reach this button, press the letter b to find a button called Settings. Press this button.
-- Move with the number 2 or h for screen reader users until you find a heading called Client Access Token, scroll down and you will find your key as a button. You can select the text manually to copy it or press the same button to for it to be automatically copied.
+- Move with the number 4 or h for screen reader users until you find a heading called Client Access Token, scroll down and you will find your key as a button. You can select the text manually to copy it or press the same button to for it to be automatically copied.
 - Return to Sound Transcriber and paste your API key into the provided field.
 
 You can repeat these steps and create a new application with a different name to obtain an API key for transcribing in another language. If you want to use multiple languages with wit.ai, simply repeat the steps to obtain an API key for each language.
@@ -179,7 +179,7 @@ You will find a list of currently added languages.
 
 Each language has a corresponding hidden edit field for the API key.
 
-Use the modify button to change the key or the add button to add a new key.
+Use the Edit button to change the key or the add button to add a new key.
 
 Select the language matching your application in Wit.ai, paste the key, and click Add.
 
@@ -218,13 +218,13 @@ Sound Transcriber provides several keyboard shortcuts to enhance speed and ease 
 
 To convert files, open Sound Transcriber and either browse for the file by clicking "Browse" or use the shortcut Ctrl+O. Alternatively, you can copy the file from your device and paste it using Ctrl+V.
 
-Or copy a video link from sites such as Facebook, Twitter (X), Youtube, SoundCloud and others.
+You can alternatively copy a video link from sites such as Facebook, Twitter (X), Youtube, SoundCloud among others.
 
 Choose the desired language and service using the provided shortcuts or adjust them in the settings. Press "Start" or use the shortcut Ctrl+Enter to initiate the conversion.
 
 ### Notes:
 
-- While the conversion process is in progress, you can pause it while extracting the text, and during downloading, but if you start a new process, everything related to the previous process will be ignored.
+- While a conversion is underway, you have the option to pause it, be it during the extraction of text or the downloading of a file. However, it's important to note that initiating a new process will result in the disregard of anything associated with the previous process.
 - If the process is stopped during splitting the files, it cannot be resumed.
 
 ## Report Bugs:
@@ -237,5 +237,5 @@ AppData\Roaming\tecwindow\SoundTranscriber
 
 ## special thanks:
 
-- Many thanks to Riad Assoum for translating the user guide into English and proofreading the program's English and Arabic strings.
+- Many thanks to Riad Assoumfor translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
 - Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
