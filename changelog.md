@@ -1,5 +1,13 @@
 # What's new in Sound Transcriber?
 
+## Version 1.3.2:
+
+- You can now add files using drag and drop.
+- Fixed a major bug that caused extracted text to appear in the wrong order when converting long files.
+- Fixed a bug that caused the save option to be disabled if the conversion was canceled before completion.
+- Several improvements to the Arabic translation. Many thanks to Zeinab Bahaa.
+- Various minor improvements.
+
 ## Version 1.3.1:
 
 Some fixes and improvements.

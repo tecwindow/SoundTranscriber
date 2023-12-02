@@ -1,5 +1,13 @@
 # Novedades en Sound Transcriber?
 
+## Versión 1.3.2:
+
+- Ahora se pueden añadir ficheros con la opción de arrastrar y soltar.
+- Arreglado un error que hacía que al extraer texto apareciera en un orden diferente al esperado al convertir ficheros.
+- Arreglado un error que hacía que la opción de guardado se deshabilitara si la conversión no había finalizado.
+- Varias mejoras a la traducción al árabe. Muchas gracias a Zeinab Bahaa.
+- Otros cambios menores.
+
 ## Versión 1.3.1:
 
 Algunas correcciones y mejoras.

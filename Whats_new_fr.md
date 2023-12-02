@@ -1,5 +1,13 @@
 # Quoi de neuf dans Sound Transcriber ?
 
+## Version 1.3.2 :
+
+- Vous pouvez désormais ajouter des fichiers par glisser-déposer.
+- Correction d'un bogue majeur qui faisait que le texte extrait apparaissait dans le mauvais ordre lors de la conversion de longs fichiers.
+- Correction d'un bogue qui entraînait la désactivation de l'option d'enregistrement si la conversion était annulée avant d'être terminée.
+- Plusieurs améliorations de la traduction arabe. Un grand merci à Zeinab Bahaa.
+- Diverses améliorations mineures ont été apportées pour une meilleure expérience utilisateur.
+
 ## Version 1.3.1 :
 
 Quelques corrections et améliorations.
