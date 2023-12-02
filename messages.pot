@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-11-19 15:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1256\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "Stop"
+msgstr ""
+
+msgid "Resume"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Save As Text File"
+msgstr ""
+
+msgid "Save As Word File"
+msgstr ""
+
+msgid "Save As Subtitle File"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save As"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Open LOG File"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "User Guide"
+msgstr ""
+
+msgid "What's new"
+msgstr ""
+
+msgid "Check for Updates"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "File/Link:"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Result:"
+msgstr ""
+
+msgid "Waiting for conversion to start..."
+msgstr ""
+
+msgid "Language:"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "&Cancel"
+msgstr ""
+
+msgid "Copy Content"
+msgstr ""
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"Version: {}.\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow team."
+msgstr ""
+
+msgid "&OK"
+msgstr ""
+
+msgid "{} Selected."
+msgstr ""
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "&No"
+msgstr ""
+
+msgid "&Yes"
+msgstr ""
+
+msgid "Auto Detect"
+msgstr ""
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+
+msgid "&Convert the file"
+msgstr ""
+
+msgid "&Ignore the file"
+msgstr ""
+
+msgid "&Paste only"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Finished."
+msgstr ""
+
+msgid "Extracting text has been finished."
+msgstr ""
+
+msgid "The text has been successfully extracted."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "This version is not supported anymore."
+msgstr ""
+
+msgid "Failed to connect to the server."
+msgstr ""
+
+msgid "There is no API key for this service."
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Splitting file..."
+msgstr ""
+
+msgid "File Not Found"
+msgstr ""
+
+msgid "Extracting text..."
+msgstr ""
+
+msgid "Connection Error"
+msgstr ""
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+
+msgid "&Don't Save"
+msgstr ""
+
+msgid "&Save"
+msgstr ""
+
+msgid "The file ffmpeg.exe was not found."
+msgstr ""
+
+msgid "Error converting audio file."
+msgstr ""
+
+msgid "Sound Transcriber Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Save Options"
+msgstr ""
+
+msgid "Interface Language:"
+msgstr ""
+
+msgid "Service:"
+msgstr ""
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr ""
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+msgid "Speak Actions"
+msgstr ""
+
+msgid "Automatically Check for updates"
+msgstr ""
+
+msgid "&Restore Default Settings"
+msgstr ""
+
+msgid "Auto Save Files"
+msgstr ""
+
+msgid "Save Path:"
+msgstr ""
+
+msgid "Keep downloaded files"
+msgstr ""
+
+msgid "Secret Key:"
+msgstr ""
+
+msgid "&Add"
+msgstr ""
+
+msgid "&Edit"
+msgstr ""
+
+msgid "Segment Duration (In Seconds):"
+msgstr ""
+
+msgid "Current Languages:"
+msgstr ""
+
+msgid "&Delete"
+msgstr ""
+
+msgid "Delete All &Keys"
+msgstr ""
+
+msgid "Choose audio format:"
+msgstr ""
+
+msgid "Choose the folder path."
+msgstr ""
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr ""
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+
+msgid "Language Selection"
+msgstr ""
+
+msgid "You are using an incorrect API key."
+msgstr ""
+
+msgid "An error occurred while extracting the text."
+msgstr ""
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+
+msgid "No update available"
+msgstr ""
+
+msgid "You are using Sound Transcriber version {} which is the latest version."
+msgstr ""
+
+msgid "Update Available"
+msgstr ""
+
+msgid "Sound Transcriber version {} is available."
+msgstr ""
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr ""
+
+msgid "&Update"
+msgstr ""
+
+msgid "An error occurred while downloading the file."
+msgstr ""
+
+msgid "&Ok"
+msgstr ""
+

@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.3.0",
+  "latest_version": "1.3.1",
   "release_notes": {
     "Arabic": "بعض التصحيحات والتحسينات.",
     "English": "Some fixes and improvements.",
     "Spanish": "Algunas correcciones y mejoras.",
     "French": "Quelques corrections et améliorations."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.0/SoundTranscriberV1.3.0.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.1/SoundTranscriberV1.3.1.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,
     "1.1.1": false,
-    "1.1.2": true,
-    "1.2.0": true,
-    "1.3.0": true,
+    "1.1.2": false,
+    "1.2.0": false,
+    "1.3.0": false,
     "1.3.1": true
     "1.3.2": true
   }

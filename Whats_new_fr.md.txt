@@ -1,0 +1,77 @@
+# Quoi de neuf dans Sound Transcriber ?
+
+## Version 1.3.1 :
+
+Quelques corrections et améliorations.
+
+## Version 1.3.0 :
+
+- Ajout de la traduction française. Un grand merci à Riad Assoum.
+- Vous pouvez maintenant ouvrir des fichiers dans Sound Transcriber pour les transcrire à partir du menu contextuel des types de fichiers pris en charge.
+- Vous pouvez désormais accéder rapidement à Sound Transcriber en tapant simplement "st" dans la boîte de dialogue Exécuter.
+- Sound Transcriber est désormais capable de reconnaître automatiquement les traductions de l'interface et d'intégrer de nouveaux fichiers d'aide. Pour y contribuer, traduisez le fichier messages.pot à l'aide de Poedit et enregistrez les fichiers dans le même ordre que les fichiers de langue existants.
+- Lorsque l'option de conservation des fichiers téléchargés est désactivée, Sound Transcriber les conserve jusqu'à la fermeture du programme. Ceci est particulièrement pratique si vous souhaitez répéter le processus de conversion avec différentes options.
+- Merci à Dawlat Hassan pour l'information - de nombreux bogues liés à la fonction de collage dans le presse-papiers ont été éliminés. Des problèmes tels que l'ignorance de certains chemins, l'impossibilité de lancer la conversion à partir du message de détection, le collage de liens à n'importe quel moment, et bien d'autres encore, appartiennent désormais au passé.
+- Correction d'un bogue qui provoquait parfois le démarrage de Sound Transcriber dans une langue différente après la dernière mise à jour.
+- Vous ne pouvez plus ouvrir deux instances de Sound Transcriber simultanément.
+- Des changements ont été apportés à la méthode d'arrêt de la conversion pour une expérience plus fluide.
+- Diverses améliorations mineures ont été apportées pour une meilleure expérience utilisateur.
+
+## Version 1.2.0 :
+
+Important, à partir de cette version, Sound Transcriber ne prendra en charge que les versions 64 bits de Windows.
+
+- Ajout d'une traduction en espagnol. Merci à Georgiana Frincu.
+- Vous pouvez maintenant convertir des vidéos de Youtube, Facebook, Twitter (X) et d'autres services en texte, de sorte que Sound Transcriber téléchargera la vidéo et la convertira ensuite.
+- Vous pouvez choisir de conserver le fichier original après la conversion ou de le supprimer dans les paramètres.
+- La fonction de pause et de reprise a été ajoutée au processus de transcription.
+- Vous pouvez désormais coller les chemins d'accès aux fichiers à convertir.
+- Vous pouvez spécifier l'extension de fichier qui est envoyée à wit.ai pour la conversion à partir des paramètres.
+- Sound Transcriber essaiera de traiter les fichiers dont le nom contient des Emojis.
+- Sound Transcriber ne s'arrêtera plus pendant la conversion. Si cela se produit, vous pourrez toujours continuer le processus.
+- Petites améliorations ici et là.
+
+### Notes
+
+- La mise en pause est prise en charge lors de l'extraction de texte, mais pas lors de la division de fichiers.
+- Si vous arrêtez temporairement un processus et que vous démarrez ensuite un nouveau processus de conversion, vous perdrez tout ce qui est lié au processus précédent ; par conséquent, il est conseillé de sauvegarder le résultat actuel avant de démarrer une nouvelle conversion.
+- Choisir le format wav dans les paramètres de wit.ai accélèrera le découpage des fichiers mais entraînera une conversion plus lente et une utilisation accrue des données. Envisagez d'essayer le format .ogg et de partager vos commentaires sur les résultats.
+
+## Version 1.1.2 :
+
+- Correction d'un bogue qui empêchait la conversion correcte des fichiers .mp4.
+- Correction d'un bogue qui faisait que le format de fichier enregistré conservait l'extension du fichier d'origine avec les fichiers de sortie, et parfois enregistrait les fichiers de sortie avec la même extension que le fichier d'origine lors de l'ouverture d'un fichier via le presse-papiers.
+- Il n'est plus possible de passer d'un service à l'autre et d'ouvrir les paramètres de Sound Transcriber pendant le processus de conversion.
+- Sound Transcriber tentera désormais de vous alerter en cas de conversion à l'aide d'une clé API wit.ai incorrecte.
+- Correction d'un bogue à cause duquel le bouton "Modifier" apparaissait deux fois après l'ajout d'une clé wit.ai.
+- Correction d'un bogue à cause duquel les boutons "Mettre à jour" et "Annuler" apparaissaient en anglais lorsque Sound Transcriber était utilisé en arabe.
+- Diverses autres corrections de bogues.
+
+## Version 1.1.1 :
+
+- Correction d'un bogue qui faisait que la position du curseur se déplaçait constamment au début du texte avec le lecteur d'écran lors de l'extraction du texte.
+- Correction d'un bogue qui faisait que les options d'enregistrement ne fonctionnaient pas après la fin du processus d'extraction du texte.
+- Correction d'autres bogues.
+
+## Version 1.1 :
+
+Cette version comprend plusieurs corrections de bogues et quelques nouvelles fonctionnalités.
+
+- La prise en charge de divers formats de fichiers audio et vidéo a été ajoutée.
+- Les fichiers Word sont désormais enregistrés au format .docx au lieu de .doc.
+- Sound Transcriber affichera un avertissement si vous essayez de le fermer pendant la conversion d'un fichier.
+- Si l'enregistrement automatique est désactivé et que le texte extrait n'est enregistré dans aucun fichier, Sound Transcriber vous demandera ce qu'il faut faire à la fermeture. Si vous choisissez d'enregistrer, le fichier sera enregistré selon les options spécifiées dans la section Options d'enregistrement des paramètres.
+- Sound Transcriber mémorise désormais la langue sélectionnée pour la conversion des fichiers pour chaque service.
+- Le texte extrait est désormais affiché pendant le processus d'extraction. En d'autres termes, si le processus d'extraction s'arrête pour une raison quelconque, vous ne perdrez pas le texte extrait. Le nouveau texte sera ajouté au fur et à mesure que le processus se poursuit.
+- Vous pouvez désormais vérifier la progression de l'extraction en appuyant sur P.
+- Correction d'un bogue qui empêchait le bouton "Parcourir" du chemin d'enregistrement automatique de fonctionner.
+- Correction d'un bogue qui empêchait la modification des clés API pour les langues autres que la langue principale dans la liste des langues de wit.ai.
+- Correction d'un bogue qui empêchait de convertir des fichiers avec une langue autre que la langue principale en utilisant Wit.ai.
+- Correction d'un bogue qui empêchait la restauration des paramètres par défaut.
+- Ajustement de la présentation de la boîte de dialogue des paramètres pour afficher les éléments correctement.
+- Amélioration de la traduction en arabe.
+- Correction de quelques bogues mineurs ici et là.
+
+## Version 1.0 :
+
+Version initiale.

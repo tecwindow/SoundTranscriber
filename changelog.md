@@ -1,5 +1,22 @@
 # What's new in Sound Transcriber?
 
+## Version 1.3.1:
+
+Some fixes and improvements.
+
+## Version 1.3.0:
+
+- French translation added. Many thanks to Riad Assoum.
+- You can now open files in Sound Transcriber to Transcribe them from the context menu of supported file types.
+- You can now access Sound Transcriber swiftly by simply typing 'st' in the Run dialog.
+- Sound Transcriber is now able to automatically recognize interface translations and integrate new help files. To contribute, translate the messages.pot file using Poedit and save the files in the same order as the existing language files.
+- When the option to keep downloaded files is turned off, Sound Transcriber will retain them until the program is closed. This is particularly handy if you wish to repeat the conversion process with different options.
+- Several bugs related to the paste from clipboard feature have been fixed. Like ignoring certain paths, failure to start conversions from the detection message, pasting links at any time, and more. Many thanks to Dawlat Hassan for the note that helped uncover many of these bugs associated with this feature.
+- Fixed a bug that occasionally caused Sound Transcriber to start in a different language after the last update.
+- You can no longer open two instances of Sound Transcriber simultaneously.
+- Implemented changes to the conversion stopping method.
+- Various minor improvements.
+
 ## Version 1.2.0:
 
 Important, starting with this version, Sound Transcriber will only support 64 bit versions of Windows.
