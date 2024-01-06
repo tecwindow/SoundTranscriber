@@ -237,5 +237,6 @@ AppData\Roaming\tecwindow\SoundTranscriber
 
 ## special thanks:
 
-- Many thanks to Riad Assoumfor translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
+- Many thanks to Riad Assoum for translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
+- Many thanks to Danil Kostenkov for translating Sound Transcriber and changelog into Russian.
 - Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
