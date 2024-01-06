@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \"Sound Transcriber 1.3.2\"\n"
+"POT-Creation-Date: 2023-12-14 11:18+0300\n"
+"PO-Revision-Date: 2024-01-05 10:05+0300\n"
+"Last-Translator: Danil Kostenkov <danilkostenkov38@gmail.com>\n"
+"Language-Team: Danil Kostenkov <danilkostenkov38@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Stop"
+msgstr "Остановить"
+
+msgid "Resume"
+msgstr "Возобновить"
+
+msgid "Pause"
+msgstr "Приостановить"
+
+msgid "Save As Text File"
+msgstr "Сохранить как текстовый файл"
+
+msgid "Save As Word File"
+msgstr "Сохранить как файл Word"
+
+msgid "Save As Subtitle File"
+msgstr "Сохранить как файл субтитров"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Save As"
+msgstr "Сохранить как"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Open LOG File"
+msgstr "Открыть файл лога"
+
+msgid "Exit"
+msgstr "Закрыть"
+
+msgid "User Guide"
+msgstr "Руководство пользователя"
+
+msgid "What's new"
+msgstr "Что нового"
+
+msgid "Check for Updates"
+msgstr "Проверить обновления"
+
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+msgid "About"
+msgstr "О программе"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Services"
+msgstr "Сервисы"
+
+msgid "Help"
+msgstr "Справка"
+
+msgid "File/Link:"
+msgstr "Файл или ссылка:"
+
+msgid "Browse"
+msgstr "Обзор"
+
+msgid "Result:"
+msgstr "Результат:"
+
+msgid "Waiting for conversion to start..."
+msgstr "Ожидание начала преобразования..."
+
+msgid "Language:"
+msgstr "Язык:"
+
+msgid "Start"
+msgstr "Начать"
+
+msgid "&Cancel"
+msgstr "&Отменить"
+
+msgid "Copy Content"
+msgstr "Копировать содержимое"
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"Version: {}.\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed "
+"to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow "
+"team."
+msgstr ""
+"Название: Sound Transcriber.\n"
+"Версия: {}.\n"
+"Sound Transcriber - это доступная программа преобразования аудио в текст, "
+"предназначенная для расшифровки аудио- и видеофайлов.\n"
+"она предлагает поддержку извлечения файлов субтитров и многое другое.\n"
+"Разработано: Махмудом Атефом, Ахмедом Бакром и Кайсом Альрефаи из команды "
+"TecWindow."
+
+msgid "&OK"
+msgstr "&ОК"
+
+msgid "{} Selected."
+msgstr "{} Выделено."
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Вы собираетесь переписать новый файл.\n"
+"Это заменит текущий результат преобразования.\n"
+"Рекомендуется сохранить текущий результат, прежде чем продолжить.\n"
+"Вы уверены, что хотите продолжить?"
+
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgid "&No"
+msgstr "&Нет"
+
+msgid "&Yes"
+msgstr "&Да"
+
+msgid "Auto Detect"
+msgstr "Автоопределение"
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+"Файл {} был найден в вашем буфере обмена.\n"
+"Что вы хотите сделать?"
+
+msgid "&Convert the file"
+msgstr "&Преобразовать файл"
+
+msgid "&Ignore the file"
+msgstr "&Пропустить файл"
+
+msgid "&Paste only"
+msgstr "&Вставить без преобразования"
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "Finished."
+msgstr "Завершено."
+
+msgid "Extracting text has been finished."
+msgstr "Извлечение текста завершено."
+
+msgid "The text has been successfully extracted."
+msgstr "Текст был успешно извлечён."
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Stopped."
+msgstr "Остановлено."
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+"Вы уверены, что хотите отменить процесс?\n"
+"Отмена на этом этапе приведёт к потере данных."
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "This version is not supported anymore."
+msgstr "Эта версия больше не поддерживается."
+
+msgid "Failed to connect to the server."
+msgstr "Не удалось подключиться к серверу."
+
+msgid "There is no API key for this service."
+msgstr "Для этого сервиса нет ключа API."
+
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+msgid "Splitting file..."
+msgstr "Разделение файла..."
+
+msgid "File Not Found"
+msgstr "Файл не найден"
+
+msgid "Extracting text..."
+msgstr "Извлечение текста..."
+
+msgid "Connection Error"
+msgstr "Ошибка соединения"
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will "
+"cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+"Выполняется извлечение текста, закрытие Sound Transcriber отменит его.\n"
+"Вы всё ещё хотите закрыть Sound Transcriber?"
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+"Извлеченный текст еще не сохранен.\n"
+"Что бы вы хотели сделать?"
+
+msgid "&Don't Save"
+msgstr "&Не сохранять"
+
+msgid "&Save"
+msgstr "&Сохранить"
+
+msgid "The file ffmpeg.exe was not found."
+msgstr "Файл ffmpeg.exe не был найден."
+
+msgid "Error converting audio file."
+msgstr "Ошибка преобразования аудиофайла."
+
+msgid "Sound Transcriber Settings"
+msgstr "Настройки Sound Transcriber"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "Save Options"
+msgstr "Параметры сохранения"
+
+msgid "Interface Language:"
+msgstr "Язык интерфейса:"
+
+msgid "Service:"
+msgstr "Сервис:"
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr "Автоматически Определять наличия Файла в Буфере Обмена"
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr "Спрашивать, когда файл обнаружен в буфере обмена"
+
+msgid "Sounds"
+msgstr "Звуки"
+
+msgid "Speak Actions"
+msgstr "Проговаривать действия"
+
+msgid "Automatically Check for updates"
+msgstr "Автоматически проверять наличие обновлений"
+
+msgid "&Restore Default Settings"
+msgstr "&Восстановить настройки по умолчанию"
+
+msgid "Auto Save Files"
+msgstr "Автосохранение файлов"
+
+msgid "Save Path:"
+msgstr "Место сохранения:"
+
+msgid "Keep downloaded files"
+msgstr "Сохранять загруженные файлы"
+
+msgid "Secret Key:"
+msgstr "Секретный ключ API:"
+
+msgid "&Add"
+msgstr "&Добавить"
+
+msgid "&Edit"
+msgstr "&Редактировать"
+
+msgid "Segment Duration (In Seconds):"
+msgstr "Продолжительность фрагмента (в секундах):"
+
+msgid "Current Languages:"
+msgstr "Текущие языки:"
+
+msgid "&Delete"
+msgstr "&Удалить"
+
+msgid "Delete All &Keys"
+msgstr "Удалить все &ключи"
+
+msgid "Choose audio format:"
+msgstr "Выберите формат аудиофайла:"
+
+msgid "Choose the folder path."
+msgstr "Выберите путь к папке."
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr "Вы уверены, что хотите удалить все ключи?"
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr "Вы уверены, что хотите удалить ключ {}?"
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+"Вы уверены, что хотите сбросить все настройки?\n"
+"Программа перезапустится."
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+"Вы должны перезапустить Sound Transcriber, чтобы новый язык вступил в силу.\n"
+"Вы хотите перезапустить программу прямо сейчас?"
+
+msgid "Language Selection"
+msgstr "Выбор языка"
+
+msgid "You are using an incorrect API key."
+msgstr "Вы используете неправильный ключ API."
+
+msgid "An error occurred while extracting the text."
+msgstr "При извлечении текста произошла ошибка."
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+"Сетевое подключение отсутствует.\n"
+"Попробуйте подключиться к сети, затем повторите попытку"
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+"Произошла ошибка.\n"
+"Пожалуйста, повторите попытку позже."
+
+msgid "No update available"
+msgstr "Обновление недоступно"
+
+msgid "You are using Sound Transcriber version {} which is the latest version."
+msgstr "Вы используете последнюю версию Sound Transcriber {}."
+
+msgid "Update Available"
+msgstr "Доступно обновление"
+
+msgid "Sound Transcriber version {} is available."
+msgstr "Доступна версия Sound Transcriber {}."
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr "Что нового в версии Sound Transcriber {}?"
+
+msgid "&Update"
+msgstr "&Обновить"
+
+msgid "An error occurred while downloading the file."
+msgstr "При загрузке файла произошла ошибка."
+
+msgid "&Ok"
+msgstr "&Ок"
