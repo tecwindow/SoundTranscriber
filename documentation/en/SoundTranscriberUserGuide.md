@@ -1,13 +1,4 @@
-# Sound Transcriber
-
-SoundTranscriber can be used to generate automatic transcription / automatic subtitles for audio/video files through a friendly graphical user interface. 
-Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
-
-## Download:
-
-[download Sound Transcriber version 1.3.3.](https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.3/SoundTranscriberV1.3.3.exe)
-
-## Sound Transcriber User Guide.
+# Sound Transcriber User Guide.
 
 This user guide aims to provide you with a comprehensive understanding of Sound Transcriber and help you make the most of its features.
 
@@ -237,6 +228,6 @@ AppData\Roaming\tecwindow\SoundTranscriber
 
 ## special thanks:
 
-- Many thanks to Riad Assoum for translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
-- Many thanks to Danil Kostenkov for translating Sound Transcriber and changelog into Russian.
+- Many thanks to Riad Assoumfor translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
 - Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
+- Many thanks to Danil for translating Sound Transcriber into Russian.

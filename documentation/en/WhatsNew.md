@@ -1,5 +1,14 @@
 # What's new in Sound Transcriber?
 
+## Version 1.3.3:
+
+- Added Russian translation, many thanks to Danil.
+- made code improvements that increased response speed and reduced size.
+- replaced Accessible Output 2 with PythonUniversalSpeech.
+- Sound Transcriber no longer uses Sapi5 to speak actions when used without a screen reader.
+- Updated the version of Python used to Python 3.11.7.
+- Several minor improvements.
+
 ## Version 1.3.2:
 
 - You can now add files using drag and drop.

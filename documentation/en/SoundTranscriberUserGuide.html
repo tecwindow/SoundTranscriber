@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Transcriber  User Guide</title>
+<style>body {
+   color: black;
+}
+</style>
+</head>
+<body>
+<h1 id="sound-transcriber-user-guide-">Sound Transcriber User Guide.</h1>
+<p>This user guide aims to provide you with a comprehensive understanding of Sound Transcriber and help you make the most of its features.</p>
+<p>We highly recommend reading this guide to ensure optimal usage of the program.</p>
+<h2 id="introduction-to-sound-transcriber">Introduction to Sound Transcriber</h2>
+<p>Sound Transcriber is an accessible audio-to-text conversion program designed to transcribe audio and video files, it offers support for extracting subtitle files and more.</p>
+<p>Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.</p>
+<h2 id="features">Features</h2>
+<p>Sound Transcriber offers the following features:</p>
+<ul>
+<li>Conversion of audio and video files to text using various transcription services.</li>
+<li>Saving conversion results as .txt and .doc files or as .SRT subtitle files.</li>
+</ul>
+<h2 id="planned-features-">Planned features:</h2>
+<p>We have several planned features in the pipeline, including:</p>
+<ul>
+<li>Translation of conversion results into multiple languages.</li>
+<li>Spell check functionality with dictionaries.</li>
+<li>Conversion of results into audio using text-to-speech engines.</li>
+</ul>
+<h2 id="supported-services-">Supported services:</h2>
+<p>The software currently only supports online conversion using Google&#39;s speech recognition, OpenAi&#39;s Whisper, and Meta&#39;s wit.ai.</p>
+<h2 id="important-notes-">Important notes:</h2>
+<p>Please take note of the following important information:</p>
+<ul>
+<li>By default, the program uses the Google service. To utilize other services, you need to obtain an API key from the respective service provider.</li>
+<li>For the best results with Arabic language transcription, we recommend using wit.ai.</li>
+<li>OpenAI&#39;s Whisper has been included based on previous experiences, but it may not function as intended or may not work at all. We appreciate your feedback and experiences to help us resolve any issues.</li>
+<li>Unlike OpenAI, Wit.ai provides free API keys.</li>
+<li>When converting a file, ensure that you select the appropriate language before initiating the conversion process. If a file is multilingual, words in languages other than the selected language may not be accurately converted due to limitations of the services.</li>
+<li>Prior to conversion, files are split into segments of up to 60 seconds, depending on the limitations of each service. Consequently, some words may be lost during this process. To achieve optimal results, we recommend adjusting the segment duration based on the silence time, file length, and segment duration allowed by each service.</li>
+</ul>
+<h2 id="supported-file-extensions-">Supported file extensions:</h2>
+<p>Sound Transcriber supports the following file extensions for conversion:</p>
+<p>.mp3, .wav, .aac, .flac, .oga, .opus, .mp4, .avi, .mkv, .mov, .m4a, .ogg, .ram, .rm, .wma, .wmv, .3gp, .flv.</p>
+<h2 id="obtaining-api-keys-">Obtaining API Keys:</h2>
+<h3 id="wit-ai-">Wit.ai:</h3>
+<p>If we were to include an API key within the program itself, it would likely be blocked after widespread usage by multiple users.
+Moreover, wit.ai provides distinct API keys for each language. This means that you need to create an application in the desired language and obtain its corresponding API key.
+Unfortunately, it is not feasible for us to gather API keys for all languages since they vary based on individual preferences.
+Therefore, we will provide you with instructions on how to obtain your own private API key.
+Although the following steps may appear extensive, they are straightforward and only need to be completed once.</p>
+<ul>
+<li>Open the <a href="https://wit.ai">wit.ai website</a></li>
+<li>Log in with your Meta account by clicking &quot;Continue with Meta.&quot;</li>
+<li>Follow the normal account creation steps or press &quot;Continue with Facebook&quot;</li>
+<li>Go to the top of the page, press h or 1 for screen reader users.</li>
+<li>Click &quot;New App&quot; and give the app any English name, such as test or my app.</li>
+<li>You will find an options box for the app&#39;s language, open it and choose the appropriate language. The audio files will be converted to the language you choose.</li>
+<li>Finally click &quot;Create&quot;.</li>
+<li>Find the name of the application you created, click on it, and then navigate to the &quot;Management&quot; button.</li>
+<li>When you reach this button, press the letter b to find a button called Settings. Press this button.</li>
+<li>Move with the number 4 or h for screen reader users until you find a heading called Client Access Token, scroll down and you will find your key as a button. You can select the text manually to copy it or press the same button to for it to be automatically copied.</li>
+<li>Return to Sound Transcriber and paste your API key into the provided field.</li>
+</ul>
+<p>You can repeat these steps and create a new application with a different name to obtain an API key for transcribing in another language. If you want to use multiple languages with wit.ai, simply repeat the steps to obtain an API key for each language.</p>
+<h2 id="whisper-">Whisper:</h2>
+<p>Sound Transcriber supports transcription through the use of OpenAI&#39;s Whisper API keys, which are not available for free.</p>
+<p>The pricing is based on the number of characters transcribed, and specific plans are not mentioned here.</p>
+<p>To get detailed information about the limits and subscription options, please visit <a href="https://platform.openai.com/account/billing/overview">this page/.</a> Keep in mind that signing in and adding a payment method is at your own risk.</p>
+<p>To obtain an API key for Sound Transcriber, go to the <a href="https://platform.openai.com/account/api-keys">API key page</a> and click on &quot;Create new secret key.&quot; Copy the generated key and proceed to add it in the program settings as demonstrated later.</p>
+<h2 id="sound-transcriber-interface-">Sound Transcriber Interface:</h2>
+<p>Upon opening the program, you will find an edit box displaying the transcribed result. Use the tab key to navigate through the other options.</p>
+<p>The &quot;Language&quot; box allows you to specify the language of the file you want to transcribe. Select the appropriate language using the arrow keys.</p>
+<p>Click the &quot;Start&quot; button to initiate the conversion process.</p>
+<p>Next, you will find the &quot;Save As&quot; button, which allows you to specify the output saving preferences.</p>
+<p>Below that, there is a read-only edit box indicating the path or the link of the file to be transcribed.</p>
+<p>Use the &quot;Browse&quot; button to locate and select the file you want to transcribe.</p>
+<p>Additionally, you can utilize keyboard shortcuts, which will be explained later.</p>
+<p>Please note that the order of items on the screen may differ when navigating with the Tab key.</p>
+<h2 id="menus">Menus</h2>
+<p>The program includes several menus accessible by pressing the Alt key.</p>
+<h3 id="file-">File:</h3>
+<ul>
+<li>Open: Use this option to browse your device and search for a file to transcribe.</li>
+<li>Save: Save the transcription result with the specified extension in the settings.</li>
+<li>Save As: Save the result with a specific extension.</li>
+<li>Settings: Access program options and customizations.</li>
+<li>Exit: Exit the program.</li>
+</ul>
+<h3 id="services-">Services:</h3>
+<p>It contains the names of the services available for conversion, you can selecte any service.</p>
+<h3 id="help-">Help:</h3>
+<ul>
+<li>User Guide: View the currently accessed file.</li>
+<li>What&#39;s new: View Sound Transcriber change log.</li>
+<li>Check for Updates: Search for program updates.</li>
+<li>Contact Us: Display menus with options to contact the program developers.</li>
+<li>About: Provides information about Sound Transcriber.</li>
+</ul>
+<h2 id="sound-transcriber-settings-">Sound Transcriber Settings:</h2>
+<p>Similar to the NVDA screen reader settings, the Sound Transcriber settings are categorized into several sections, each containing various options. You can navigate between sections using the up and down arrows. Use the Tab and Shift+Tab keys to scroll through the options within the selected section.</p>
+<h3 id="general-">General:</h3>
+<p>This section includes various program-wide options:</p>
+<ul>
+<li>Interface Language: Specify the program&#39;s language.</li>
+<li>Service: Define the service used for file transcription.</li>
+<li>Auto detect if there is a file in the clipboard: The program checks your clipboard on startup, and if it finds a supported file, it automatically selects its path for quick conversion.</li>
+<li>Ask what to do when a file is detected in the clipboard: If enabled, the program will prompt you on how to handle the detected file.</li>
+<li>Sounds: Activate alert sounds when the conversion starts and ends.</li>
+<li>Speak Actions: Enable the screen reader to provide conversion status information.</li>
+<li>Check for Updates Automatically: Automatically search for program updates upon startup.</li>
+<li>Restore Default Settings: Reset the settings to their default values.</li>
+</ul>
+<h3 id="save-options-">Save options:</h3>
+<p>The options in this section affect the saving functionality in the program&#39;s File menu.</p>
+<ul>
+<li>Auto Save Files: Enable automatic saving of the conversion results.</li>
+<li>Save Path: Displays the current path for saving files. Use the Browse button to change it.</li>
+<li>Save as .txt: Enable automatic file saving with the .txt extension.</li>
+<li>Save as .docx: Save the file with the .docx extension.</li>
+<li>Save as Subtitle File: Save the file with the .srt extension.</li>
+<li>Keep downloaded files. Files downloaded from the Internet will be kept after conversion. If it is disabled, the file will be downloaded, converted and then deleted.</li>
+</ul>
+<p>If the AutoSave feature is disabled, the &quot;Save&quot; option in the &quot;File&quot; menu will perform the same function, saving files according to the specified extensions and path.</p>
+<h3 id="google-">Google:</h3>
+<p>This section requires you to enter a secure API key in the provided text box named &quot;Secret Key.&quot; You can click the edit button to modify the key. Additionally, you can adjust the segment duration by specifying the duration of each part of the file when using this service.</p>
+<p>Note that the file needs to be divided into several segments for conversion. The maximum duration per segment for this service is one minute.</p>
+<h3 id="openai-">OpenAI:</h3>
+<p>Similar to the previous service, this section allows you to enter an API key. However, the maximum length for each file when using OpenAI is 30 seconds.</p>
+<h3 id="wit-ai-">Wit.ai:</h3>
+<p>As Wit.ai separates languages based on API keys, this section allows you to combine languages as follows:</p>
+<p>You will find a list of currently added languages.</p>
+<p>Each language has a corresponding hidden edit field for the API key.</p>
+<p>Use the Edit button to change the key or the add button to add a new key.</p>
+<p>Select the language matching your application in Wit.ai, paste the key, and click Add.</p>
+<p>Repeat these steps for each language you intend to use. After obtaining a key from the Wit.ai site, return to the settings window to add it.</p>
+<p>You can delete individual keys or all saved keys associated with this service using the provided buttons.</p>
+<p>Choose audio format: To specify the file extension when converting, choose ogg or mp3. If your internet connection is bad.</p>
+<p>Choosing wav will quickly split the file, but it will be larger.</p>
+<p>Lastly, you can specify the duration of each file segment, ranging from 4 to 20 seconds. Choose the duration that yields the best results.</p>
+<p>Press OK when you have finished adjusting the settings.</p>
+<h2 id="keyboard-shortcuts-">Keyboard Shortcuts::</h2>
+<p>Sound Transcriber provides several keyboard shortcuts to enhance speed and ease of use.</p>
+<ul>
+<li>Ctrl+O: Open the file browsing window to select a file for conversion.</li>
+<li>Ctrl+V: Paste a file from your clipboard for conversion.</li>
+<li>Ctrl+1: Switch to the Google service.</li>
+<li>Ctrl+2: Switch to the Wit.ai service.</li>
+<li>Ctrl+3: Switch to Whisper.</li>
+<li>Ctrl+Enter: Start the conversion process.</li>
+<li>P: Display the current percentage of conversion progress.</li>
+<li>Ctrl+S: Open the save options.</li>
+<li>Ctrl+Shift+S: Save the result as .srt.</li>
+<li>Ctrl+Shift+T: Save the result as .txt.</li>
+<li>Ctrl+Shift+D: Save the result as .docx.</li>
+<li>Ctrl+U: Check for updates.</li>
+<li>Alt+S: Open the Settings.</li>
+<li>Ctrl+W or Ctrl+F4: Close Sound Transcriber.</li>
+</ul>
+<h2 id="how-to-convert-files-">How to Convert Files:</h2>
+<p>To convert files, open Sound Transcriber and either browse for the file by clicking &quot;Browse&quot; or use the shortcut Ctrl+O. Alternatively, you can copy the file from your device and paste it using Ctrl+V.</p>
+<p>You can alternatively copy a video link from sites such as Facebook, Twitter (X), Youtube, SoundCloud among others.</p>
+<p>Choose the desired language and service using the provided shortcuts or adjust them in the settings. Press &quot;Start&quot; or use the shortcut Ctrl+Enter to initiate the conversion.</p>
+<h3 id="notes-">Notes:</h3>
+<ul>
+<li>While a conversion is underway, you have the option to pause it, be it during the extraction of text or the downloading of a file. However, it&#39;s important to note that initiating a new process will result in the disregard of anything associated with the previous process.</li>
+<li>If the process is stopped during splitting the files, it cannot be resumed.</li>
+</ul>
+<h2 id="report-bugs-">Report Bugs:</h2>
+<p>If you encounter any bug with Sound Transcriber, you can use the communication methods available in the &quot;Contact Us&quot; menu under the &quot;Help&quot; section. Provide a detailed explanation of the actions that led to the bug. We recommend sharing the Sound Transcriber.log file, which will assist us in understanding and resolving the bug more effectively.</p>
+<p>You can find the file in the following path:</p>
+<p>AppData\Roaming\tecwindow\SoundTranscriber</p>
+<h2 id="special-thanks-">special thanks:</h2>
+<ul>
+<li>Many thanks to Riad Assoumfor translating Sound Transcriber into French, translating the user guide into English and proofreading the program&#39;s English and Arabic strings.</li>
+<li>Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.</li>
+<li>Many thanks to Danil for translating Sound Transcriber into Russian.</li>
+</ul>
+</body>
+</html>

@@ -1,12 +1,12 @@
 {
-  "latest_version": "1.3.2",
+  "latest_version": "1.3.3",
   "release_notes": {
     "Arabic": "تمت إضافة  الترجمة الروسية، جزيل الشكر ل Danil.\nتم إجراء تحسينات على الكود زادت من سرعة الاستجابة وقللت حجم البرنامج.\nتم استبدال Accessible Output 2 بـ PythonUniversalSpeech.\nلم يعد Sound Transcriber يستخدم Sapi5 لنطق الإجراءات عند استخدامه دون قارئ الشاشة.\nتم تحديث إصدار بايثون المستخدم إلى بايثون 3.11.7.\nتحسينات صغيرة.",
     "English": "Added Russian translation, many thanks to Danil.\nmade code improvements that increased response speed and reduced size.\nreplaced Accessible Output 2 with PythonUniversalSpeech.\nSound Transcriber no longer uses Sapi5 to speak actions when used without a screen reader.\nUpdated the version of Python used to Python 3.11.7.\nSeveral minor improvements.",
     "Spanish": "Añadida traducción al ruso. Muchas gracias a Danil.\nMejoras en el código que mejoran la velocidad de respuesta y la reducción de tamaño.\nCambiado Accessible Output 2 por PythonUniversalSpeech.\nSound Transcriber ya no usa Sapi5 para las acciones habladas cuando se usa sin un lector de pantalla.\nActualizada la versión de python usada a python 11.3.7.\nVarios cambios menores.",
     "French": "Ajout d'une traduction en russe, merci à Danil.\namélioration du code pour augmenter la vitesse de réponse et réduire la taille.\nRemplacement de Accessible Output 2 par PythonUniversalSpeech.\nSound Transcriber n'utilise plus Sapi5 pour énoncer les actions lorsqu'il est utilisé sans lecteur d'écran.\nMise à jour de la version de Python utilisée à Python 3.11.7.\nDiverses améliorations mineures."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.2/SoundTranscriberV1.3.2.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/V1.3.3/SoundTranscriberV1.3.3.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,

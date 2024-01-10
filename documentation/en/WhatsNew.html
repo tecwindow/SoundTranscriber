@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's new in Sound Transcriber?</title>
+<style>body {
+   color: black;
+}
+</style>
+</head>
+<body>
+<h1 id="what-s-new-in-sound-transcriber-">What&#39;s new in Sound Transcriber?</h1>
+<h2 id="version-1-3-3-">Version 1.3.3:</h2>
+<ul>
+<li>Added Russian translation, many thanks to Danil.</li>
+<li>made code improvements that increased response speed and reduced size.</li>
+<li>replaced Accessible Output 2 with PythonUniversalSpeech.</li>
+<li>Sound Transcriber no longer uses Sapi5 to speak actions when used without a screen reader.</li>
+<li>Updated the version of Python used to Python 3.11.7.</li>
+<li>Several minor improvements.</li>
+</ul>
+<h2 id="version-1-3-2-">Version 1.3.2:</h2>
+<ul>
+<li>You can now add files using drag and drop.</li>
+<li>Fixed a major bug that caused extracted text to appear in the wrong order when converting long files.</li>
+<li>Fixed a bug that caused the save option to be disabled if the conversion was canceled before completion.</li>
+<li>Several improvements to the Arabic translation. Many thanks to Zeinab Bahaa.</li>
+<li>Various minor improvements.</li>
+</ul>
+<h2 id="version-1-3-1-">Version 1.3.1:</h2>
+<p>Some fixes and improvements.</p>
+<h2 id="version-1-3-0-">Version 1.3.0:</h2>
+<ul>
+<li>French translation added. Many thanks to Riad Assoum.</li>
+<li>You can now open files in Sound Transcriber to Transcribe them from the context menu of supported file types.</li>
+<li>You can now access Sound Transcriber swiftly by simply typing &#39;st&#39; in the Run dialog.</li>
+<li>Sound Transcriber is now able to automatically recognize interface translations and integrate new help files. To contribute, translate the messages.pot file using Poedit and save the files in the same order as the existing language files.</li>
+<li>When the option to keep downloaded files is turned off, Sound Transcriber will retain them until the program is closed. This is particularly handy if you wish to repeat the conversion process with different options.</li>
+<li>Several bugs related to the paste from clipboard feature have been fixed. Like ignoring certain paths, failure to start conversions from the detection message, pasting links at any time, and more. Many thanks to Dawlat Hassan for the note that helped uncover many of these bugs associated with this feature.</li>
+<li>Fixed a bug that occasionally caused Sound Transcriber to start in a different language after the last update.</li>
+<li>You can no longer open two instances of Sound Transcriber simultaneously.</li>
+<li>Implemented changes to the conversion stopping method.</li>
+<li>Various minor improvements.</li>
+</ul>
+<h2 id="version-1-2-0-">Version 1.2.0:</h2>
+<p>Important, starting with this version, Sound Transcriber will only support 64 bit versions of Windows.</p>
+<ul>
+<li>Added Spanish translation. Many thanks to Georgiana Frincu.</li>
+<li>You can now convert videos from Youtube, Facebook, Twitter (X) and other services into text, so that Sound Transcriber will download the video and then convert it.</li>
+<li>You can choose to keep the original file after conversion or delete it from the settings.</li>
+<li>Pause and resume feature has been added to the transcription process.</li>
+<li>You can now paste file paths to be converted.</li>
+<li>You can specify the file extension that is sent to wit.ai for conversion from settings.</li>
+<li>Sound Transcriber will try to handle files with names contain Emojis.</li>
+<li>Sound Transcriber no longer stops during conversion. If this happens, you will still be able to continue the process.</li>
+<li>Small improvements here and there.</li>
+</ul>
+<h3 id="notes">Notes</h3>
+<ul>
+<li>Pausing is supported while extracting text but not while splitting files.</li>
+<li>If you temporarily stop a process and then start a new conversion process, you will lose everything related to the previous process; Therefore, it is advisable to save the current result before starting a new conversion.</li>
+<li>Choosing the wav format in wit.ai settings speeds up file splitting but leads to slower conversion and increased data usage. Consider trying .ogg and sharing your feedback on the results.</li>
+</ul>
+<h2 id="version-1-1-2-">Version 1.1.2:</h2>
+<ul>
+<li>Fixed a bug that prevented proper conversion of .mp4 files.</li>
+<li>Fixed a bug that caused the saved file format to retain the extension of the original file with the output files, and sometimes saved the output files with the same extension as the original file when opening a file via the clipboard.</li>
+<li>You can no longer switch between services and open Sound Transcriber settings during the conversion process.</li>
+<li>Sound Transcriber will now attempt to alert you when converting using an incorrect wit.ai API key.</li>
+<li>Fixed a bug that caused the &quot;Edit&quot; button to appear twice after adding a wit.ai key.</li>
+<li>Fixed a bug that caused the Update and Cancel buttons to appear in English when using Sound Transcriber in Arabic..</li>
+<li>Various other bug fixes.</li>
+</ul>
+<h2 id="version-1-1-1-">Version 1.1.1:</h2>
+<ul>
+<li>Fixed a bug that caused the cursor position to move to the beginning of the text constantly with the screen reader while extracting text.</li>
+<li>Fixed a bug that caused the save options to not work after the text extraction process was finished.</li>
+<li>Fix some other bugs.</li>
+</ul>
+<h2 id="version-1-1-">Version 1.1:</h2>
+<p>This version includes several bug fixes and some new features.</p>
+<ul>
+<li>Support for various audio and video file formats has been added.</li>
+<li>Word files are now saved as .docx instead of .doc.</li>
+<li>Sound Transcriber will display a warning when closed during file conversion.</li>
+<li>If auto saving is disabled and the extracted text is not saved in any file, Sound Transcriber will prompt you for what to do upon closing. If you choose to save, the file will be saved according to the options specified in the Save Options section in the settings.</li>
+<li>Sound Transcriber now remembers the selected language for file conversion for each service.</li>
+<li>The extracted text is now displayed during the extraction process. In other words, if the extraction process stops for any reason, you will not lose the extracted text. The new text will be added as the process continues.</li>
+<li>You can now check the progress of the extraction by pressing P.</li>
+<li>Fixed a bug that prevented the auto save path &quot;Browse&quot; button from working.</li>
+<li>Fixed a bug that prevented changing API keys for languages other than the primary language in the wit.ai language list.</li>
+<li>Fixed a bug that prevented from converting files with a language other than the primary language using Wit.ai.</li>
+<li>Fixed a bug that prevented restoring default settings.</li>
+<li>Adjusted the layout of the settings dialog to display items correctly.</li>
+<li>Made some improvements to the Arabic translation.</li>
+<li>Fixed some minor bugs here and there.</li>
+</ul>
+<h2 id="version-1-0-">Version 1.0:</h2>
+<p>Initial release.</p>
+</body>
+</html>
