@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.3.3",
+  "latest_version": "1.3.4",
   "release_notes": {
     "Arabic": "تمت إضافة  الترجمة الروسية، جزيل الشكر ل Danil.\nتم إجراء تحسينات على الكود زادت من سرعة الاستجابة وقللت حجم البرنامج.\nتم استبدال Accessible Output 2 بـ PythonUniversalSpeech.\nلم يعد Sound Transcriber يستخدم Sapi5 لنطق الإجراءات عند استخدامه دون قارئ الشاشة.\nتم تحديث إصدار بايثون المستخدم إلى بايثون 3.11.7.\nتحسينات صغيرة.",
     "English": "Added Russian translation, many thanks to Danil.\nmade code improvements that increased response speed and reduced size.\nreplaced Accessible Output 2 with PythonUniversalSpeech.\nSound Transcriber no longer uses Sapi5 to speak actions when used without a screen reader.\nUpdated the version of Python used to Python 3.11.7.\nSeveral minor improvements.",
