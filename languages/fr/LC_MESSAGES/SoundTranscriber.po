@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 11:13+0300\n"
+"PO-Revision-Date: 2024-04-13 02:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid ""
+"Please consider supporting the developers of this program by making a "
+"donation. Your contribution helps us continue to improve and maintain the "
+"software for you and others.\n"
+"Thank you for your generosity!"
+msgstr ""
+"Veuillez envisager de soutenir les développeurs de ce programme en faisant "
+"un don. Votre contribution nous permet de continuer à améliorer et à "
+"maintenir le logiciel pour vous et pour les autres.\n"
+"Merci de votre générosité !"
+
+msgid "&Donate via PayPal"
+msgstr "&Faire un don via PayPal"
+
+msgid "&Or donate from inside Egypt via Vodafone Cash:"
+msgstr "&Ou faire un don depuis l'Égypte via Vodafone Cash :"
+
+msgid "&Copy Vodafone Cash Number"
+msgstr "&Copier le numéro Cash de Vodafone"
+
+msgid "&Not now"
+msgstr "&Pas maintenant"
+
+msgid "Information"
+msgstr "Informations"
+
+msgid "Vodafone Cash number copied to clipboard."
+msgstr "Numéro Vodafone Cash copié dans le presse-papiers."
+
+msgid "&OK"
+msgstr "&OK"
+
+msgid "Extracting text..."
+msgstr "Extraction du texte en cours..."
+
+msgid "An error occurred. Please contact support for assistance."
+msgstr ""
+"Une erreur s'est produite. Veuillez contacter le support pour obtenir de "
+"l'aide."
+
+msgid "Save As Text File"
+msgstr "Enregistrer en tant que fichier texte"
+
+msgid "Save As Word File"
+msgstr "Enregistrer en tant que fichier Word"
+
+msgid "Save As Subtitle File"
+msgstr "Enregistrer en tant que fichier de sous-titres"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Save As"
+msgstr "Enregistrer sous"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Open LOG File"
+msgstr "Ouvrir le fichier .log"
+
+msgid "Exit"
+msgstr "Quitter"
+
+msgid "User Guide"
+msgstr "Guide de l'utilisateur"
+
+msgid "What's new"
+msgstr "Quoi de neuf"
+
+msgid "Check for Updates"
+msgstr "Rechercher les mises à jour"
+
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+msgid "Donate"
+msgstr "Faire un don"
+
+msgid "Open Repository"
+msgstr "Ouvrir le dépôt"
+
+msgid "About"
+msgstr "À propos de"
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "File/Link:"
+msgstr "Fichier/Lien :"
+
+msgid "Browse"
+msgstr "Parcourir"
+
+msgid "Result:"
+msgstr "Résultat :"
+
+msgid "Waiting for conversion to start..."
+msgstr "En attente du démarrage de la conversion..."
+
+msgid "Language:"
+msgstr "Langue :"
+
+msgid "Start"
+msgstr "Démarrer"
+
+msgid "Stop"
+msgstr "Arrêter"
+
+msgid "Copy Content"
+msgstr "Copier le contenu"
+
+msgid "Version: {} beta."
+msgstr "Version: {} bêta."
+
+msgid "Version: {}."
+msgstr "Version: {}."
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed "
+"to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow "
+"team."
+msgstr ""
+"Nom : Sound Transcriber.\n"
+"\n"
+"{}\n"
+"\n"
+"Sound Transcriber est un programme de conversion audio/texte accessible, "
+"conçu pour transcrire des fichiers audio et vidéo.\n"
+"\n"
+"Il offre un support pour l'extraction de fichiers de sous-titres et plus "
+"encore.\\n\n"
+"\n"
+"Développé par : Mahmoud Atef, Ahmed Bakr et Qais Alrefai de l'équipe "
+"TecWindow."
+
+msgid "{} Selected."
+msgstr "{} Sélectionné."
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Vous êtes sur le point de transcrire un nouveau fichier.\n"
+"Celui-ci remplacera le résultat de la conversion en cours.\n"
+"Il est recommandé de sauvegarder le résultat actuel avant de continuer.\n"
+"Êtes-vous sûr de vouloir continuer ?"
+
+msgid "Warning"
+msgstr "Avertissement"
+
+msgid "&No"
+msgstr "&Non"
+
+msgid "&Yes"
+msgstr "&Oui"
+
+msgid "Auto Detect"
+msgstr "Détection automatique"
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+"Le fichier {} a été trouvé dans votre presse-papiers.\n"
+"Que voulez-vous faire ?"
+
+msgid "&Convert the file"
+msgstr "&Convertir le fichier"
+
+msgid "&Ignore the file"
+msgstr "&Ignorer le fichier"
+
+msgid "&Paste only"
+msgstr "&Coller simplement"
+
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+msgid "Pause"
+msgstr "Pauser"
+
+msgid "Finished."
+msgstr "Terminé."
+
+msgid "Extracting text has been finished."
+msgstr "L'extraction du texte est terminée."
+
+msgid "The text has been successfully extracted."
+msgstr "Le texte a été extrait avec succès."
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Resume"
+msgstr "Reprendre"
+
+msgid "Paused."
+msgstr "En pause."
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+"Êtes-vous sûr de vouloir annuler le processus ?\n"
+"L'annulation à ce stade entraînera la perte de progression."
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "This version is not supported anymore."
+msgstr "Cette version n'est plus supportée."
+
+msgid "Failed to connect to the server."
+msgstr "Impossible de se connecter au serveur."
+
+msgid "There is no API key for this service."
+msgstr "Pas de clé API pour ce service."
+
+msgid "Downloading..."
+msgstr "Téléchargement en cours..."
+
+msgid "Splitting file..."
+msgstr "Fractionnement du fichier en cours..."
+
+msgid "Connection Error"
+msgstr "Erreur de connexion"
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will "
+"cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+"Une extraction de texte est en cours, la fermeture de Sound Transcriber "
+"l'annulera.\n"
+"Voulez-vous toujours fermer Sound Transcriber ?"
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+"Le texte extrait n'a pas encore été enregistré.\n"
+"Que voulez-vous faire ?"
+
+msgid "&Don't Save"
+msgstr "&Ne pas enregistrer"
+
+msgid "&Save"
+msgstr "&Enregistrer"
+
+msgid "&Cancel"
+msgstr "&Annuler"
+
+msgid "File Not Found"
+msgstr "Fichier introuvable"
+
+msgid "The file ffmpeg.exe was not found."
+msgstr "Le fichier ffmpeg.exe n'a pas été trouvé."
+
+msgid "Error converting audio file."
+msgstr "Erreur lors de la conversion du fichier audio."
+
+msgid "Sound Transcriber Settings"
+msgstr "Paramètres de Sound Transcriber"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Save Options"
+msgstr "Options d'enregistrement"
+
+msgid "Interface Language:"
+msgstr "Langue de l'interface :"
+
+msgid "Service:"
+msgstr "Service :"
+
+msgid "Files to transcrib simultaneously:"
+msgstr "Fichiers à transcrire simultanément :"
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr ""
+"Détection automatique de la présence d'un fichier dans le presse-papiers"
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr ""
+"Demander ce qu'il faut faire lorsqu'un fichier est détecté dans le presse-"
+"papiers"
+
+msgid "Sounds"
+msgstr "Sons"
+
+msgid "Speak Actions"
+msgstr "Enoncer les actions"
+
+msgid "Automatically Check for updates"
+msgstr "Rechercher automatiquement les mises à jour"
+
+msgid "Include beta versions When checking for Updates"
+msgstr "Inclure les versions bêta lors de la vérification des mises à jour"
+
+msgid "Enable Logging"
+msgstr "Activer la journalisation"
+
+msgid "&Restore Default Settings"
+msgstr "&Restaurer les paramètres par défaut"
+
+msgid "Auto Save Files"
+msgstr "Enregistrement automatique des fichiers"
+
+msgid "Save Path:"
+msgstr "Chemin d'enregistrement :"
+
+msgid "Keep downloaded files"
+msgstr "Conserver les fichiers téléchargés"
+
+msgid "Secret Key:"
+msgstr "Clé secrète:"
+
+msgid "&Add"
+msgstr "&Ajouter"
+
+msgid "&Edit"
+msgstr "&Modifier"
+
+msgid "Segment Duration (In Seconds):"
+msgstr "Durée du segment (en secondes) :"
+
+msgid "Current Languages:"
+msgstr "Langues actuelles :"
+
+msgid "&Delete"
+msgstr "&Supprimer"
+
+msgid "Delete All &Keys"
+msgstr "Supprimer toutes les &clés"
+
+msgid "Choose audio format:"
+msgstr "Choisir le format audio :"
+
+msgid "Choose the folder path."
+msgstr "Choisir le chemin du dossier ."
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr "Êtes-vous sûr de vouloir supprimer toutes les clés ?"
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr "Êtes-vous sûr de vouloir supprimer la clé {} ?"
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+"Êtes-vous sûr de vouloir réinitialiser tous les paramètres ?\n"
+"Le programme redémarrera."
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+"Vous devez redémarrer Sound Transcriber pour que la nouvelle langue prenne "
+"effet.\n"
+"Voulez-vous redémarrer le programme maintenant ?"
+
+msgid "Language Selection"
+msgstr "Sélection de la langue"
+
+msgid "You are using an incorrect API key."
+msgstr "Vous utilisez une clé API incorrecte."
+
+msgid "An error occurred while extracting the text."
+msgstr "Une erreur s'est produite lors de l'extraction du texte."
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+"Pas de connexion réseau.\n"
+"Essayez de vous connecter au réseau, puis réessayez"
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+"Une erreur s'est produite.\n"
+"Veuillez réessayer plus tard."
+
+msgid ""
+"You are using Sound Transcriber version {} beta, which is the latest version."
+msgstr ""
+"Vous utilisez la version {} bêta de Sound Transcriber, qui est la dernière "
+"version."
+
+msgid ""
+"You are using Sound Transcriber version {}, which is the latest version."
+msgstr ""
+"Vous utilisez la version {} de Sound Transcriber qui est la dernière version."
+
+msgid "No update available"
+msgstr "Pas de mise a jour disponible"
+
+msgid "Update Available"
+msgstr "Mise à jour disponible"
+
+msgid "Sound Transcriber version {} beta is available."
+msgstr "La version {} bêta de Sound Transcriber est disponible."
+
+msgid "Sound Transcriber version {} is available."
+msgstr "La version {} de Sound Transcriber est disponible."
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr "Quoi de neuf dans la version {} de Sound Transcriber ?"
+
+msgid "&Update"
+msgstr "Mise à &jour"
+
+msgid "An error occurred while downloading the file."
+msgstr "Une erreur s'est produite lors du téléchargement du fichier."
+
+#~ msgid "Stopped."
+#~ msgstr "Arrêté."
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"

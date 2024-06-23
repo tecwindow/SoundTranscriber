@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 11:13+0300\n"
+"PO-Revision-Date: 2024-04-09 22:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid ""
+"Please consider supporting the developers of this program by making a "
+"donation. Your contribution helps us continue to improve and maintain the "
+"software for you and others.\n"
+"Thank you for your generosity!"
+msgstr ""
+"يرجى دعم مطوري برنامج SoundTranscriber، تبرعك يساعدنا على تطوير البرنامج "
+"وتحسينه بشكل مستمر لك وللآخرين.\n"
+"نقدّر تعاونك الكبير!"
+
+msgid "&Donate via PayPal"
+msgstr "&التبرع عبر PayPal"
+
+msgid "&Or donate from inside Egypt via Vodafone Cash:"
+msgstr "& أو تبرع من داخل مصر عبر Vodafone Cash:"
+
+msgid "&Copy Vodafone Cash Number"
+msgstr "&نسخ رقم Vodafone Cash"
+
+msgid "&Not now"
+msgstr "&ليس الآن"
+
+msgid "Information"
+msgstr "معلومات"
+
+msgid "Vodafone Cash number copied to clipboard."
+msgstr "تم نسخ رقم Vodafone Cash إلى الحافظة."
+
+msgid "&OK"
+msgstr "&موافق"
+
+msgid "Extracting text..."
+msgstr "جارٍ استخراج النص..."
+
+msgid "An error occurred. Please contact support for assistance."
+msgstr "حدث خطأ. الرجاء الاتصال بالدعم للمساعدة."
+
+msgid "Save As Text File"
+msgstr "حفظ بصيغة ملف نصي"
+
+msgid "Save As Word File"
+msgstr "حفظ بصيغة Word"
+
+msgid "Save As Subtitle File"
+msgstr "حفظ بصيغة SRT"
+
+msgid "Open"
+msgstr "فتح"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save As"
+msgstr "حفظ بصيغة"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Open LOG File"
+msgstr "فتح سجل الأخطاء"
+
+msgid "Exit"
+msgstr "خروج"
+
+msgid "User Guide"
+msgstr "دليل المستخدم"
+
+msgid "What's new"
+msgstr "ما الجديد"
+
+msgid "Check for Updates"
+msgstr "التحقق من وجود تحديثات"
+
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+msgid "Donate"
+msgstr "تبرع"
+
+msgid "Open Repository"
+msgstr "فتح صفحة البرنامج على GitHub"
+
+msgid "About"
+msgstr "حول"
+
+msgid "File"
+msgstr "ملف"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "Help"
+msgstr "مساعدة"
+
+msgid "File/Link:"
+msgstr "الملف/#الرابط:"
+
+msgid "Browse"
+msgstr "تصفح"
+
+msgid "Result:"
+msgstr "النتيجة:"
+
+msgid "Waiting for conversion to start..."
+msgstr "في انتظار بدء التحويل ..."
+
+msgid "Language:"
+msgstr "اللغة:"
+
+msgid "Start"
+msgstr "بدء"
+
+msgid "Stop"
+msgstr "إيقاف"
+
+msgid "Copy Content"
+msgstr "نسخ المحتوى"
+
+msgid "Version: {} beta."
+msgstr "الإصدار {} تجريبي."
+
+msgid "Version: {}."
+msgstr "الإصدار {}."
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed "
+"to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow "
+"team."
+msgstr ""
+"الاسم: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber هو برنامج متوافق مع قارئات الشاشة لتحويل الصوت لنص.\n"
+"مع دعم استخراج ملفات الترجمات والمزيد.\n"
+"من تطوير: محمود عاطف, أحمد بكر, قيس الرفاعي, من فريق نافذة التقنية TecWindow."
+
+msgid "{} Selected."
+msgstr "تم تحديد {}."
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"أنت على وشك تحويل ملف جديد.\n"
+"سيؤدي هذا إلى استبدال نتيجة التحويل الحالية.\n"
+"من المستحسن حفظ النتيجة الحالية قبل المتابعة.\n"
+"هل أنت متأكد أنك تريد الاستمرار؟"
+
+msgid "Warning"
+msgstr "تحذير"
+
+msgid "&No"
+msgstr "&لا"
+
+msgid "&Yes"
+msgstr "&نعم"
+
+msgid "Auto Detect"
+msgstr "الاكتشاف التلقائي"
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+"تم العثور على الملف {} في الحافظة.\n"
+"ماذا تريد أن تفعل؟"
+
+msgid "&Convert the file"
+msgstr "&تحويل الملف"
+
+msgid "&Ignore the file"
+msgstr "ت&جاهل الملف"
+
+msgid "&Paste only"
+msgstr "&لصق فقط"
+
+msgid "Please wait..."
+msgstr "يرجى الانتظار..."
+
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+msgid "Finished."
+msgstr "انتهى."
+
+msgid "Extracting text has been finished."
+msgstr "تم إستخراج النص بنجاح."
+
+msgid "The text has been successfully extracted."
+msgstr "تم استخراج النص بنجاح."
+
+msgid "Error"
+msgstr "خطأ"
+
+msgid "Resume"
+msgstr "استئناف"
+
+msgid "Paused."
+msgstr "متوقف مؤقتًا."
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+"هل أنت متأكد أنك تريد إلغاء العملية؟\n"
+"سيؤدي الإلغاء في هذه المرحلة إلى فقدان التقدم."
+
+msgid "Confirm"
+msgstr "تأكيد"
+
+msgid "This version is not supported anymore."
+msgstr "لم يعد هذا الإصدار مدعوم."
+
+msgid "Failed to connect to the server."
+msgstr "فشل الاتصال بالخادم."
+
+msgid "There is no API key for this service."
+msgstr "لا يوجد مفتاح API لهذه الخدمة."
+
+msgid "Downloading..."
+msgstr "جارٍ التنزيل..."
+
+msgid "Splitting file..."
+msgstr "جارٍ تقسيم الملف..."
+
+msgid "Connection Error"
+msgstr "خطأ في الاتصال"
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will "
+"cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+"توجد عملية استخراج نص قيد التقدم، سيؤدي إغلاق Sound Transcriber إلى "
+"إلغائها.\n"
+"هل ما زلت تريد إغلاق Sound Transcriber؟"
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+"لم يتم حفظ النص المستخرج بعد.\n"
+"ماذا تريد أن تفعل؟"
+
+msgid "&Don't Save"
+msgstr "&عدم الحفظ"
+
+msgid "&Save"
+msgstr "&حفظ"
+
+msgid "&Cancel"
+msgstr "&إلغاء"
+
+msgid "File Not Found"
+msgstr "لم يتم العثور على الملف"
+
+msgid "The file ffmpeg.exe was not found."
+msgstr "لم يتم العثور على الملف ffmpeg.exe."
+
+msgid "Error converting audio file."
+msgstr "خطأ في تحويل الملف الصوتي."
+
+msgid "Sound Transcriber Settings"
+msgstr "إعدادات Sound Transcriber"
+
+msgid "General"
+msgstr "عام"
+
+msgid "Save Options"
+msgstr "خيارات الحفظ"
+
+msgid "Interface Language:"
+msgstr "لغة الواجهة:"
+
+msgid "Service:"
+msgstr "الخدمة:"
+
+msgid "Files to transcrib simultaneously:"
+msgstr "عدد الملفات للتحويل في وقت واحد:"
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr "الكشف التلقائي عن وجود ملفات في الحافظة"
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr "السؤال عما ينبغي فعله عند اكتشاف ملف في الحافظة"
+
+msgid "Sounds"
+msgstr "تشغيل الأصوات"
+
+msgid "Speak Actions"
+msgstr "نطق الإجراءات"
+
+msgid "Automatically Check for updates"
+msgstr "التحقق التلقائي من وجود تحديثات"
+
+msgid "Include beta versions When checking for Updates"
+msgstr "تضمين الإصدارات التجريبية عند التحقق من التحديثات"
+
+msgid "Enable Logging"
+msgstr "تفعيل سجل الأخطاء"
+
+msgid "&Restore Default Settings"
+msgstr "&استعادة الإعدادات الافتراضية"
+
+msgid "Auto Save Files"
+msgstr "حفظ الملفات تلقائيًا"
+
+msgid "Save Path:"
+msgstr "مسار الحفظ:"
+
+msgid "Keep downloaded files"
+msgstr "الاحتفاظ بالملفات التي تم تنزيلها"
+
+msgid "Secret Key:"
+msgstr "المفتاح السري:"
+
+msgid "&Add"
+msgstr "&إضافة"
+
+msgid "&Edit"
+msgstr "&تعديل"
+
+msgid "Segment Duration (In Seconds):"
+msgstr "مدة المقطع (بالثواني):"
+
+msgid "Current Languages:"
+msgstr "اللغات الحالية:"
+
+msgid "&Delete"
+msgstr "&حذف"
+
+msgid "Delete All &Keys"
+msgstr "حذف &كافة المفاتيح"
+
+msgid "Choose audio format:"
+msgstr "اختر صيغة الصوت:"
+
+msgid "Choose the folder path."
+msgstr "اختر مسار المجلد."
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr "هل أنت متأكد من رغبتك في حذف جميع المفاتيح؟"
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr "هل أنت متأكد من رغبتك في حذف مفتاح {}؟"
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+"هل أنت متأكد من رغبتك في إعادة تعيين كافة الإعدادات؟\n"
+"سيتم إعادة تشغيل البرنامج."
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+"لتغيير اللغة, تحتاج إلى إعادة تشغيل Sound Transcriber.\n"
+"هل تريد إعادة تشغيل البرنامج الآن؟"
+
+msgid "Language Selection"
+msgstr "اختيار اللغة"
+
+msgid "You are using an incorrect API key."
+msgstr "أنت تستخدم مفتاح API غير صحيح."
+
+msgid "An error occurred while extracting the text."
+msgstr "حدث خطأ أثناء استخراج النص."
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+"أنت غير متصل بالشبكة.\n"
+"أعد الإتصال بشبكة الإنترنت، ثم حاول مجددا"
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+"حدث خطأ.\n"
+"الرجاء معاودة المحاولة في وقت لاحق."
+
+msgid ""
+"You are using Sound Transcriber version {} beta, which is the latest version."
+msgstr ""
+"أنت تستخدم الإصدار التجريبي  {} من Sound Transcriber وهو الإصدار الأحدث."
+
+msgid ""
+"You are using Sound Transcriber version {}, which is the latest version."
+msgstr "أنت تستخدم الإصدار  {} من Sound Transcriber وهو الإصدار الأحدث."
+
+msgid "No update available"
+msgstr "لا يوجد تحديثات"
+
+msgid "Update Available"
+msgstr "تحديث متاح"
+
+msgid "Sound Transcriber version {} beta is available."
+msgstr "الإصدار التجريبي {} من Sound Transcriber متاح."
+
+msgid "Sound Transcriber version {} is available."
+msgstr "الإصدار {} من Sound Transcriber متاح."
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr "ما الجديد في الإصدار {} من Sound Transcriber?"
+
+msgid "&Update"
+msgstr "&تحديث"
+
+msgid "An error occurred while downloading the file."
+msgstr "حدث خطأ أثناء استخراج النص."
+
+#~ msgid "Stopped."
+#~ msgstr "تم الإيقاف."
+
+#~ msgid "&Ok"
+#~ msgstr "&موافق"
+
+#~ msgid "Open\tCtrl+O"
+#~ msgstr "فتح\tCtrl+O"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "File Path:"
+#~ msgstr "مسار الملف:"
+
+#~ msgid "Select a folder."
+#~ msgstr "حدد مجلد"
+
+#~ msgid "Error splitting audio file."
+#~ msgstr "خطأ في تقسيم الملف الصوتي."

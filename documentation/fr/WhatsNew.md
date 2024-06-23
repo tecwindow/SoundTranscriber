@@ -1,5 +1,23 @@
 # Quoi de neuf dans Sound Transcriber ?
 
+## Version 1.4.1:
+
+- Diverses améliorations mineures.
+
+## Version 1.4.0:
+
+- Ajout d'un système de mises à jour bêta. Vous pouvez activer cette option dans les paramètres pour recevoir les mises à jour bêta. Veuillez noter que les mises à jour bêta peuvent contenir des bogues importants. Vous pouvez désactiver cette option et revenir à la dernière version stable à tout moment.
+- Ajout d'une option permettant de spécifier le nombre de fichiers à convertir simultanément.
+- Sound Transcriber ne génère plus de journal d'événements par défaut. Vous pouvez l'activer dans les paramètres lorsque vous rencontrez des erreurs, puis répéter les étapes. Par défaut, le journal conservera les détails de la dernière étape, et les détails des opérations précédentes seront supprimés si désactivé.
+- Les journaux affichent désormais davantage d'informations.
+- La fonctionnalité du bouton de copie a été améliorée. En conséquence, le bouton de copie devrait rester disponible tant que le champ de résultat contient des textes transcrits.
+- Ajout d'une option de donation pour les développeurs.
+- Tentative de minimiser les erreurs renvoyées par le service Google.
+- Correction de plusieurs bogues, en particulier ceux liés à la mise en pause et à la reprise du processus de transcription.
+- Mise à jour du guide de l'utilisateur pour inclure les détails de la traduction, les mises à jour de la version bêta et d'autres informations importantes. Nous vous recommandons vivement de le consulter pour obtenir les dernières informations.
+- Mise à jour de la version de Python utilisée à Python 3.12.
+- Plusieurs améliorations mineures.
+
 ## Version 1.3.3 :
 
 - Ajout d'une traduction en russe, merci à Danil.

@@ -1,5 +1,23 @@
 # What's new in Sound Transcriber?
 
+## Version 1.4.0:
+
+- Several minor improvements.
+
+## Version 1.4.0:
+
+- Added  Beta updates system. You can enable this option in settings to receive beta updates. Please note that beta updates may contain significant bugs. You can disable the option and revert to the latest stable version at any time.
+- Added an option to specify the number of files to be converted simultaneously.
+- Sound Transcriber will no longer generate an event log by default. You can enable it from the settings when encountering errors and then repeat the steps. By default, the log will retain the details of the last step, and previous operations details will be deleted when disabled.
+- The logs now display more information.
+- The functionality of the copy button has been enhanced. As a result, the copy button should remain available as long as the result field contains transcribed texts.
+- Added a donation option for developers.
+- Attempted to minimize errors returned by the Google service.
+- Fixed several bugs, particularly those related to pausing and resuming the transcription process.
+- Updated the user guide to include translation details, beta updates, and other important information. We highly recommend reviewing it for the latest info.
+- Updated the Python version used to Python 3.12.
+- Several minor improvements.
+
 ## Version 1.3.3:
 
 - Added Russian translation, many thanks to Danil.

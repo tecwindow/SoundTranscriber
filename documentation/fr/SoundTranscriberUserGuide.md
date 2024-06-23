@@ -38,7 +38,10 @@ Veuillez prendre note des informations importantes suivantes :
 - Whisper d'OpenAI a été inclus sur la base d'expériences antérieures, mais il se peut qu'il ne fonctionne pas comme prévu ou qu'il ne fonctionne pas du tout. Nous apprécions vos commentaires et vos expériences pour nous aider à résoudre les problèmes.
 - Lors de la conversion d'un fichier, veillez à sélectionner la langue appropriée avant de lancer le processus de conversion. Si un fichier est multilingue, les mots dans des langues autres que la langue sélectionnée peuvent ne pas être convertis avec précision en raison des limitations des services.
 - Avant la conversion, les fichiers sont divisés en segments d'une durée maximale de 60 secondes, en fonction des limites de chaque service. Par conséquent, certains mots peuvent être perdus au cours de ce processus. Pour obtenir des résultats optimaux, nous recommandons d'ajuster la durée du segment en fonction du temps de silence, de la longueur du fichier et de la durée du segment autorisés par chaque service.
-
+- Pour des résultats optimaux avec les fichiers .srt, nous recommandons de sélectionner une courte durée, par exemple 5 secondes, pour les segments.
+- Sound Transcriber nécessite [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) et [Microsoft Visual C++ 2013 Redistributable X64.](https://aka.ms/highdpimfc2013x64enu) Si le programme ne fonctionne pas pour vous, veuillez utiliser les liens précédents pour télécharger et installer les fichiers requis.
+- Actuellement, Sound Transcriber prend en charge les langues suivantes : Arabe, anglais, espagnol, français et russe.
+- Sound Transcriber est compatible avec Windows 8 et plus, mais uniquement avec les systèmes 64 bits.
 
 ## Extensions de fichiers supportées :
 
@@ -110,6 +113,7 @@ Le programme comprend plusieurs menus accessibles en appuyant sur la touche Alt.
 - Enregistrer : Enregistre le résultat de la transcription avec l'extension spécifiée dans les paramètres.
 - Enregistrer sous : Enregistrer le résultat avec une extension spécifique.
 - Paramètres : Accéder aux options du programme et aux personnalisations.
+- Ouvrir le fichier journal : permet de visualiser le fichier journal (log) de Sound Transcriber.
 - Quitter : Quitter le programme.
 
 ### Services :
@@ -134,11 +138,14 @@ Cette section comprend diverses options applicables à l'ensemble du programme :
 
 - Langue de l'interface : Spécifie la langue du programme.
 - Service : Spécifie le service utilisé pour la transcription des fichiers.
+- Fichiers à transcrire simultanément : Cette fonction vous permet de spécifier le nombre de fichiers à transcrire simultanément.
 - Détection automatique de la présence d'un fichier dans le presse-papiers : Le programme vérifie votre presse-papiers au démarrage et, s'il trouve un fichier pris en charge, il sélectionne automatiquement son chemin d'accès pour une conversion rapide.
 - Demander ce qu'il faut faire lorsqu'un fichier est détecté dans le presse-papiers : Si cette option est activée, le programme vous demandera comment traiter le fichier détecté.
 - Sons : Activez les sons d'alerte au début et à la fin de la conversion.
 - Enoncer les actions : Permet au lecteur d'écran de fournir des informations sur l'état de la conversion.
 - Rechercher automatiquement les mises à jour : Recherche automatiquement les mises à jour du programme au démarrage.
+- Inclure les versions bêta dans la recherche de mises à jour : permet de recevoir les mises à jour bêta du programme. Vous trouverez plus de détails dans la section "Mises à jour bêta" de ce guide.
+- Activer la journalisation : Cette fonction permet à Sound Transcriber d'écrire un journal des étapes du processus de transcription. Elle est particulièrement utile pour dépanner les erreurs. Si nécessaire, activez la journalisation et envoyez-nous le fichier généré. Si la journalisation est désactivée, les anciens journaux seront supprimés, mais les détails de la dernière étape seront conservés. Cela garantit que le programme peut enregistrer les erreurs qui peuvent se produire, même si vous n'êtes pas en mesure de lancer le programme pour la première fois et d'activer la journalisation.
 - Restaurer les paramètres par défaut : Réinitialise les paramètres à leurs valeurs par défaut.
 
 ### Options d'enregistrement :
@@ -172,7 +179,7 @@ Vous trouverez une liste des langues actuellement ajoutées.
 
 Chaque langue a un champ d'édition caché correspondant pour la clé API.
 
-Utilisez le bouton Modifier pour changer la clé ou le bouton Ajouter pour ajouter une nouvelle clé.
+You can edit the key by removing the old one, pasting the new key, and then use the Edit button. Alternatively, you can use the Add button to add a new key.
 
 Sélectionnez la langue correspondant à votre application dans Wit.ai, collez la clé et cliquez sur Ajouter.
 
@@ -193,7 +200,7 @@ Appuyez sur OK lorsque vous avez terminé de régler les paramètres.
 Sound Transcriber propose plusieurs raccourcis clavier pour améliorer la rapidité et la facilité d'utilisation.
 
 - Ctrl+O : Ouvre la fenêtre d'exploration des fichiers pour sélectionner un fichier à convertir.
-- Ctrl+V : Collez un fichier de votre presse-papiers pour le convertir.
+- Ctrl+V : Coller un fichier de votre presse-papiers pour le convertir.
 - Ctrl+1 : Basculer vers le service Google.
 - Ctrl+2 : Basculer vers le service Wit.ai.
 - Ctrl+3 : Basculer vers Whisper.
@@ -203,17 +210,27 @@ Sound Transcriber propose plusieurs raccourcis clavier pour améliorer la rapidi
 - Ctrl+Shift+S : Enregistrer le résultat au format .srt.
 - Ctrl+Shift+T : Enregistrer le résultat au format .txt.
 - Ctrl+Shift+D : Enregistrer le résultat au format .docx.
-- Ctrl+U : Vérifier les mises à jour.
-- Alt+S : Ouvrir les paramètres.
+- Ctrl+U ou F3 : Vérifier les mises à jour.
+- Alt+S ou F8 : Ouvrir les paramètres.
+- F1 : Ouvrir le guide de l'utilisateur.
+- F2 : Voir les mises à jour.
+- F5 : Faire un don.
+- F6 : Ouvrir le dépôt.
+- F7 : Ouvrir le fichier journal.
+- F9 : À propos.
 - Ctrl+W ou Ctrl+F4 : Fermer Sound Transcriber.
 
 ## Comment convertir des fichiers :
 
 Pour convertir des fichiers, ouvrez Sound Transcriber et recherchez le fichier en cliquant sur "Parcourir" ou en utilisant le raccourci Ctrl+O. Vous pouvez également copier le fichier depuis votre appareil et le coller en utilisant Ctrl+V.
 
+Vous pouvez également utiliser l'option disponible dans le menu contextuel pour les fichiers pris en charge, le menu Envoyer à dans Windows, ou simplement glisser-déposer.
+
 Vous pouvez également copier un lien vidéo à partir de sites tels que Facebook, Twitter (X), Youtube, SoundCloud et autres.
 
 Choisissez la langue et le service souhaités à l'aide des raccourcis fournis ou réglez-les dans les paramètres. Appuyez sur "Démarrer" ou utilisez le raccourci Ctrl+Enter pour lancer la conversion.
+
+Saviez-vous que vous pouvez ouvrir Sound Transcriber en appuyant sur Windows + R pour ouvrir la boîte de dialogue Exécuter, puis en tapant st?
 
 ### Notes :
 
@@ -224,11 +241,60 @@ Choisissez la langue et le service souhaités à l'aide des raccourcis fournis o
 
 Si vous rencontrez un bogue avec Sound Transcriber, vous pouvez utiliser les méthodes de communication disponibles dans le menu "Contactez-nous" de la section "Aide". Fournissez une explication détaillée des actions qui ont conduit au bogue. Nous vous recommandons de partager le fichier Sound Transcriber.log, qui nous aidera à comprendre et à résoudre le problème plus efficacement.
 
+Allez dans Paramètres > Général et activez la journalisation. Répétez ensuite les étapes qui ont conduit à l'erreur. N'oubliez pas de désactiver la journalisation après avoir envoyé le fichier. Notez que le fait de maintenir l'option activée peut entraîner la création d'un fichier .log volumineux. Toutefois, vous pouvez choisir de maintenir l'option de journalisation activée si vous le souhaitez.
+
 Vous trouverez ce fichier dans le chemin suivant :
 
 AppData\Roaming\tecwindow\SoundTranscriber
+
+## Mises à jour bêta :
+
+Sound Transcriber propose un système de mise à jour bêta, vous permettant de tester les nouvelles fonctionnalités et de nous aider à identifier les bogues. Bien que l'activation de cette fonction soit simple, il y a quelques points importants à prendre en compte :
+
+- Les mises à jour bêta peuvent être instables et nous ne pouvons pas garantir la publication immédiate de correctifs pour les problèmes que vous rencontrez.
+- Dans certains cas, nous pouvons publier jusqu'à trois mises à jour au cours de la même semaine.
+- Certaines options ne sont pas toujours traduites dans la langue de votre choix lorsque vous utilisez les versions bêta.
+- Nous vous recommandons de ne procéder à des tests bêta que si vous êtes à l'aise avec l'identification et le partage des bogues.
+
+Pour bénéficier des mises à jour bêta, accédez à Paramètres > Général, activez l'option "Inclure les versions bêta lors de la recherche de mises à jour", puis recherchez les mises à jour.
+
+Si vous souhaitez revenir aux versions stables, il vous suffit de désactiver cette même option, puis de télécharger et d'installer la dernière version stable.
+
+Nous remercions sincèrement tous ceux qui contribuent à tester Sound Transcriber, à trouver des bogues et à partager leurs idées.
+
+## Comment traduire :
+
+Bien que Sound Transcriber ne prenne actuellement en charge qu'un nombre limité de langues dans ses options d'interface et son guide de l'utilisateur, il peut transcrire la parole en texte dans un large éventail de langues.
+
+Cependant, nous accueillons chaleureusement toute personne intéressée par la traduction du programme dans sa langue maternelle.
+
+La traduction des options d'interface repose principalement sur les fichiers .po, qui peuvent être édités à l'aide du programme Poedit. Vous pouvez télécharger Poedit sur son site officiel, puis naviguer vers le dépôt Sound Transcriber sur GitHub ou localiser le dossier du programme sur votre appareil. Localisez ensuite le fichier messages.pot et ouvrez-le dans Poedit. À partir de là, vous pouvez traduire les chaînes de caractères dans la langue de votre choix, enregistrer le fichier (qui générera un fichier .po et un fichier .mo) et partager ces fichiers avec nous.
+
+Sound Transcriber peut reconnaître et prendre en charge de nouvelles traductions, ce qui vous permet de tester votre traduction avant de nous la soumettre. Pour ce faire, allez dans le dossier Languages, créez un dossier avec le code de votre langue (les deux premières lettres de la langue), puis créez un sous-dossier nommé LC_MESSAGES, et placez-y les fichiers .po et .mo. N'oubliez pas de nommer les fichiers SoundTranscriber.po et SoundTranscriber.mo.
+
+Bien que la traduction du guide de l'utilisateur et des mises à jour de Sound Transcriber ne soit pas obligatoire, vous avez la possibilité de traduire les fichiers Markdown disponibles sur GitHub dans le dépôt Sound Transcriber et de les partager avec nous.
+
+Si vous choisissez de ne pas traduire le guide de l'utilisateur et le fichier des mises à jour, Sound Transcriber les affichera en anglais.
+
+La traduction de logiciels est un effort continu, et nous vous contacterons avant de publier de nouvelles mises à jour afin que vous puissiez traduire tout nouveau contenu.
+
+## Site web de Sound Transcriber :
+
+Bien qu'il n'y ait pas de site web officiel pour Sound Transcriber, vous pouvez accéder à toutes les ressources nécessaires dans le dépôt Sound Transcriber sur gitHub. Ce dépôt contient les fichiers de traduction et la dernière version du programme.
+
+
+(Lien vers le dépôt) (https://github.com/tecwindow/SoundTranscriber)
+
+## Contactez-nous :
+
+Si vous ne parvenez pas à accéder à notre liste de contacts dans Sound Transcriber, vous pouvez nous contacter par courrier électronique aux adresses suivantes :
+
+- Qais Alrefai: ww258148@gmail.com
+- Mahmoud Atef: mahmoud.atef.987123@gmail.com
+- Ahmed Bakr: AhmedBakr593@gmail.com
 
 ## Remerciement spécial :
 
 - Un grand merci à Riad Assoum pour la traduction du programme en français, la traduction du guide de l'utilisateur en anglais et la relecture des textes du programme en anglais et en arabe.
 - Merci à Georgiana Frincu pour la traduction de Sound Transcriber en espagnol.
+- Merci à Danil pour la traduction de Sound Transcriber en russe.
