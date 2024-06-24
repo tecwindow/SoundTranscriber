@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-11-19 15:54+0300\n"
+"POT-Creation-Date: 2024-03-26 11:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,13 +15,36 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 
 
-msgid "Stop"
+msgid ""
+"Please consider supporting the developers of this program by making a donation. Your contribution helps us continue to improve and maintain the software for you and others.\n"
+"Thank you for your generosity!"
 msgstr ""
 
-msgid "Resume"
+msgid "&Donate via PayPal"
 msgstr ""
 
-msgid "Pause"
+msgid "&Or donate from inside Egypt via Vodafone Cash:"
+msgstr ""
+
+msgid "&Copy Vodafone Cash Number"
+msgstr ""
+
+msgid "&Not now"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Vodafone Cash number copied to clipboard."
+msgstr ""
+
+msgid "&OK"
+msgstr ""
+
+msgid "Extracting text..."
+msgstr ""
+
+msgid "An error occurred. Please contact support for assistance."
 msgstr ""
 
 msgid "Save As Text File"
@@ -63,6 +86,12 @@ msgstr ""
 msgid "Contact us"
 msgstr ""
 
+msgid "Donate"
+msgstr ""
+
+msgid "Open Repository"
+msgstr ""
+
 msgid "About"
 msgstr ""
 
@@ -93,21 +122,24 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-msgid "&Cancel"
+msgid "Stop"
 msgstr ""
 
 msgid "Copy Content"
 msgstr ""
 
+msgid "Version: {} beta."
+msgstr ""
+
+msgid "Version: {}."
+msgstr ""
+
 msgid ""
 "Name: Sound Transcriber.\n"
-"Version: {}.\n"
+"{}\n"
 "Sound Transcriber is an accessible audio-to-text conversion program designed to transcribe audio and video files.\n"
 "it offers support for extracting subtitle files and more.\n"
 "Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow team."
-msgstr ""
-
-msgid "&OK"
 msgstr ""
 
 msgid "{} Selected."
@@ -149,6 +181,9 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
+msgid "Pause"
+msgstr ""
+
 msgid "Finished."
 msgstr ""
 
@@ -161,7 +196,10 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-msgid "Stopped."
+msgid "Resume"
+msgstr ""
+
+msgid "Paused."
 msgstr ""
 
 msgid ""
@@ -187,12 +225,6 @@ msgstr ""
 msgid "Splitting file..."
 msgstr ""
 
-msgid "File Not Found"
-msgstr ""
-
-msgid "Extracting text..."
-msgstr ""
-
 msgid "Connection Error"
 msgstr ""
 
@@ -210,6 +242,12 @@ msgid "&Don't Save"
 msgstr ""
 
 msgid "&Save"
+msgstr ""
+
+msgid "&Cancel"
+msgstr ""
+
+msgid "File Not Found"
 msgstr ""
 
 msgid "The file ffmpeg.exe was not found."
@@ -233,6 +271,9 @@ msgstr ""
 msgid "Service:"
 msgstr ""
 
+msgid "Files to transcrib simultaneously:"
+msgstr ""
+
 msgid "Auto Detect if There Is A File In The Clipboard"
 msgstr ""
 
@@ -246,6 +287,12 @@ msgid "Speak Actions"
 msgstr ""
 
 msgid "Automatically Check for updates"
+msgstr ""
+
+msgid "Include beta versions When checking for Updates"
+msgstr ""
+
+msgid "Enable Logging"
 msgstr ""
 
 msgid "&Restore Default Settings"
@@ -322,13 +369,19 @@ msgid ""
 "Please try again later."
 msgstr ""
 
+msgid "You are using Sound Transcriber version {} beta, which is the latest version."
+msgstr ""
+
+msgid "You are using Sound Transcriber version {}, which is the latest version."
+msgstr ""
+
 msgid "No update available"
 msgstr ""
 
-msgid "You are using Sound Transcriber version {} which is the latest version."
+msgid "Update Available"
 msgstr ""
 
-msgid "Update Available"
+msgid "Sound Transcriber version {} beta is available."
 msgstr ""
 
 msgid "Sound Transcriber version {} is available."
@@ -341,8 +394,5 @@ msgid "&Update"
 msgstr ""
 
 msgid "An error occurred while downloading the file."
-msgstr ""
-
-msgid "&Ok"
 msgstr ""
 

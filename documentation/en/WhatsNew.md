@@ -1,6 +1,6 @@
 # What's new in Sound Transcriber?
 
-## Version 1.4.0:
+## Version 1.4.1:
 
 - Several minor improvements.
 
