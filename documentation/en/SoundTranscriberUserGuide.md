@@ -41,7 +41,7 @@ Please take note of the following important information:
 - Prior to conversion, files are split into segments of up to 60 seconds, depending on the limitations of each service. Consequently, some words may be lost during this process. To achieve optimal results, we recommend adjusting the segment duration based on the silence time, file length, and segment duration allowed by each service.
 - For optimal results with .srt files, we recommend selecting a short duration, such as 5 seconds, for the segments.
 - Sound Transcriber requires [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) and [Microsoft Visual C++ 2013 Redistributable X64.](https://aka.ms/highdpimfc2013x64enu) If the program does not work for you, please use the previous links to download and install the required files.
-- Currently, Sound Transcriber supports the following languages: Arabic, English, Spanish, French and Russian.
+- Currently, Sound Transcriber supports the following languages: Arabic, English, Spanish, French, Russian and Turkish.
 - Sound Transcriber is compatible with Windows 8 and above, but only in 64-bit systems.
  
 ## Supported file extensions:
@@ -74,7 +74,7 @@ Although the following steps may appear extensive, they are straightforward and 
 
 You can repeat these steps and create a new application with a different name to obtain an API key for transcribing in another language. If you want to use multiple languages with wit.ai, simply repeat the steps to obtain an API key for each language.
 
-## Whisper:
+### Whisper:
 
 Sound Transcriber supports transcription through the use of OpenAI's Whisper API keys, which are not available for free.
 
@@ -298,3 +298,4 @@ If you are unable to access our contact list within Sound Transcriber, you can r
 - Many thanks to Riad Assoumfor translating Sound Transcriber into French, translating the user guide into English and proofreading the program's English and Arabic strings.
 - Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
 - Many thanks to Danil for translating Sound Transcriber into Russian.
+- Many thanks to Kadir öz for translating Sound Transcriber into Turkish.

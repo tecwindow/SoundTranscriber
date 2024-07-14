@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 11:13+0300\n"
+"PO-Revision-Date: 2024-06-30 12:39+0300\n"
+"Last-Translator: Kadir Öz <kozafyon03@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgid ""
+"Please consider supporting the developers of this program by making a "
+"donation. Your contribution helps us continue to improve and maintain the "
+"software for you and others.\n"
+"Thank you for your generosity!"
+msgstr ""
+"Lütfen bu programın geliştiricilerini bir bağış yaparak desteklemeyi "
+"düşünün. Katkınız, yazılımı siz ve diğer kullanıcılar için geliştirmeye ve "
+"sürdürmeye devam etmemize yardımcı olur.\n"
+"Cömertliğiniz için teşekkür ederiz!"
+
+msgid "&Donate via PayPal"
+msgstr "&Paypal ile bağışta bulun"
+
+msgid "&Or donate from inside Egypt via Vodafone Cash:"
+msgstr "&İçeriden bağış yapmak için Vodafone Cash kullanabilirsiniz:"
+
+msgid "&Copy Vodafone Cash Number"
+msgstr "&vodafone Cash Numarasını Kopyala"
+
+msgid "&Not now"
+msgstr "&Şimdi deyil"
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Vodafone Cash number copied to clipboard."
+msgstr "Vodafone Cash numarası panoya kopyalandı."
+
+msgid "&OK"
+msgstr "&TAMAM"
+
+msgid "Extracting text..."
+msgstr "Metne dökülüyor..."
+
+msgid "An error occurred. Please contact support for assistance."
+msgstr "Bir hata oluştu, lütfen yardım için bizimle iletişime geçin."
+
+msgid "Save As Text File"
+msgstr "Text dosyası olarak Kaydet"
+
+msgid "Save As Word File"
+msgstr "Word dosyası olarak Kaydet"
+
+msgid "Save As Subtitle File"
+msgstr "Altyazı dosyası olarak Kaydet"
+
+msgid "Open"
+msgstr "Aç"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save As"
+msgstr "Farklı Kaydet"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Open LOG File"
+msgstr "Günlük Dosyasını Aç"
+
+msgid "Exit"
+msgstr "Çıkış"
+
+msgid "User Guide"
+msgstr "Kullanım Kılavuzu"
+
+msgid "What's new"
+msgstr "Ne yeni"
+
+msgid "Check for Updates"
+msgstr "Güncelleme Kontrolü"
+
+msgid "Contact us"
+msgstr "Bizimle iletişime geç"
+
+msgid "Donate"
+msgstr "Bağışta bulun"
+
+msgid "Open Repository"
+msgstr "Depoyu Aç"
+
+msgid "About"
+msgstr "Hakkında"
+
+msgid "File"
+msgstr "Dosya"
+
+msgid "Services"
+msgstr "Servisler"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "File/Link:"
+msgstr "Dosya/Link:"
+
+msgid "Browse"
+msgstr "Gözat"
+
+msgid "Result:"
+msgstr "Sonuç:"
+
+msgid "Waiting for conversion to start..."
+msgstr "Dönüşüm'ün başlaması bekleniyor..."
+
+msgid "Language:"
+msgstr "Dil:"
+
+msgid "Start"
+msgstr "Başlat"
+
+msgid "Stop"
+msgstr "Durdur"
+
+msgid "Copy Content"
+msgstr "İçeriği Kopyala"
+
+msgid "Version: {} beta."
+msgstr "Sürüm: {} beta."
+
+msgid "Version: {}."
+msgstr "Sürüm: {}."
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed "
+"to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow "
+"team."
+msgstr ""
+"Ad: Sound Transcriber.\n"
+"{}\n"
+"sound transcriber, ses ve video dosyalarını yazıya dökmek için tasarlanmış "
+"erişilebilir bir ses-yazı dönüşüm programıdır. Altyazı dosyalarını çıkarma "
+"desteği ve daha fazlasını sunar. Geliştiricileri: Mahmoud Atef, Ahmed Bakr "
+"ve Qais Alrefai, TecWindow ekibinden."
+
+msgid "{} Selected."
+msgstr "{} seçili."
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Yeni bir dosyayı yazıya dökmek üzeresiniz\v.\n"
+"Bu, mevcut dönüşüm sonucunu değiştirecek.\n"
+"Devam etmeden önce mevcut sonucu kaydetmeniz önerilir.\n"
+"Devam etmek istediğinizden emin misiniz?"
+
+msgid "Warning"
+msgstr "Uyarı"
+
+msgid "&No"
+msgstr "&Hayır"
+
+msgid "&Yes"
+msgstr "&Evet"
+
+msgid "Auto Detect"
+msgstr "Otomatik Algıla"
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+"The file {}panoda bulundu.\n"
+"ne yapmak istersiniz?"
+
+msgid "&Convert the file"
+msgstr "&Dosyayı dönüştür"
+
+msgid "&Ignore the file"
+msgstr "&Dosyayı yoksay"
+
+msgid "&Paste only"
+msgstr "&Sadece yapıştır"
+
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+msgid "Pause"
+msgstr "Duraklat"
+
+msgid "Finished."
+msgstr "Bitti."
+
+msgid "Extracting text has been finished."
+msgstr "Metin çıkarımı tamamlandı."
+
+msgid "The text has been successfully extracted."
+msgstr "Metin başarıyla çıkarıldı."
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Resume"
+msgstr "Sürdür"
+
+msgid "Paused."
+msgstr "Duraklatıldı."
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+"Bu işlemi iptal etmek istiyormusunuz?\n"
+" bu işlemi iptal ederseniz, çıktıyı kaybedeceksiniz."
+
+msgid "Confirm"
+msgstr "Onayla"
+
+msgid "This version is not supported anymore."
+msgstr "Bu versiyon artık desteklenmiyor."
+
+msgid "Failed to connect to the server."
+msgstr "Sunucuya bağlanma başarısız."
+
+msgid "There is no API key for this service."
+msgstr "Bu Servis'in API anahtarı mevcut deyil."
+
+msgid "Downloading..."
+msgstr "İndiriliyor..."
+
+msgid "Splitting file..."
+msgstr "Dosya ayrıştırılıyor..."
+
+msgid "Connection Error"
+msgstr "Bağlantı Hatası"
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will "
+"cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+"Metin çıkarımı devam ediyor, Sound transcriber'i kapatmak bu işlemi iptal "
+"edecek \n"
+" Sound transcriber'i kapatmak istiyormusunuz?"
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+"Metin çıkarımı kaydedilmemiş.\n"
+"Ne yapmak istiyorsunuz?"
+
+msgid "&Don't Save"
+msgstr "&Kaydetme"
+
+msgid "&Save"
+msgstr "&Kaydet"
+
+msgid "&Cancel"
+msgstr "&İptal"
+
+msgid "File Not Found"
+msgstr "Dosya Bulunamadı"
+
+msgid "The file ffmpeg.exe was not found."
+msgstr "Ffmpeg.exe dosyası bulunamadı."
+
+msgid "Error converting audio file."
+msgstr "Ses dosyası dönüştürme hatası."
+
+msgid "Sound Transcriber Settings"
+msgstr "Sound transcriber Ayarları"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Save Options"
+msgstr "Kaydetme Seçenekleri"
+
+msgid "Interface Language:"
+msgstr "Arayüz Dili:"
+
+msgid "Service:"
+msgstr "Servis:"
+
+msgid "Files to transcrib simultaneously:"
+msgstr "Eşzamanlı olarak yazıya dökülecek dosyalar:"
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr "Panodaki Dosyayı Otomatik algıla"
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr "Panoda dosya Algılandığında Ne yapılacağını Sor"
+
+msgid "Sounds"
+msgstr "Sesler"
+
+msgid "Speak Actions"
+msgstr "Konuşma Eylemleri"
+
+msgid "Automatically Check for updates"
+msgstr "Otomatik güncelleme Kontrolü"
+
+msgid "Include beta versions When checking for Updates"
+msgstr "Güncelleme kontrollerinde beta versiyonları Kapsa"
+
+msgid "Enable Logging"
+msgstr "Günlük tutmayı Etkinleştir"
+
+msgid "&Restore Default Settings"
+msgstr "&Varsayılan Ayarlara Geridön"
+
+msgid "Auto Save Files"
+msgstr "Dosyaları Otomatik Kaydet"
+
+msgid "Save Path:"
+msgstr "Kaydetme Yolu:"
+
+msgid "Keep downloaded files"
+msgstr "İndirilen dosyaları sakla"
+
+msgid "Secret Key:"
+msgstr "Gizli Anahtar:"
+
+msgid "&Add"
+msgstr "&Ekle"
+
+msgid "&Edit"
+msgstr "&Düzenle"
+
+msgid "Segment Duration (In Seconds):"
+msgstr "Parça Süresi(saniyede):"
+
+msgid "Current Languages:"
+msgstr "Kullanılabilirdiller:"
+
+msgid "&Delete"
+msgstr "&Sil"
+
+msgid "Delete All &Keys"
+msgstr "Tüm&Anahtarları Sil"
+
+msgid "Choose audio format:"
+msgstr "Ses formatını seç:"
+
+msgid "Choose the folder path."
+msgstr "Klasör yolunu seç."
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr "Tüm anahtarları ssilmek istediğinize eminmisiniz?"
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr "{} Anahtarı silmek istediğinize eminmisiniz?"
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+"Tüm ayarları sıfırlamak istediğinize eminmisiniz?\n"
+"Program yeniden başlatılacak."
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+"Yeni dilin etkili olması için Sound transcriber'i yeniden başlatmalısınız.\n"
+"Yeniden başlatmak istiyormusunuz?"
+
+msgid "Language Selection"
+msgstr "Dil Seçimi"
+
+msgid "You are using an incorrect API key."
+msgstr "Doğru Apı anahtarını kullanmıyorsunuz."
+
+msgid "An error occurred while extracting the text."
+msgstr "Metin çıkarımında bir hata oluştu."
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+"Ağ bağlantısı yok.\n"
+"Ağa bağlanın ve tekrar deneyin"
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+"Bir hata oluştu.\n"
+"Lütfen daha sonra tekrar deneyin."
+
+msgid ""
+"You are using Sound Transcriber version {} beta, which is the latest version."
+msgstr "Sound Transcriber'in beta sürümünü kullanıyorsunuz {}, bu enson sürüm."
+
+msgid ""
+"You are using Sound Transcriber version {}, which is the latest version."
+msgstr "Sound Transcriber'in {} sürümünü kullanıyorsunuz, bu en son sürüm."
+
+msgid "No update available"
+msgstr "Güncelleme mevcut deyil"
+
+msgid "Update Available"
+msgstr "Güncelleme mevcut"
+
+msgid "Sound Transcriber version {} beta is available."
+msgstr "Sound Transcriber sürüm {} beta mevcut."
+
+msgid "Sound Transcriber version {} is available."
+msgstr "Sound Transcriber sürüm {} mevcut."
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr "Sound Transcriber sürümündeki yenilikler {}?"
+
+msgid "&Update"
+msgstr "&güncelle"
+
+msgid "An error occurred while downloading the file."
+msgstr "Dosya indirilirken bir hata oluştu."

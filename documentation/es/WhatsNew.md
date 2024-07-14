@@ -1,9 +1,14 @@
 # Novedades en Sound Transcriber?
 
-## Versión 1.4.0:
+## Versión 1.4.2:
+
+- Se añadió la traducción al turco. Gracias a Kadir öz.
+- Se corrigió un error relacionado con la descarga desde YouTube.
+- Algunas mejoras.
+
+## Versión 1.4.1:
 
 - Varios cambios menores.
-
 
 ## Versión 1.4.0:
 

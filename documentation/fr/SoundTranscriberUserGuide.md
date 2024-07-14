@@ -40,7 +40,7 @@ Veuillez prendre note des informations importantes suivantes :
 - Avant la conversion, les fichiers sont divisés en segments d'une durée maximale de 60 secondes, en fonction des limites de chaque service. Par conséquent, certains mots peuvent être perdus au cours de ce processus. Pour obtenir des résultats optimaux, nous recommandons d'ajuster la durée du segment en fonction du temps de silence, de la longueur du fichier et de la durée du segment autorisés par chaque service.
 - Pour des résultats optimaux avec les fichiers .srt, nous recommandons de sélectionner une courte durée, par exemple 5 secondes, pour les segments.
 - Sound Transcriber nécessite [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) et [Microsoft Visual C++ 2013 Redistributable X64.](https://aka.ms/highdpimfc2013x64enu) Si le programme ne fonctionne pas pour vous, veuillez utiliser les liens précédents pour télécharger et installer les fichiers requis.
-- Actuellement, Sound Transcriber prend en charge les langues suivantes : Arabe, anglais, espagnol, français et russe.
+- Actuellement, Sound Transcriber prend en charge les langues suivantes : arabe, anglais, espagnol, français, russe et turc.
 - Sound Transcriber est compatible avec Windows 8 et plus, mais uniquement avec les systèmes 64 bits.
 
 ## Extensions de fichiers supportées :
@@ -75,7 +75,7 @@ Bien que les étapes suivantes puissent sembler longues, elles sont simples et n
 
 Vous pouvez répéter ces étapes et créer une nouvelle application avec un nom différent pour obtenir une clé API pour la transcription dans une autre langue. Si vous souhaitez utiliser plusieurs langues avec wit.ai, répétez simplement les étapes pour obtenir une clé API pour chaque langue.
 
-## Whisper :
+### Whisper :
 
 Sound Transcriber prend en charge la transcription en utilisant les clés API Whisper d'OpenAI, qui ne sont pas disponibles gratuitement.
 
@@ -298,3 +298,4 @@ Si vous ne parvenez pas à accéder à notre liste de contacts dans Sound Transc
 - Un grand merci à Riad Assoum pour la traduction du programme en français, la traduction du guide de l'utilisateur en anglais et la relecture des textes du programme en anglais et en arabe.
 - Merci à Georgiana Frincu pour la traduction de Sound Transcriber en espagnol.
 - Merci à Danil pour la traduction de Sound Transcriber en russe.
+- Merci à Kadir öz pour la traduction de Sound Transcriber en turc.
