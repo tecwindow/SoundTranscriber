@@ -5,7 +5,7 @@ Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
 ## Download:
 
-[download Sound Transcriber version 1.4.2.](https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.2/SoundTranscriberSetupV1.4.2.exe)
+[download Sound Transcriber version 1.4.3.](https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.3/SoundTranscriberSetupV1.4.3.exe)
 
 ## Sound Transcriber User Guide.
 

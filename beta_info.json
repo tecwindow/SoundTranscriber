@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.2",
+  "latest_version": "1.4.3",
   "release_notes": {
-    "Arabic": "- تمت إضافة الترجمة التركية. شكراً لـ Kadir öz.\n- تم إصلاح خطأ متعلق بالتنزيل من YouTube.\n- بعض التحسينات.",
-    "English": "- Added Turkish translation. Thanks to Kadir öz.\n- fixt a bug related to downloading from YouTube.\n- Some improvements.",
-    "Spanish": "- Se añadió la traducción al turco. Gracias a Kadir öz.\n- Se corrigió un error relacionado con la descarga desde YouTube.\n- Algunas mejoras.",
-    "French": "- Ajout de la traduction turque. Merci à Kadir öz.\n- Correction d'un bug lié au téléchargement depuis YouTube.\n- Quelques améliorations.",
-    "Russian": "- Добавлен перевод на турецкий. Спасибо Kadir öz.\n- Исправлена ошибка, связанная с загрузкой с YouTube.\n- Некоторые улучшения.",
-    "Turkish": "- Türkçe çeviri eklendi. Kadir öz'e teşekkürler.\n- YouTube'dan indirme ile ilgili bir hata düzeltildi.\n- Bazı iyileştirmeler."
+    "Arabic": "- بعض التحسينات.",
+    "English": "- Some improvements.",
+    "Spanish": "- Algunas mejoras.",
+    "French": "- Quelques améliorations.",
+    "Russian": "- Некоторые улучшения.",
+    "Turkish": "- Bazı iyileştirmeler."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.2/SoundTranscriberSetupV1.4.2.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.3/SoundTranscriberSetupV1.4.3.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,
@@ -20,8 +20,10 @@
     "1.3.2": false,
     "1.3.3": false,
     "1.4.0": false,
-    "1.4.1": true,
-    "1.4.2": true,
-    "1.4.3": true
+    "1.4.1": false,
+    "1.4.2": false,
+    "1.4.3": true,
+    "1.4.4": true,
+    "1.5.0": true
   }
 }
