@@ -1,0 +1,428 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-10-28 21:41+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "# What's new in Sound Transcriber?"
+msgstr ""
+
+msgid "## Version 1.4.4:"
+msgstr ""
+
+msgid "- Added Vietnamese translation, many thanks to Nguyen Anh Duc."
+msgstr ""
+
+msgid ""
+"- Transitioned to a new system for translating the changelog and Sound "
+"Transcriber User Guide. More details can be found in the User Guide."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that prevented Sound Transcriber from successfully "
+"downloading YouTube videos."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that prevented Sound Transcriber from stopping downloads "
+"correctly when the \"Keep Downloaded Files\" option was enabled."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused Sound Transcriber to improperly log errors "
+"returned by services."
+msgstr ""
+
+msgid "- Improved Sound Transcriber user guide."
+msgstr ""
+
+msgid "- Upgraded to wxPython 4.2.2 and Python 3.12.7."
+msgstr ""
+
+msgid "## Version 1.4.3:"
+msgstr ""
+
+msgid "- Some improvements."
+msgstr ""
+
+msgid "## Version 1.4.2:"
+msgstr ""
+
+msgid "- Added Turkish translation. Thanks to Kadir öz."
+msgstr ""
+
+msgid "- fixed a bug related to downloading from YouTube."
+msgstr ""
+
+msgid "- Some improvements..."
+msgstr ""
+
+msgid "## Version 1.4.1:"
+msgstr ""
+
+msgid "- Several minor improvements."
+msgstr ""
+
+msgid "## Version 1.4.0:"
+msgstr ""
+
+msgid ""
+"- Added  Beta updates system. You can enable this option in settings to "
+"receive beta updates. Please note that beta updates may contain "
+"significant bugs. You can disable the option and revert to the latest "
+"stable version at any time."
+msgstr ""
+
+msgid ""
+"- Added an option to specify the number of files to be converted "
+"simultaneously."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber will no longer generate an event log by default. You "
+"can enable it from the settings when encountering errors and then repeat "
+"the steps. By default, the log will retain the details of the last step, "
+"and previous operations details will be deleted when disabled."
+msgstr ""
+
+msgid "- The logs now display more information."
+msgstr ""
+
+msgid ""
+"- The functionality of the copy button has been enhanced. As a result, "
+"the copy button should remain available as long as the result field "
+"contains transcribed texts."
+msgstr ""
+
+msgid "- Added a donation option for developers."
+msgstr ""
+
+msgid "- Attempted to minimize errors returned by the Google service."
+msgstr ""
+
+msgid ""
+"- Fixed several bugs, particularly those related to pausing and resuming "
+"the transcription process."
+msgstr ""
+
+msgid ""
+"- Updated the user guide to include translation details, beta updates, "
+"and other important information. We highly recommend reviewing it for the"
+" latest info."
+msgstr ""
+
+msgid "- Updated the Python version used to Python 3.12."
+msgstr ""
+
+msgid "- Several minor improvements..."
+msgstr ""
+
+msgid "## Version 1.3.3:"
+msgstr ""
+
+msgid "- Added Russian translation, many thanks to Danil."
+msgstr ""
+
+msgid "- made code improvements that increased response speed and reduced size."
+msgstr ""
+
+msgid "- replaced Accessible Output 2 with PythonUniversalSpeech."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber no longer uses Sapi5 to speak actions when used "
+"without a screen reader."
+msgstr ""
+
+msgid "- Updated the version of Python used to Python 3.11.7."
+msgstr ""
+
+msgid "- Several minor improvements...."
+msgstr ""
+
+msgid "## Version 1.3.2:"
+msgstr ""
+
+msgid "- You can now add files using drag and drop."
+msgstr ""
+
+msgid ""
+"- Fixed a major bug that caused extracted text to appear in the wrong "
+"order when converting long files."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the save option to be disabled if the "
+"conversion was canceled before completion."
+msgstr ""
+
+msgid ""
+"- Several improvements to the Arabic translation. Many thanks to Zeinab "
+"Bahaa."
+msgstr ""
+
+msgid "- Various minor improvements."
+msgstr ""
+
+msgid "## Version 1.3.1:"
+msgstr ""
+
+msgid "Some fixes and improvements."
+msgstr ""
+
+msgid "## Version 1.3.0:"
+msgstr ""
+
+msgid "- French translation added. Many thanks to Riad Assoum."
+msgstr ""
+
+msgid ""
+"- You can now open files in Sound Transcriber to Transcribe them from the"
+" context menu of supported file types."
+msgstr ""
+
+msgid ""
+"- You can now access Sound Transcriber swiftly by simply typing 'st' in "
+"the Run dialog."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber is now able to automatically recognize interface "
+"translations and integrate new help files. To contribute, translate the "
+"messages.pot file using Poedit and save the files in the same order as "
+"the existing language files."
+msgstr ""
+
+msgid ""
+"- When the option to keep downloaded files is turned off, Sound "
+"Transcriber will retain them until the program is closed. This is "
+"particularly handy if you wish to repeat the conversion process with "
+"different options."
+msgstr ""
+
+msgid ""
+"- Several bugs related to the paste from clipboard feature have been "
+"fixed. Like ignoring certain paths, failure to start conversions from the"
+" detection message, pasting links at any time, and more. Many thanks to "
+"Dawlat Hassan for the note that helped uncover many of these bugs "
+"associated with this feature."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that occasionally caused Sound Transcriber to start in a "
+"different language after the last update."
+msgstr ""
+
+msgid ""
+"- You can no longer open two instances of Sound Transcriber "
+"simultaneously."
+msgstr ""
+
+msgid "- Implemented changes to the conversion stopping method."
+msgstr ""
+
+msgid "- Various minor improvements..."
+msgstr ""
+
+msgid "## Version 1.2.0:"
+msgstr ""
+
+msgid ""
+"Important, starting with this version, Sound Transcriber will only "
+"support 64 bit versions of Windows."
+msgstr ""
+
+msgid "- Added Spanish translation. Many thanks to Georgiana Frincu."
+msgstr ""
+
+msgid ""
+"- You can now convert videos from Youtube, Facebook, Twitter (X) and "
+"other services into text, so that Sound Transcriber will download the "
+"video and then convert it."
+msgstr ""
+
+msgid ""
+"- You can choose to keep the original file after conversion or delete it "
+"from the settings."
+msgstr ""
+
+msgid "- Pause and resume feature has been added to the transcription process."
+msgstr ""
+
+msgid "- You can now paste file paths to be converted."
+msgstr ""
+
+msgid ""
+"- You can specify the file extension that is sent to wit.ai for "
+"conversion from settings."
+msgstr ""
+
+msgid "- Sound Transcriber will try to handle files with names contain Emojis."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber no longer stops during conversion. If this happens, "
+"you will still be able to continue the process."
+msgstr ""
+
+msgid "- Small improvements here and there."
+msgstr ""
+
+msgid "### Notes"
+msgstr ""
+
+msgid ""
+"- Pausing is supported while extracting text but not while splitting "
+"files."
+msgstr ""
+
+msgid ""
+"- If you temporarily stop a process and then start a new conversion "
+"process, you will lose everything related to the previous process; "
+"Therefore, it is advisable to save the current result before starting a "
+"new conversion."
+msgstr ""
+
+msgid ""
+"- Choosing the wav format in wit.ai settings speeds up file splitting but"
+" leads to slower conversion and increased data usage. Consider trying "
+".ogg and sharing your feedback on the results."
+msgstr ""
+
+msgid "## Version 1.1.2:"
+msgstr ""
+
+msgid "- Fixed a bug that prevented proper conversion of .mp4 files."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the saved file format to retain the extension "
+"of the original file with the output files, and sometimes saved the "
+"output files with the same extension as the original file when opening a "
+"file via the clipboard."
+msgstr ""
+
+msgid ""
+"- You can no longer switch between services and open Sound Transcriber "
+"settings during the conversion process."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber will now attempt to alert you when converting using "
+"an incorrect wit.ai API key."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the \"Edit\" button to appear twice after "
+"adding a wit.ai key."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the Update and Cancel buttons to appear in "
+"English when using Sound Transcriber in Arabic.."
+msgstr ""
+
+msgid "- Various other bug fixes."
+msgstr ""
+
+msgid "## Version 1.1.1:"
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the cursor position to move to the beginning of"
+" the text constantly with the screen reader while extracting text."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that caused the save options to not work after the text "
+"extraction process was finished."
+msgstr ""
+
+msgid "- Fix some other bugs."
+msgstr ""
+
+msgid "## Version 1.1:"
+msgstr ""
+
+msgid "This version includes several bug fixes and some new features."
+msgstr ""
+
+msgid "- Support for various audio and video file formats has been added."
+msgstr ""
+
+msgid "- Word files are now saved as .docx instead of .doc."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber will display a warning when closed during file "
+"conversion."
+msgstr ""
+
+msgid ""
+"- If auto saving is disabled and the extracted text is not saved in any "
+"file, Sound Transcriber will prompt you for what to do upon closing. If "
+"you choose to save, the file will be saved according to the options "
+"specified in the Save Options section in the settings."
+msgstr ""
+
+msgid ""
+"- Sound Transcriber now remembers the selected language for file "
+"conversion for each service."
+msgstr ""
+
+msgid ""
+"- The extracted text is now displayed during the extraction process. In "
+"other words, if the extraction process stops for any reason, you will not"
+" lose the extracted text. The new text will be added as the process "
+"continues."
+msgstr ""
+
+msgid "- You can now check the progress of the extraction by pressing P."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that prevented the auto save path \"Browse\" button from "
+"working."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that prevented changing API keys for languages other than "
+"the primary language in the wit.ai language list."
+msgstr ""
+
+msgid ""
+"- Fixed a bug that prevented from converting files with a language other "
+"than the primary language using Wit.ai."
+msgstr ""
+
+msgid "- Fixed a bug that prevented restoring default settings."
+msgstr ""
+
+msgid "- Adjusted the layout of the settings dialog to display items correctly."
+msgstr ""
+
+msgid "- Made some improvements to the Arabic translation."
+msgstr ""
+
+msgid "- Fixed some minor bugs here and there."
+msgstr ""
+
+msgid "## Version 1.0:"
+msgstr ""
+
+msgid "Initial release."
+msgstr ""
+

@@ -4,20 +4,21 @@ El objetivo de esta guía de usuario es proporcionarle un conocimiento exhaustiv
 
 Le recomendamos encarecidamente que lea esta guía para garantizar un uso óptimo del programa.
 
-## Introducción a Sound Transcriber
+## Introducción a Sound Transcriber:
 
 Sound Transcriber es un programa accesible de conversión de audio a texto diseñado para transcribir archivos de audio y vídeo, ofrece soporte para extraer archivos de subtítulos y mucho más.
 
 Desarrollado por Mahmoud Atef, Ahmed Bakr y Qais Alrefai del equipo TecWindow.
 
-## Características
+## Características:
 
 Sound Transcriber ofrece las siguientes características:
 
 - Conversión de archivos de audio y vídeo a texto utilizando varios servicios de transcripción.
 - Guardar los resultados de la conversión como archivos .txt y .doc o como archivos de subtítulos .SRT.
+- Convierta vídeos de plataformas como YouTube, Facebook, o X descargando el archivo directamente, con una opción que permite guardar el archivo para un acceso más sencillo y  usarlo en el futuro.
 
-## Características previstas
+## Características previstas:
 
 Tenemos varias características previstas para el futuro, incluyendo:
 
@@ -41,7 +42,7 @@ Tenga en cuenta la siguiente información importante:
 - Antes de la conversión, los archivos se dividen en segmentos de hasta 60 segundos, dependiendo de las limitaciones de cada servicio. En consecuencia, es posible que se pierdan algunas palabras durante este proceso. Para obtener resultados óptimos, recomendamos ajustar la duración del segmento en función del tiempo de silencio, la longitud del archivo y la duración del segmento permitidos por cada servicio.
 - Para resultados óptimos con archivos .srt, recomendamos seleccionar una duración corta, como por ejemplo 5 segundos, para los segmentos.
 - Sound Transcriber requiere [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) y [Microsoft Visual C++ 2013 Redistributable X64](https://aka.ms/highdpimfc2013x64enu). Si el programa no le funciona, por favor utilice los enlaces anteriores para descargar e instalar los archivos requeridos.
-- Actualmente, Sound Transcriber se encuentra en los siguientes idiomas: árabe, inglés, español, francés, ruso y turco.
+- Actualmente, Sound Transcriber se encuentra en los siguientes idiomas: árabe, inglés, español, francés, ruso, turco y vietnamita.
 - Sound Transcriber es compatible con sistemas que tengan Windows 8 o superior, pero solo con sistemas de 64-bits systems.
 
 ## Extensiones de archivo compatibles:
@@ -55,9 +56,13 @@ Sound Transcriber admite las siguientes extensiones de archivo para la conversi�
 ### Wit.ai:
 
 Si incluyéramos una clave API en el propio programa, probablemente se bloquearía tras un uso generalizado por parte de múltiples usuarios.
+
 Además, wit.ai proporciona claves API distintas para cada idioma. Esto significa que es necesario crear una aplicación en el idioma deseado y obtener su clave API correspondiente.
+
 Lamentablemente, no nos es posible reunir claves API para todos los idiomas, ya que varían en función de las preferencias individuales.
+
 Por lo tanto, le proporcionaremos instrucciones sobre cómo obtener su propia clave API privada.
+
 Aunque los pasos siguientes pueden parecer extensos, son sencillos y sólo hay que completarlos una vez.
 
 - Abra el [sitio web de wit.ai](https://wit.ai)
@@ -125,6 +130,8 @@ Contiene los nombres de los servicios disponibles para la conversión, puede sel
 - Novedades: Ver el registro de cambios de Sound Transcriber.
 - Buscar actualizaciones: Buscar actualizaciones del programa.
 - Contacto: Mostrar menús con opciones para ponerse en contacto con los desarrolladores del programa.
+- Donar: Donar a los desarrolladores de Sound Transcriber.
+- Abrir el repositorio: Abre el repositorio de Sound Transcriber en GitHub, el programa no es de código abierto.
 - Acerca de: Proporciona información sobre Sound Transcriber.
 
 ## Ajustes de Sound Transcriber:
@@ -137,7 +144,7 @@ Esta sección incluye varias opciones del programa:
 
 - Idioma de la interfaz: Especifique el idioma del programa.
 - Servicio: Definir el servicio utilizado para la transcripción de archivos.
-- Archivos para transcribir simultáneamente: Esta función le permite especificar el número de archivos que se transcribirán simultáneamente.
+- Archivos para transcribir simultáneamente: Esta función le permite especificar el número de archivos que se transcribirán de manera simultánea. Esta función controla la cantidad de clips del mismo archivo que se mandarán simultáneamente después de que éste se divida.
 - Detectar automáticamente si hay un archivo en el portapapeles: El programa comprueba el portapapeles al iniciarse y, si encuentra un archivo compatible, selecciona automáticamente su ruta para una conversión rápida.
 - Preguntar qué hacer cuando se detecta un archivo en el portapapeles: Si está activado, el programa le preguntará cómo manejar el archivo detectado.
 - Sonidos: Activa sonidos de alerta cuando se inicia y finaliza la conversión.
@@ -170,7 +177,7 @@ Tenga en cuenta que el archivo debe dividirse en varios segmentos para su conver
 
 Similar al servicio anterior, esta sección le permite introducir una clave API. Sin embargo, la duración máxima de cada archivo cuando se utiliza OpenAI es de 30 segundos.
 
-### Wit.ai:
+### Wit.ai:.
 
 Como Wit.ai separa los idiomas en función de las claves API, esta sección permite combinar idiomas de la siguiente manera:
 
@@ -178,7 +185,7 @@ Encontrará una lista de los idiomas añadidos actualmente.
 
 Cada idioma tiene un campo de edición oculto correspondiente para la clave API.
 
-You can edit the key by removing the old one, pasting the new key, and then use the Edit button. Alternatively, you can use the Add button to add a new key.
+Puede editar la clave eliminando la antigua, pegando la nueva clave, y usando el botón de editar. Alternativamente, puede usar el botón Añadir para agregar la nueva clave.
 
 Seleccione el idioma que coincida con su aplicación en Wit.ai, pegue la clave y haga clic en Añadir.
 
@@ -199,13 +206,13 @@ Pulse OK cuando haya terminado de ajustar la configuración.
 Sound Transcriber trae algunos atajos de teclado para poder usar el programa más rápido y de manera más sencilla.
 
 - Ctrl+O: Abrir la ventana de examinar para seleccionar un archivo a convertir.
-- Ctrl+V: Copiar un fichero del portapapeles para la conversión
+- Ctrl+V: Copiar un fichero del portapapeles para la conversion.
 - Ctrl+1: Cambiar al servicio de Google.
 - Ctrl+2: Cambiar al servicio de Wit.ai.
 - Ctrl+3: Cambiar a Whisper.
-- Ctrl+Enter: Iniciar el proceso de conversión
-- P: Mostrar el porcentaje actual de la conversión
-- Ctrl+S: Abrir los ajustes de guardado
+- Ctrl+Enter: Iniciar el proceso de conversion.
+- P: Mostrar el porcentaje actual de la conversion.
+- Ctrl+S: Abrir los ajustes de guardado.
 - Ctrl+Shift+S: Guardar el resultado como .srt.
 - Ctrl+Shift+T: Guardar el resultado como .txt.
 - Ctrl+Shift+D: Guardar el resultado como .docx.
@@ -216,7 +223,7 @@ Sound Transcriber trae algunos atajos de teclado para poder usar el programa má
 - F5: Donar.
 - F6: Abrir el repositorio.
 - F7: Abrir Archivo De LOG.
-- F9: Acerca De
+- F9: Acerca De.
 - Ctrl+W o Ctrl+F4: cerrar Sound Transcriber.
 
 ## Cómo convertir archivos:
@@ -267,19 +274,40 @@ Aunque Sound Transcriber actualmente solo admite un número limitado de idiomas 
 
 Sin embargo, damos la bienvenida a cualquier persona interesada en traducir el programa a su idioma nativo.
 
+### Traducción de la interfaz:
+
 La traducción de las opciones de interfaz se basa principalmente en archivos .po, que se pueden editar usando el programa Poedit. Puede descargar Poedit desde su sitio web oficial, luego navegar al repositorio de Sound Transcriber en GitHub o localizar la carpeta del programa en su dispositivo. A continuación, localice el archivo messages.pot y ábralo en Poedit. Desde allí, puede traducir las cadenas a su idioma, guardar el archivo (lo que generará tanto un archivo .po como un .mo) y compartir estos archivos con nosotros.
+
+## Testear la Traducción:
 
 Sound Transcriber puede reconocer nuevas traducciones, lo que permite probar su traducción antes de enviarla. Para hacer esto, navegue a la carpeta de Idiomas, cree una carpeta con el código del idioma (las primeras dos letras del idioma), luego cree una subcarpeta llamada LC_MESSAGES y coloque los archivos .po y .mo dentro. No olvide nombrar los archivos como SoundTranscriber.po y SoundTranscriber.mo.
 
-Aunque no es obligatorio traducir la guía de usuario o el archivo de novedades, también se pueden traducir los archivos Markdown disponibles en GitHub en el repositorio de Sound Transcriber y así luego compartirlos con nosotros.
+### Traducción de la documentación:
 
-Si se elige no traducir la Guía del Usuario y el archivo de novedades Sound Transcriber los mostrará en inglés.
+Si bien la traducción de las novedades y de la guía de usuario no es obligatoria, puede traducirlas a su idioma usando archivos .pot.
 
-La traducción de software es un esfuerzo continuo, y nos pondremos en contacto con usted antes de lanzar nuevas actualizaciones para que pueda traducir cualquier contenido nuevo.
+Usamos ficheros .md para crear ficheros .pot, que luego mandamos a los traductores. Después, convertimos los ficheros .po que los traductores nos han vuelto a mandar de vuelta a ficheros .md, y después a ficheros.html para incluir con el programa.
+
+Esto nos permite hacer correcciones a cualquier parte del manual y las novedades, asegurando que se aplican de manera consistente a todos los idiomas. También asegura que los ficheros en distintas lenguas permanecen en el mismo formato y estructura.
+
+Para traducir ficheros, siga estos pasos:
+
+- Obtenga los ficheros .pot  del repositorio en GitHub o de la carpeta de documentación en el directorio de Sound Transcriber.
+- Tradúzcalos usando Poedit.
+- Puede ser que encuentre frases repetidas con puntos adicionales. Usamos esto para distinguir frases, asegurando que están en las posiciones correctas. Añada la misma cantidad de puntos, y nosotros los quitaremos al incorporar la traducción.
+- Tenga en cuenta que puede ser que los textos no aparezcan en el orden correcto si la traducción está incompleta. Cuando la traducción ya esté correcta, reabra el fichero para verlos en el orden correcto.
+- Finalmente, comparta los archivos con nosotros.
+
+### Notas:
+
+- Si se elige no traducir la Guía del Usuario y el archivo de novedades Sound Transcriber los mostrará en inglés.
+- La traducción de software es un esfuerzo continuo, y nos pondremos en contacto con usted antes de lanzar nuevas actualizaciones para que pueda traducir cualquier contenido nuevo.
 
 ## Web de Sound Transcriber:
 
 Aunque no hay un sitio web oficial de Sound Transcriber, se puede acceder a todos los recursos necesarios en el repositorio de Sound Transcriber en GitHub. Este repositorio contiene los archivos de traducción y la última versión del programa.
+
+Nota: Ahora mismo Sound Transcriber no es de código abierto, y por tanto, el repositorio no tiene el código fuente del programa.
 
 [Enlace al repositorio.](https://github.com/tecwindow/SoundTranscriber)
 
@@ -291,9 +319,10 @@ Si no puede acceder a nuestros datos de contacto dentro de Sound Transcriber, pu
 - Mahmoud Atef: mahmoud.atef.987123@gmail.com
 - Ahmed Bakr: AhmedBakr593@gmail.com
 
-## Agradecimientos
+## Agradecimientos:
 
 - Muchas gracias a Riad Assoum por traducir la guía del usuario al inglés y corregir las cadenas en inglés y árabe del programa.
 - Muchas gracias a Georgiana Frincu por traducir Sound Transcriber al español.
 - Muchas gracias a Danil por traducir Sound Transcriber al ruso.
 - Muchas gracias a Kadir öz por traducir Sound Transcriber al turco.
+- Muchas gracias a Nguyen Anh Duc por la traducción de Sound Transcriber al Vietnamita.

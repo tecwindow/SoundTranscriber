@@ -1,10 +1,25 @@
 # Quoi de neuf dans Sound Transcriber ?
 
+## Version 1.4.4:
+
+- Ajout de la traduction en vietnamien, un grand merci à Nguyen Anh Duc.
+- Nous avons adopté un nouveau système pour traduire le journal des modifications et le guide de l'utilisateur de Sound Transcriber. Vous trouverez plus d'informations dans le guide de l'utilisateur.
+- Correction d'un bug qui empêchait Sound Transcriber de télécharger correctement des vidéos YouTube.
+- Correction d'un bug empêchant Sound Transcriber d'arrêter correctement les téléchargements lorsque l'option "Conserver les fichiers téléchargés" était activée.
+- Correction d'un bug qui empêchait Sound Transcriber de correctement enregistrer les erreurs retournées par les services.
+- Amélioration du guide utilisateur de Sound Transcriber.
+
+Mis à niveau vers wxPython 4.2.2 et Python 3.12.7.
+
+## Version 1.4.3:
+
+- Quelques améliorations.
+
 ## Version 1.4.2:
 
 - Ajout de la traduction turque. Merci à Kadir öz.
 - Correction d'un bug lié au téléchargement depuis YouTube.
-- Quelques améliorations.
+- Correction d'un bug lié au téléchargement depuis YouTube.
 
 ## Version 1.4.1:
 
@@ -116,3 +131,4 @@ Cette version comprend plusieurs corrections de bogues et quelques nouvelles fon
 ## Version 1.0 :
 
 Version initiale.
+

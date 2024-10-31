@@ -1,8 +1,22 @@
 # Novedades en Sound Transcriber?
 
+## Versión 1.4.4:
+
+- Añadida traducción al Vietnamita, muchas gracias a Nguyen Anh Duc.
+- Realizada transición a un nuevo sistema para traducir el registro de cambios (novedades) y la Guía de usuario de Sound Transcriber. Se pueden encontrar más detalles en la guía de usuario.
+- Corregido un error que hacía que Sound Transcriber no descaragara correctamente vídeos de YouTube.
+- Corregido un error que impedía que Sound Transcriber pausara las descargas correctamente cuando la opción "Mantener ficheros descargados" estaba marcada.
+- Corregido un error que hacía que Sound Transcriber registrara incorrectamente los registros devueltos por los servicios.
+- Mejorada la guía de usuario de Sound Transcriber.
+- Actualizado a wxPython 4.2.2 y Python 3.12.7.
+
+## Versión 1.4.3:
+
+- Algunas mejoras.
+
 ## Versión 1.4.2:
 
-- Se añadió la traducción al turco. Gracias a Kadir öz.
+- Añadida traducción al turco. Gracias a Kadir öz.
 - Se corrigió un error relacionado con la descarga desde YouTube.
 - Algunas mejoras.
 
@@ -13,11 +27,11 @@
 ## Versión 1.4.0:
 
 - Añadido sistema de actualizaciones Beta. Se puede añadir desde los ajustes para recibir actualizaciones en fase Beta. Tenga en cuenta que estas actualizaciones pueden tener errores importantes. Podrá desactivar esta función y volver a la última versión estable en cualquier momento.
-- Añadida una opción para especificar el número de ficheros a convertir simultáneamente
+- Añadida una opción para especificar el número de ficheros a convertir simultáneamente.
 - Sound Transcriber no seguirá generando un archivo de registro (log) de manera automática. Se podrá activar la opción desde los ajustes cuando se encuentren errores y en ese momento repetir los pasos que provocaron el error. Por defecto, el log conservará los detalles del último paso, y los detalles de las operaciones anteriores serán eliminados cuando la opción se desactive.
 - Los archivos de registro (logs) ahora muestran más información.
-- La funcionalidad del botón de copiar ha sido mejorada. El botón de copiar estará habilitado mientras el campo de resultado tenga texto transcrito.
-- Añadida una opción de donaciones para los desarrolladores
+- La funcionalidad del botón de copiar se ha mejorado. El botón de copiar estará habilitado mientras el campo de resultado tenga texto transcrito.
+- Añadida una opción de donaciones para los desarrolladores.
 - Se ha intentado minimizar los errores devueltos por el servicio de Google.
 - Corregidos varios errores, en particular algunos relacionados con pausar y reanudar el proceso de transcripción.
 - Actualizada la guía de usuario para que ahora incluya detalles de traducción, actualizaciones Beta y otra información importante. Recomendamos su consulta para conocer las últimas novedades.
@@ -110,9 +124,10 @@ Esta versión incluye varias correcciones de errores y algunas funciones nuevas.
 - Se ha corregido un error que impedía convertir archivos con un idioma distinto del idioma principal mediante Wit.ai.
 - Se ha corregido un error que impedía restaurar la configuración predeterminada.
 - Se ha ajustado el diseño del cuadro de diálogo de configuración para mostrar los elementos correctamente.
-- Mejoras a la traducción árabe
+- Mejoras a la traducción árabe.
 - Corrección de errores menores.
 
 ## Versión 1.0:
 
-Versión inicial
+Versión inicial.
+

@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 11:13+0300\n"
+"PO-Revision-Date: 2024-10-29 00:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid ""
+"Please consider supporting the developers of this program by making a "
+"donation. Your contribution helps us continue to improve and maintain the "
+"software for you and others.\n"
+"Thank you for your generosity!"
+msgstr ""
+"Xin hãy cân nhắc hỗ trợ các nhà phát triển của chương trình này bằng cách "
+"quyên góp. Đóng góp của bạn giúp chúng tôi tiếp tục cải thiện và duy trì "
+"phần mềm cho bạn và những người khác.\n"
+"Cảm ơn sự hào phóng của bạn!"
+
+msgid "&Donate via PayPal"
+msgstr "&Quyên góp qua PayPal"
+
+msgid "&Or donate from inside Egypt via Vodafone Cash:"
+msgstr "&Hoặc quyên góp từ bên trong Ai Cập thông qua Vodafone Cash:"
+
+msgid "&Copy Vodafone Cash Number"
+msgstr "&Sao chép Số Vodafone Cash"
+
+msgid "&Not now"
+msgstr "&Không phải bây giờ"
+
+msgid "Information"
+msgstr "Thông tin"
+
+msgid "Vodafone Cash number copied to clipboard."
+msgstr "Đã sao chép Số Vodafone Cash vào khay nhớ tạm."
+
+msgid "&OK"
+msgstr "&OK"
+
+msgid "Extracting text..."
+msgstr "Đang trích xuất văn bản..."
+
+msgid "An error occurred. Please contact support for assistance."
+msgstr "Đã xảy ra lỗi. Vui lòng liên hệ hỗ trợ để được trợ giúp."
+
+msgid "Save As Text File"
+msgstr "Lưu dưới dạng tập tin văn bản"
+
+msgid "Save As Word File"
+msgstr "Lưu dưới dạng tập tin Word"
+
+msgid "Save As Subtitle File"
+msgstr "Lưu dưới dạng tập tin phụ đề"
+
+msgid "Open"
+msgstr "Mở"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Save As"
+msgstr "Lưu dưới dạng"
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Open LOG File"
+msgstr "Mở Tập tin LOG"
+
+msgid "Exit"
+msgstr "Thoát"
+
+msgid "User Guide"
+msgstr "Hướng dẫn sử dụng"
+
+msgid "What's new"
+msgstr "Có gì mới"
+
+msgid "Check for Updates"
+msgstr "Kiểm tra bản cập nhật"
+
+msgid "Contact us"
+msgstr "Liên hệ với chúng tôi"
+
+msgid "Donate"
+msgstr "Quyên góp"
+
+msgid "Open Repository"
+msgstr "Mở kho lưu trữ"
+
+msgid "About"
+msgstr "Về"
+
+msgid "File"
+msgstr "Tập tin"
+
+msgid "Services"
+msgstr "Dịch vụ"
+
+msgid "Help"
+msgstr "Trợ giúp"
+
+msgid "File/Link:"
+msgstr "Tập tin/Liên kết:"
+
+msgid "Browse"
+msgstr "Duyệt"
+
+msgid "Result:"
+msgstr "Kết quả:"
+
+msgid "Waiting for conversion to start..."
+msgstr "Đang chờ quá trình chuyển đổi bắt đầu..."
+
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+msgid "Start"
+msgstr "Bắt đầu"
+
+msgid "Stop"
+msgstr "Dừng"
+
+msgid "Copy Content"
+msgstr "Sao chép nội dung"
+
+msgid "Version: {} beta."
+msgstr "Phiên bản: {} beta."
+
+msgid "Version: {}."
+msgstr "Phiên bản: {}."
+
+msgid ""
+"Name: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber is an accessible audio-to-text conversion program designed "
+"to transcribe audio and video files.\n"
+"it offers support for extracting subtitle files and more.\n"
+"Developed by: Mahmoud Atef, Ahmed Bakr and Qais Alrefai from the TecWindow "
+"team."
+msgstr ""
+"Tên: Sound Transcriber.\n"
+"{}\n"
+"Sound Transcriber là một chương trình chuyển đổi âm thanh thành văn bản dễ "
+"sử dụng, được thiết kế để chuyển đổi các tập tin âm thanh và video.\n"
+"nó cung cấp hỗ trợ trích xuất các tập tin phụ đề và hơn thế nữa.\n"
+"Được phát triển bởi: Mahmoud Atef, Ahmed Bakr và Qais Alrefai từ nhóm "
+"TecWindow."
+
+msgid "{} Selected."
+msgstr "Đã chọn."
+
+msgid ""
+"You are about to transcribe a new file.\n"
+"This will replace the current conversion result.\n"
+"It is recommended to save the current result before continuing.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Bạn đang sắp phiên âm một tập tin mới.\n"
+"Điều này sẽ thay thế kết quả hiện tại.\n"
+"Khuyến nghị nên lưu kết quả hiện tại trước khi tiếp tục.\n"
+"Bạn có chắc muốn tiếp tục không?"
+
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgid "&No"
+msgstr "&Không"
+
+msgid "&Yes"
+msgstr "&Có"
+
+msgid "Auto Detect"
+msgstr "Tự động Phát hiện"
+
+msgid ""
+"The file {} was found in your clipboard.\n"
+"What do you want to do?"
+msgstr ""
+"Đã tìm thấy tập tin trong khay nhớ tạm của bạn.\n"
+"Bạn muốn làm gì?"
+
+msgid "&Convert the file"
+msgstr "&Chuyển đổi tập tin"
+
+msgid "&Ignore the file"
+msgstr "&Bỏ qua tập tin"
+
+msgid "&Paste only"
+msgstr "&Chỉ dán"
+
+msgid "Please wait..."
+msgstr "Vui lòng chờ..."
+
+msgid "Pause"
+msgstr "Tạm dừng"
+
+msgid "Finished."
+msgstr "Hoàn thành."
+
+msgid "Extracting text has been finished."
+msgstr "Trích xuất văn bản hoàn tất."
+
+msgid "The text has been successfully extracted."
+msgstr "Văn bản đã được trích xuất thành công."
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Resume"
+msgstr "Tiếp tục"
+
+msgid "Paused."
+msgstr "Đã tạm dừng."
+
+msgid ""
+"Are you sure you want to cancel the process?\n"
+"Cancellation at this stage will result in the loss of progress."
+msgstr ""
+"Bạn có chắc muốn hủy quá trình không?\n"
+"Hủy ở giai đoạn này sẽ mất tiến độ."
+
+msgid "Confirm"
+msgstr "Xác nhận"
+
+msgid "This version is not supported anymore."
+msgstr "Phiên bản này không còn được hỗ trợ."
+
+msgid "Failed to connect to the server."
+msgstr "Không thể kết nối với máy chủ."
+
+msgid "There is no API key for this service."
+msgstr "Không có khóa API cho dịch vụ này."
+
+msgid "Downloading..."
+msgstr "Đang tải xuống..."
+
+msgid "Splitting file..."
+msgstr "Đang chia tách tập tin..."
+
+msgid "Connection Error"
+msgstr "Lỗi kết nối"
+
+msgid ""
+"There is a text extraction in progress, closing Sound Transcriber will "
+"cancel it.\n"
+"Do you still want to close Sound Transcriber?"
+msgstr ""
+"Đang trích xuất văn bản, đóng Sound Transcriber sẽ hủy bỏ quá trình.\n"
+"Bạn vẫn muốn đóng Sound Transcriber?"
+
+msgid ""
+"The text extracted has not yet been saved.\n"
+"What would you like to do?"
+msgstr ""
+"Văn bản đã trích xuất chưa được lưu.\n"
+"Bạn muốn làm gì?"
+
+msgid "&Don't Save"
+msgstr "&Không lưu"
+
+msgid "&Save"
+msgstr "&Lưu"
+
+msgid "&Cancel"
+msgstr "&hủy"
+
+msgid "File Not Found"
+msgstr "Không tìm thấy tập tin"
+
+msgid "The file ffmpeg.exe was not found."
+msgstr "Không tìm thấy tập tin ffmpeg.exe."
+
+msgid "Error converting audio file."
+msgstr "Lỗi chuyển đổi tập tin âm thanh."
+
+msgid "Sound Transcriber Settings"
+msgstr "Cài đặt Sound Transcriber"
+
+msgid "General"
+msgstr "Tổng quan"
+
+msgid "Save Options"
+msgstr "Tùy chọn lưu"
+
+msgid "Interface Language:"
+msgstr "Ngôn ngữ giao diện:"
+
+msgid "Service:"
+msgstr "Dịch vụ:"
+
+msgid "Files to transcrib simultaneously:"
+msgstr "Các tập tin để trích xuất đồng thời:"
+
+msgid "Auto Detect if There Is A File In The Clipboard"
+msgstr "Tự động phát hiện nếu có tập tin trong khay nhớ tạm"
+
+msgid "Ask What To Do When A File is Detected in The Clipboard"
+msgstr "Hỏi phải làm gì khi phát hiện tập tin trong khay nhớ tạm"
+
+msgid "Sounds"
+msgstr "Âm thanh"
+
+msgid "Speak Actions"
+msgstr "Nói hành động"
+
+msgid "Automatically Check for updates"
+msgstr "Tự động kiểm tra bản cập nhật"
+
+msgid "Include beta versions When checking for Updates"
+msgstr "Bao gồm các phiên bản beta khi kiểm tra bản cập nhật"
+
+msgid "Enable Logging"
+msgstr "Bật ghi nhật kí"
+
+msgid "&Restore Default Settings"
+msgstr "&Khôi phục cài đặt mặc định"
+
+msgid "Auto Save Files"
+msgstr "Tự động lưu tập tin"
+
+msgid "Save Path:"
+msgstr "Đường dẫn lưu:"
+
+msgid "Keep downloaded files"
+msgstr "Giữ các tập tin đã tải xuống"
+
+msgid "Secret Key:"
+msgstr "Khóa bí mật:"
+
+msgid "&Add"
+msgstr "&Thêm"
+
+msgid "&Edit"
+msgstr "&Chỉnh sửa"
+
+msgid "Segment Duration (In Seconds):"
+msgstr "Thời lượng phân đoạn (tính bằng giây):"
+
+msgid "Current Languages:"
+msgstr "Ngôn ngữ hiện tại:"
+
+msgid "&Delete"
+msgstr "&Xóa bỏ"
+
+msgid "Delete All &Keys"
+msgstr "Xóa Tất cả &Các khóa"
+
+msgid "Choose audio format:"
+msgstr "Chọn định dạng âm thanh:"
+
+msgid "Choose the folder path."
+msgstr "Chọn đường dẫn thư mục."
+
+msgid "Are you sure you want to delete all the keys?"
+msgstr "Bạn có chắc muốn xóa tất cả các khóa không?"
+
+msgid "Are you sure you want to delete the {} key?"
+msgstr "Bạn có chắc muốn xóa khóa không?"
+
+msgid ""
+"Are you sure you want to reset all settings?\n"
+"The program will restart."
+msgstr ""
+"Bạn có chắc muốn đặt lại tất cả cài đặt không?\n"
+"Chương trình sẽ khởi động lại."
+
+msgid ""
+"You must restart Sound Transcriber for the new language to take effect.\n"
+"Do you want to restart the program now?"
+msgstr ""
+"Bạn phải khởi động lại Sound Transcriber để ngôn ngữ mới có hiệu lực.\n"
+"Bạn có muốn khởi động lại chương trình ngay bây giờ không?"
+
+msgid "Language Selection"
+msgstr "Lựa chọn ngôn ngữ"
+
+msgid "You are using an incorrect API key."
+msgstr "Bạn đang sử dụng khóa API không chính xác."
+
+msgid "An error occurred while extracting the text."
+msgstr "Đã xảy ra lỗi trong khi trích xuất văn bản."
+
+msgid ""
+"There is no  network connection.\n"
+"Try to connect to the network, then try again"
+msgstr ""
+"Không có kết nối internet.\n"
+"Hãy thử kết nối với internet, sau đó thử lại"
+
+msgid ""
+"An error occurred.\n"
+"Please try again later."
+msgstr ""
+"Đã xảy ra lỗi.\n"
+"Vui lòng thử lại sau."
+
+msgid ""
+"You are using Sound Transcriber version {} beta, which is the latest version."
+msgstr ""
+"Bạn đang sử dụng phiên bản Sound Transcriber {} beta, đây là phiên bản mới "
+"nhất."
+
+msgid ""
+"You are using Sound Transcriber version {}, which is the latest version."
+msgstr ""
+"Bạn đang sử dụng Sound Transcriber phiên bản {}, đây là phiên bản mới nhất."
+
+msgid "No update available"
+msgstr "Không có bản cập nhật nào"
+
+msgid "Update Available"
+msgstr "Bản cập nhật có sẵn"
+
+msgid "Sound Transcriber version {} beta is available."
+msgstr "Sound Transcriber phiên bản {} beta hiện có sẵn."
+
+msgid "Sound Transcriber version {} is available."
+msgstr "Sound Transcriber phiên bản {} hiện có sẵn."
+
+msgid "What's new in Sound Transcriber version {}?"
+msgstr "Có gì mới trong Sound Transcriber phiên bản {}?"
+
+msgid "&Update"
+msgstr "&Cập nhật"
+
+msgid "An error occurred while downloading the file."
+msgstr "Đã xảy ra lỗi khi tải xuống tập tin."

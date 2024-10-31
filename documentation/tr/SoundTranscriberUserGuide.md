@@ -1,23 +1,24 @@
-# Sound Transcriber Kullanıcı Kılavuzu
+# Sound Transcriber Kullan  ı  c  ı   K  ı  lavuzu
 
-Bu kullanıcı kılavuzu, Sound Transcriber'ı kapsamlı bir şekilde anlamanızı ve özelliklerinden en iyi şekilde yararlanmanızı sağlamayı amaçlamaktadır.
+Bu kullan  ı  c  ı   k  ı  lavuzu, Sound Transcriber'  ı   kapsaml  ı   bir   ş  ekilde anlaman  ı  z  ı   ve özelliklerinden en iyi şekilde yararlanmanızı sağlamayı amaçlamaktadır.
 
 Programın optimal kullanımı için bu kılavuzu okumanızı şiddetle tavsiye ederiz.
 
-## Sound Transcriber'a Giriş
+## Sound Transcriber'a Giriş:
 
 Sound Transcriber, ses ve video dosyalarını metne dönüştürmek için tasarlanmış erişilebilir bir ses-metin dönüştürme programıdır. Altyazı dosyalarını çıkarma ve daha fazlasını destekler.
 
 Mahmoud Atef, Ahmed Bakr ve Qais Alrefai tarafından TecWindow ekibinde geliştirilmiştir.
 
-## Özellikler
+## Özellikler:
 
 Sound Transcriber aşağıdaki özellikleri sunar:
 
 - Çeşitli transkripsiyon hizmetleri kullanarak ses ve video dosyalarının metne dönüştürülmesi.
 - Dönüşüm sonuçlarını .txt, .doc dosyaları veya .SRT altyazı dosyaları olarak kaydetme.
+- YouTube, Facebook ve X gibi platformlardan videoları doğrudan dosyayı indirerek dönüştürün; dosyayı kolay erişim ve gelecekteki kullanım için kaydetme seçeneğiyle birlikte.
 
-## Planlanan Özellikler
+## Planlanan Özellikler:
 
 Geliştirme aşamasında olan birkaç özellik:
 
@@ -25,11 +26,11 @@ Geliştirme aşamasında olan birkaç özellik:
 - Sözlüklerle yazım denetimi fonksiyonu.
 - Sonuçların metin-okuma motorları kullanılarak sese dönüştürülmesi.
 
-## Desteklenen Hizmetler
+## Desteklenen Hizmetler:
 
 Yazılım şu anda yalnızca Google'ın konuşma tanıma, OpenAI'nin Whisper ve Meta'nın wit.ai hizmetleriyle çevrimiçi dönüşümü desteklemektedir.
 
-## Önemli Notlar
+## Önemli Notlar:
 
 Lütfen aşağıdaki önemli bilgileri dikkate alın:
 
@@ -41,20 +42,28 @@ Lütfen aşağıdaki önemli bilgileri dikkate alın:
 - Dönüştürmeden önce dosyalar, her hizmetin sınırlamalarına bağlı olarak 60 saniyeye kadar olan parçalara bölünür. Bu nedenle, bazı kelimeler bu işlem sırasında kaybolabilir. Optimal sonuçlar elde etmek için, hizmetlerin izin verdiği sessizlik süresi, dosya uzunluğu ve parça süresi baz alınarak parça süresini ayarlamanızı öneririz.
 - .srt dosyaları ile optimal sonuçlar için, parçalar için kısa bir süre, örneğin 5 saniye, seçmenizi öneririz.
 - Sound Transcriber, [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) ve [Microsoft Visual C++ 2013 Redistributable X64](https://aka.ms/highdpimfc2013x64enu) gerektirir. Program sizde çalışmıyorsa, lütfen gerekli dosyaları indirmek ve yüklemek için önceki bağlantıları kullanın.
-- Sound Transcriber şu anda Arapça, İngilizce, İspanyolca, Fransızca, Rusça ve Türkçe dillerini desteklemektedir.
+- Şu anda, Sound Transcriber aşağıdaki dilleri desteklemektedir: Arapça, İngilizce, İspanyolca, Fransızca, Rusça, Türkçe ve Vietnamca.
 - Sound Transcriber, yalnızca 64 bit sistemlerde Windows 8 ve üzeri ile uyumludur.
 
-## Desteklenen Dosya Uzantıları
+## Desteklenen Dosya Uzantıları:
 
 Sound Transcriber aşağıdaki dosya uzantılarını dönüşüm için destekler:
 
 .mp3, .wav, .aac, .flac, .oga, .opus, .mp4, .avi, .mkv, .mov, .m4a, .ogg, .ram, .rm, .wma, .wmv, .3gp, .flv.
 
-## API Anahtarlarının Alınması
+## API Anahtarlarının Alınması:
 
 ### Wit.ai:
 
-Program içinde bir API anahtarı eklemiş olsak, muhtemelen çok sayıda kullanıcı tarafından yaygın kullanım sonrası engellenirdi. Ayrıca, wit.ai her dil için ayrı API anahtarları sağlar. Bu, istenilen dilde bir uygulama oluşturmanız ve ilgili API anahtarını almanız gerektiği anlamına gelir. Ne yazık ki, bireysel tercihlere göre değişiklik gösterdikleri için tüm diller için API anahtarlarını toplamak mümkün değildir. Bu nedenle, size kendi özel API anahtarınızı nasıl alacağınız konusunda talimatlar vereceğiz. Aşağıdaki adımlar geniş görünebilir, ancak basittir ve yalnızca bir kez tamamlanmaları gerekmektedir.
+Program içinde bir API anahtarı eklemiş olsak, muhtemelen çok sayıda kullanıcı tarafından yaygın kullanım sonrası engellenirdi.
+
+Ayrıca, wit.ai her dil için ayrı API anahtarları sağlar. Bu, istenilen dilde bir uygulama oluşturmanız ve ilgili API anahtarını almanız gerektiği anlamına gelir.
+
+Ne yazık ki, bireysel tercihlere göre değişiklik gösterdikleri için tüm diller için API anahtarlarını toplamak mümkün değildir.
+
+Bu nedenle, size kendi özel API anahtarınızı nasıl alacağınız konusunda talimatlar vereceğiz.
+
+Aşağıdaki adımlar geniş görünebilir, ancak basittir ve yalnızca bir kez tamamlanmaları gerekmektedir.
 
 - [wit.ai web sitesini](https://wit.ai) açın.
 - "Meta ile Devam Et" seçeneğine tıklayarak Meta hesabınızla giriş yapın.
@@ -66,6 +75,7 @@ Program içinde bir API anahtarı eklemiş olsak, muhtemelen çok sayıda kullan
 - Oluşturduğunuz uygulamanın adını bulun, üzerine tıklayın ve ardından "Yönetim" düğmesine gidin.
 - Bu düğmeye ulaştığınızda, ayarlar düğmesini bulmak için b tuşuna basın. Bu düğmeye basın.
 - Müşteri Erişim Simgesi adlı bir başlık bulana kadar ekran okuyucu kullanıcıları için numara 4 veya h tuşlarıyla hareket edin, aşağı kaydırın ve anahtarınızı bir düğme olarak bulacaksınız. Metni manuel olarak seçip kopyalayabilir veya aynı düğmeye basarak otomatik olarak kopyalayabilirsiniz.
+- Sound Transcriber'a geri dönün ve API anahtarınızı sağlanan alana yapıştırın.
 - Sound Transcriber'a geri dönün ve API anahtarınızı sağlanan alana yapıştırın.
 
 Bu adımları tekrarlayarak farklı bir adla yeni bir uygulama oluşturup başka bir dilde transkripsiyon yapmak için bir API anahtarı alabilirsiniz. wit.ai ile birden fazla dil kullanmak istiyorsanız, her dil için bir API anahtarı almak üzere adımları tekrarlayın.
@@ -80,7 +90,7 @@ Sınırlamalar ve abonelik seçenekleri hakkında ayrıntılı bilgi almak için
 
 Sound Transcriber için bir API anahtarı almak üzere, [API anahtarları sayfasına](https://platform.openai.com/account/api-keys) gidin ve "Yeni gizli anahtar oluştur" seçeneğine tıklayın. Oluşturulan anahtarı kopyalayın ve daha sonra program ayarlarına ekleyin.
 
-## Sound Transcriber Arayüzü
+## Sound Transcriber Arayüzü:
 
 Programı açtığınızda, dönüştürülen sonucu gösteren bir düzenleme kutusu bulacaksınız. Diğer seçenekler arasında gezinmek için sekme tuşunu kullanın.
 
@@ -121,9 +131,11 @@ Program, Alt tuşuna basarak erişilebilen birkaç menü içerir.
 - Ne yeni: Sound Transcriber değişiklik günlüğünü görüntüleyin.
 - Güncelleme Kontrolü: Program güncellemelerini arayın.
 - Bizimle iletişime geç: Program geliştiricileriyle iletişim kurma seçeneklerini içeren menüyü görüntüleyin.
+- Bağış Yap: Sound Transcriber geliştiricilerine bağış yapın.
+- Açık Depo: Sound Transcriber deposunu GitHub'da açar, program açık kaynak değildir.
 - Hakkında: Sound Transcriber hakkında bilgi sağlar.
 
-## Sound Transcriber Ayarları
+## Sound Transcriber Ayarları:
 
 NVDA ekran okuyucu ayarlarına benzer şekilde, Sound Transcriber ayarları çeşitli bölümlere ayrılmıştır ve her biri çeşitli seçenekler içerir. Bölümler arasında yukarı ve aşağı ok tuşlarını kullanarak gezinebilirsiniz. Seçili bölümdeki seçenekler arasında gezinmek için Sekme ve Shift+Sekme tuşlarını kullanın.
 
@@ -133,7 +145,7 @@ Bu bölüm, program genelinde geçerli olan çeşitli seçenekleri içerir:
 
 - Arayüz Dili: Programın dilini belirtin.
 - Servis: Dosya dönüştürme için kullanılan hizmeti tanımlayın.
-- Aynı anda dönüştürülecek dosyalar: Bu özellik, aynı anda kaç dosyanın dönüştürüleceğini belirlemenize olanak tanır.
+- Aynı anda dönüştürülecek dosyalar: Bu özellik, aynı anda kaç dosyanın dönüştürüleceğini belirlemenize olanak tanır. Bu özellik, aynı anda transkribe edilecek dosya sayısını belirtmenizi sağlar.
 - Pano'da dosya olup olmadığını otomatik algıla: Program başlatıldığında panonuzu kontrol eder ve desteklenen bir dosya bulursa, hızlı dönüşüm için yolunu otomatik olarak seçer.
 - Pano'da bir dosya algılandığında ne yapılacağını sor: Etkinleştirilirse, program algılanan dosyayla nasıl başa çıkılacağını size sorar.
 - Sesler: Dönüşüm başladığında ve bittiğinde uyarı seslerini etkinleştirin.
@@ -166,7 +178,7 @@ Bu hizmet için maksimum segment süresi bir dakikadır.
 
 Bu bölüm, önceki hizmete benzer şekilde bir API anahtarı girmenize olanak tanır. Ancak, OpenAI kullanıldığında her dosyanın maksimum uzunluğu 30 saniyedir.
 
-### Wit.ai:
+### Wit.ai:.
 
 Wit.ai dilleri API anahtarlarına göre ayırdığı için, bu bölümde dilleri birleştirme olanağı sağlar:
 
@@ -185,6 +197,8 @@ Bu hizmetle ilişkili kaydedilmiş anahtarları tek tek veya toplu olarak silmek
 Ses formatını seçin: Dönüştürme sırasında kullanılacak dosya uzantısını belirtmek için ogg veya mp3 seçin. İnternet bağlantınız kötüyse wav'ı seçin.
 
 Son olarak, her dosya parçasının süresini 4 ila 20 saniye arasında belirtebilirsiniz. En iyi sonuçları veren süreyi seçin.
+
+Ayarları yaptıktan sonra Tamam'a basın.
 
 Ayarları yaptıktan sonra Tamam'a basın.
 
@@ -223,7 +237,7 @@ Ayrıca Facebook, Twitter (X), Youtube, SoundCloud gibi sitelerden video bağlan
 
 Sağlanan kısayolları kullanarak veya ayarlarda ayarlayarak istenilen dili ve hizmeti seçin. Dönüşümü başlatmak için "Başlat" düğmesine basın veya Ctrl+Enter kısayolunu kullanın.
 
-Windows + R tuşlarına basarak Çalıştır iletişim kutusunu açıp st yazarak Sound Transcriber'ı açabileceğinizi biliyor muydunuz?
+Windows + R tuşlarına basarak Çalıştır iletişim kutusunu açıp st yazarak Sound Transcriber'ı açabileceğinizi biliyor muydunuz.
 
 ### Notlar:
 
@@ -261,15 +275,34 @@ Sound Transcriber şu anda yalnızca arayüz seçeneklerinde ve kullanıcı kıl
 
 Bununla birlikte, programı ana dilinize çevirmek isteyen herkesi memnuniyetle karşılıyoruz.
 
+### Arayüz çevirisi:
+
 Arayüz seçeneklerinin çevirisi öncelikle .po dosyalarına dayanır ve Poedit programı kullanılarak düzenlenebilir. Poedit'i resmi web sitesinden indirip, Sound Transcriber deposuna GitHub'da veya cihazınızdaki program klasörüne gidin. Daha sonra messages.pot dosyasını bulun ve Poedit'te açın. Buradan, dizeleri tercih ettiğiniz dile çevirebilir, dosyayı kaydedebilir (bu, hem .po hem de .mo dosyaları oluşturur) ve bu dosyaları bizimle paylaşabilirsiniz.
+
+### Test çevirisi:## Nasıl Çevirilir:
 
 Sound Transcriber, yeni çevirileri tanıyabilir ve siz çevirinizi göndermeden önce test etmenize olanak tanır. Bunu yapmak için, Languages klasörüne gidin, dilinizin koduyla (dilin ilk iki harfi) bir klasör oluşturun, ardından LC\_MESSAGES adlı bir alt klasör oluşturun ve .po ve .mo dosyalarını içine yerleştirin. Dosyaları SoundTranscriber.po ve SoundTranscriber.mo olarak adlandırmayı unutmayın.
 
-Kullanıcı Kılavuzu ve Güncellemeler dosyasının çevirisi zorunlu olmamakla birlikte, GitHub'da Sound Transcriber deposunda bulunan Markdown dosyalarını çevirip bizimle paylaşma seçeneğiniz vardır.
+### Dokümantasyon çevirisi:## Nasıl Çevirilir:
 
-Kullanıcı Kılavuzu ve Güncellemeler dosyasını çevirmemeyi seçerseniz, Sound Transcriber onları İngilizce olarak gösterecektir.
+Güncelleme günlüğü ve kullanıcı kılavuzunun çevirisi zorunlu olmamakla birlikte, bunları .pot dosyalarını kullanarak kendi dilinize çevirebilirsiniz.
 
-Yazılım çevirisi devam eden bir çalışmadır ve yeni içerikleri çevirebilmeniz için güncellemeler yayınlamadan önce sizinle iletişime geçeceğiz.
+.md dosyalarını .pot dosyalarını oluşturmak için kullanıyoruz, ardından bunları çevirmenlere gönderiyoruz. Daha sonra, çevirmenlerden aldığımız .po dosyalarını tekrar .md dosyalarına ve ardından programla birlikte eklemek için .html dosyalarına dönüştürüyoruz.
+
+Bu, el kitabının ve değişiklik günlüğünün herhangi bir bölümünde düzeltmeler yapmamıza olanak tanır ve bu düzeltmelerin tüm desteklenen dillerde tutarlı bir şekilde uygulanmasını sağlar. Ayrıca, farklı dillerdeki dosyaların tam olarak aynı format ve yapıda kalmasını garanti eder.
+
+Dosyaları çevirmek için bu adımları izleyin:
+
+- .pot dosyalarını GitHub'daki depodan veya Sound Transcriber dizinindeki Dokümantasyon klasöründen alın.
+- Poedit kullanarak çevirin.
+- Bazı ifadelerin ek noktalarla tekrarlandığını görebilirsiniz. Bu, ifadeleri ayırt etmek ve doğru pozisyonlarda kalmalarını sağlamak için kullanılır. Aynı sayıda nokta ekleyin, biz çeviriyi entegre ederken bunları kaldıracağız.
+- Metinlerin doğru sırada görünmeyebileceğini unutmayın eğer çeviri eksikse. Doğru bir şekilde çevrildikten sonra, dosyayı yeniden açarak metinleri doğru sırada görebilirsiniz.
+- Son olarak, dosyalarınızı bizimle paylaşın.
+
+### Notlar:
+
+- Kullanıcı Kılavuzu ve Güncellemeler dosyasını çevirmemeyi seçerseniz, Sound Transcriber onları İngilizce olarak gösterecektir.
+- Yazılım çevirisi devam eden bir çalışmadır ve yeni içerikleri çevirebilmeniz için güncellemeler yayınlamadan önce sizinle iletişime geçeceğiz.
 
 ## Sound Transcriber web sitesi:
 
@@ -293,3 +326,4 @@ Sound Transcriber içinde iletişim listemize erişemiyorsanız, aşağıdaki e-
 - Sound Transcriber'ı İspanyolcaya çeviren Georgiana Frincu'ya teşekkür ederiz.
 - Sound Transcriber'ı Rusçaya çeviren Danil'e teşekkür ederiz.
 - Sound Transcriber'ı Türkçeye çeviren Kadir öz'e teşekkür ederiz.
+- Sound Transcriber'ı Vietnamca'ya çevirdiği için Nguyen Anh Duc'a çok teşekkürler.

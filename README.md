@@ -5,7 +5,7 @@ Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
 ## Download:
 
-[download Sound Transcriber version 1.4.3.](https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.3/SoundTranscriberSetupV1.4.3.exe)
+[download Sound Transcriber version 1.4.4.](https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.4/SoundTranscriberSetupV1.4.4.exe)
 
 ## Sound Transcriber User Guide.
 
@@ -13,18 +13,19 @@ This user guide aims to provide you with a comprehensive understanding of Sound 
 
 We highly recommend reading this guide to ensure optimal usage of the program.
 
-## Introduction to Sound Transcriber
+## Introduction to Sound Transcriber:
 
 Sound Transcriber is an accessible audio-to-text conversion program designed to transcribe audio and video files, it offers support for extracting subtitle files and more.
 
 Developed by Mahmoud Atef, Ahmed Bakr, and Qais Alrefai from the TecWindow team.
 
-## Features
+## Features:
 
 Sound Transcriber offers the following features:
 
 - Conversion of audio and video files to text using various transcription services.
 - Saving conversion results as .txt and .doc files or as .SRT subtitle files.
+- Convert videos from platforms like YouTube, Facebook, and X by downloading the file directly, with an option to save the file for easy access and future use.
 
 ## Planned features:
 
@@ -50,7 +51,7 @@ Please take note of the following important information:
 - Prior to conversion, files are split into segments of up to 60 seconds, depending on the limitations of each service. Consequently, some words may be lost during this process. To achieve optimal results, we recommend adjusting the segment duration based on the silence time, file length, and segment duration allowed by each service.
 - For optimal results with .srt files, we recommend selecting a short duration, such as 5 seconds, for the segments.
 - Sound Transcriber requires [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) and [Microsoft Visual C++ 2013 Redistributable X64.](https://aka.ms/highdpimfc2013x64enu) If the program does not work for you, please use the previous links to download and install the required files.
-- Currently, Sound Transcriber supports the following languages: Arabic, English, Spanish, French, Russian and Turkish.
+- Currently, Sound Transcriber supports the following languages: Arabic, English, Spanish, French, Russian, Turkish, And Vietnamese.
 - Sound Transcriber is compatible with Windows 8 and above, but only in 64-bit systems.
  
 ## Supported file extensions:
@@ -134,6 +135,8 @@ It contains the names of the services available for conversion, you can selecte 
 - What's new: View Sound Transcriber change log.
 - Check for Updates: Search for program updates.
 - Contact Us: Display menus with options to contact the program developers.
+- Donate: donate to the developers of Sound Transcriber.
+- Open Repository: Opens Sound Transcriber repository on GitHub, the program is not open source.
 - About: Provides information about Sound Transcriber.
 
 ## Sound Transcriber Settings:
@@ -146,7 +149,7 @@ This section includes various program-wide options:
 
 - Interface Language: Specify the program's language.
 - Service: Define the service used for file transcription.
-- Files to transcribe simultaneously: This feature allows you to specify the number of files to be transcribed simultaneously.
+- Files to transcribe simultaneously: This feature allows you to specify the number of files to be transcribed simultaneously. This feature controls the number of clips from the same file that will be sent simultaneously after it is split.
 - Auto detect if there is a file in the clipboard: The program checks your clipboard on startup, and if it finds a supported file, it automatically selects its path for quick conversion.
 - Ask what to do when a file is detected in the clipboard: If enabled, the program will prompt you on how to handle the detected file.
 - Sounds: Activate alert sounds when the conversion starts and ends.
@@ -276,15 +279,34 @@ While Sound Transcriber currently supports only a limited number of languages in
 
 However, we warmly welcome anyone interested in translating the program into their native language.
 
+### Interface translation:
+
 The translation of interface options primarily relies on .po files, which can be edited using the Poedit program. You can download Poedit from its official website, then navigate to the Sound Transcriber repository on GitHub or locate the program folder on your device. Next, locate the messages.pot file and open it in Poedit. From there, you can translate the strings into your preferred language, save the file (which will generate both a .po and a .mo file), and share these files with us.
+
+### Test translation:
 
 Sound Transcriber can recognize and accommodate new translations, allowing you to test your translation before submitting it to us. To do this, navigate to the Languages folder, create a folder with the code for your language (the first two letters of the language), then create a subfolder named LC_MESSAGES, and place the .po and .mo files inside. Don't forget to name the files as SoundTranscriber.po and SoundTranscriber.mo.
 
-While translation of the user guide and Sound Transcriber updates is not obligatory, you have the option to translate the Markdown files available on GitHub in the Sound Transcriber repository and then share them with us.
+### Documentation translation:
 
-If you choose not to translate the User Guide and Updates file, Sound Transcriber will display them in English.
+While translation of the update log and user guide is not mandatory, you can translate them into your language using .pot files.
 
-Software translation is an ongoing effort, and we will liaise with you before releasing new updates so you can translate any new content.
+We use .md files to create .pot files, which we then send to translators. After that, we convert the .po files we receive from the translators back into .md files and then into .html files to include with the program.
+
+This allows us to make corrections to any part of the manual and changelog, ensuring they are applied consistently across all supported languages. It also ensures that files in different languages remain in exactly the same format and structure.
+
+To translate files, follow these steps:
+
+- Get the .pot files from the repository on GitHub or from the Documentation folder in the Sound Transcriber directory.
+- Translate them using Poedit.
+- You may find some phrases repeated with additional periods. We use this to distinguish between phrases, ensuring they stay in the correct positions. Add the same number of periods, and we will remove them when incorporating the translation.
+- Note that the texts may not appear in the correct order if the translation is incomplete. Once translated correctly, reopen the file to view them in the correct order.
+- Finally, share your files with us.
+
+### notes:
+
+- If you choose not to translate the User Guide and Updates file, Sound Transcriber will display them in English.
+- Software translation is an ongoing effort, and we will liaise with you before releasing new updates so you can translate any new content.
 
 ## Sound Transcriber website:
 
@@ -308,3 +330,4 @@ If you are unable to access our contact list within Sound Transcriber, you can r
 - Many thanks to Georgiana Frincu for translating Sound Transcriber into Spanish.
 - Many thanks to Danil for translating Sound Transcriber into Russian.
 - Many thanks to Kadir öz for translating Sound Transcriber into Turkish.
+- Many thanks to Nguyen Anh Duc for translating Sound Transcriber into Vietnamese.
