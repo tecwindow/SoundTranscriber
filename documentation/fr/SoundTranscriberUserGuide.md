@@ -1,3 +1,5 @@
+Guide de l'utilisateur de Sound Transcriber version {}
+
 # Guide de l'utilisateur de Sound Transcriber
 
 Ce guide de l'utilisateur a pour but de vous fournir une compréhension complète de Sound Transcriber et de vous aider à tirer le meilleur parti de ses fonctionnalités.

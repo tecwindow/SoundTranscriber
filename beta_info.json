@@ -1,14 +1,16 @@
 {
-  "latest_version": "1.4.4",
+  "latest_version": "1.4.5",
   "release_notes": {
-    "Arabic": "- تمت إضافة الترجمة الفيتنامية، جزيل الشكر لNguyen Anh Duc.\n- تم الانتقال إلى نظام جديد لترجمة سجل التغييرات ودليل مستخدم Sound Transcriber. يمكن العثور على مزيد من التفاصيل في دليل المستخدم.\n- تم إصلاح خطأ كان يمنع Sound Transcriber من تنزيل فيديوهات YouTube بنجاح.\n- تم إصلاح خطأ كان يمنع Sound Transcriber من إيقاف التنزيل بشكل صحيح عند تفعيل خيار الاحتفاظ بالملفات التي تم تنزيلها.\n- تم إصلاح خطأ تسبب في قيام Sound Transcriber بتسجيل الأخطاء التي تعيدها الخدمات بشكل غير صحيح.\n- تم تحسين دليل مستخدم Sound Transcriber.\n- تمت الترقية إلى wxPython 4.2.2 و Python 3.12.7.",
-    "English": "Added Vietnamese translation, many thanks to Nguyen Anh Duc.\n- Transitioned to a new system for translating the changelog and Sound Transcriber User Guide. More details can be found in the User Guide.\n- Fixed a bug that prevented Sound Transcriber from successfully downloading YouTube videos.\n- Fixed a bug that prevented Sound Transcriber from stopping downloads correctly when the Keep Downloaded Files option was enabled.\n- Fixed a bug that caused Sound Transcriber to improperly log errors returned by services.\n- Improved Sound Transcriber user guide.\n- Upgraded to wxPython 4.2.2 and Python 3.12.7.",
-    "Spanish": "- Añadida traducción al Vietnamita, muchas gracias a Nguyen Anh Duc.\n- Realizada transición a un nuevo sistema para traducir el registro de cambios (novedades) y la Guía de usuario de Sound Transcriber. Se pueden encontrar más detalles en la guía de usuario.\n- Corregido un error que hacía que Sound Transcriber no descaragara correctamente vídeos de YouTube.\n- Corregido un error que impedía que Sound Transcriber pausara las descargas correctamente cuando la opción Mantener ficheros descargados estaba marcada.\n- Corregido un error que hacía que Sound Transcriber registrara incorrectamente los registros devueltos por los servicios.\n- Mejorada la guía de usuario de Sound Transcriber.\n- Actualizado a wxPython 4.2.2 y Python 3.12.7.",
-    "French": "- Ajout de la traduction en vietnamien, un grand merci à Nguyen Anh Duc.\n- Nous avons adopté un nouveau système pour traduire le journal des modifications et le guide de l'utilisateur de Sound Transcriber. Vous trouverez plus d'informations dans le guide de l'utilisateur.\n- Correction d'un bug qui empêchait Sound Transcriber de télécharger correctement des vidéos YouTube.\n- Correction d'un bug empêchant Sound Transcriber d'arrêter correctement les téléchargements lorsque l'option Conserver les fichiers téléchargés était activée.\n- Correction d'un bug qui empêchait Sound Transcriber de correctement enregistrer les erreurs retournées par les services.\n- Amélioration du guide utilisateur de Sound Transcriber.\nMis à niveau vers wxPython 4.2.2 et Python 3.12.7.",
-    "Russian": "- Добавлен вьетнамский перевод, большое спасибо Нгуен Ань Дуку.\n- Перешли на новую систему для перевода журнала изменений и руководства пользователя Sound Transcriber. Более подробную информацию можно найти в руководстве пользователя.\n- Исправлена ошибка, из-за которой Sound Transcriber не мог успешно загружать видео с YouTube.\n- Исправлена ошибка, из-за которой Sound Transcriber не мог правильно останавливать загрузки при включенной опции Сохранить загруженные файлы.\n- Исправлена ошибка, из-за которой Sound Transcriber некорректно регистрировал ошибки, возвращаемые сервисами.\n- Улучшено руководство пользователя Sound Transcriber.\n- Обновлено до wxPython 4.2.2 и Python 3.12.7.",
-    "Turkish": "- Vietnamca çeviri eklendi, Nguyen Anh Duc'a çok teşekkürler.\n- Değişiklik günlüğü ve Sound Transcriber Kullanıcı Kılavuzu için yeni bir çeviri sistemine geçildi. Daha fazla bilgi Kullanıcı Kılavuzu'nda bulunabilir.\n- Sound Transcriber'ın YouTube videolarını başarıyla indirmesini engelleyen bir hata düzeltildi.\n- İndirilen Dosyaları Sakla seçeneği etkin olduğunda Sound Transcriber'ın indirmeleri doğru bir şekilde durdurmasını engelleyen bir hata düzeltildi.\n- Sound Transcriber'ın hizmetler tarafından döndürülen hataları yanlış bir şekilde kaydetmesine neden olan bir hata düzeltildi.\n- Sound Transcriber kullanıcı kılavuzu geliştirildi.\n- wxPython 4.2.2 ve Python 3.12.7'ye güncellendi."
+    "ar": "- بعض التحسينات.",
+    "English": "- Some improvements.",
+    "en": "- Some improvements.",
+    "es": "- Algunas mejoras.",
+    "fr": "- Quelques améliorations.",
+    "ru": "-   Некоторые улучшения  .",
+    "tr": "- Bazı iyileştirmeler.",
+    "vi": "- Một số cải tiến."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/1.4.4/SoundTranscriberSetupV1.4.4.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/v1.4.5/SoundTranscriberSetupV1.4.5.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,
@@ -22,9 +24,10 @@
     "1.4.0": false,
     "1.4.1": false,
     "1.4.2": false,
-    "1.4.3": true,
+    "1.4.3": false,
     "1.4.4": true,
     "1.4.5": true,
+    "1.4.6": true,
     "1.5.0": true
   }
 }

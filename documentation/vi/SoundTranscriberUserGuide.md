@@ -1,3 +1,5 @@
+Hướng Dẫn Sử Dụng Sound Transcriber Phiên Bản {}
+
 # Hướng Dẫn Sử Dụng Sound Transcriber
 
 Hướng dẫn người dùng này nhằm cung cấp cho bạn một hiểu biết toàn diện về Sound Transcriber và giúp bạn tận dụng tối đa các tính năng của nó.

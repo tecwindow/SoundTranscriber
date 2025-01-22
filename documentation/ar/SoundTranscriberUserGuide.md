@@ -1,3 +1,5 @@
+دليل استخدام Sound Transcriber الإصدار {}
+
 # دليل استخدام Sound Transcriber
 
 سيرشدك هذا الدليل للحصول على أقصى استفادة من برنامج Sound Transcriber.

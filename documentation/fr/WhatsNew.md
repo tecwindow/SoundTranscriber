@@ -1,5 +1,9 @@
 # Quoi de neuf dans Sound Transcriber ?
 
+## Version 1.4.5:
+
+- Quelques améliorations.
+
 ## Version 1.4.4:
 
 - Ajout de la traduction en vietnamien, un grand merci à Nguyen Anh Duc.
@@ -13,7 +17,7 @@ Mis à niveau vers wxPython 4.2.2 et Python 3.12.7.
 
 ## Version 1.4.3:
 
-- Quelques améliorations.
+- Correction d'un bug lié au téléchargement depuis YouTube.
 
 ## Version 1.4.2:
 

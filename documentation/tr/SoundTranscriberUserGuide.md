@@ -1,4 +1,6 @@
-# Sound Transcriber Kullan  ı  c  ı   K  ı  lavuzu
+Sound Transcriber Sürüm {} Kullanıcı Kılavuzu
+
+# Sound Transcriber KullanıcıKılavuzu
 
 Bu kullan  ı  c  ı   k  ı  lavuzu, Sound Transcriber'  ı   kapsaml  ı   bir   ş  ekilde anlaman  ı  z  ı   ve özelliklerinden en iyi şekilde yararlanmanızı sağlamayı amaçlamaktadır.
 
@@ -16,7 +18,8 @@ Sound Transcriber aşağıdaki özellikleri sunar:
 
 - Çeşitli transkripsiyon hizmetleri kullanarak ses ve video dosyalarının metne dönüştürülmesi.
 - Dönüşüm sonuçlarını .txt, .doc dosyaları veya .SRT altyazı dosyaları olarak kaydetme.
-- YouTube, Facebook ve X gibi platformlardan videoları doğrudan dosyayı indirerek dönüştürün; dosyayı kolay erişim ve gelecekteki kullanım için kaydetme seçeneğiyle birlikte.
+
+YouTube, Facebook ve X gibi platformlardan videoları doğrudan dosyayı indirerek dönüştürün. Dosyayı kolay erişim ve gelecekteki kullanım için kaydetme seçeneğiyle.
 
 ## Planlanan Özellikler:
 
@@ -42,12 +45,14 @@ Lütfen aşağıdaki önemli bilgileri dikkate alın:
 - Dönüştürmeden önce dosyalar, her hizmetin sınırlamalarına bağlı olarak 60 saniyeye kadar olan parçalara bölünür. Bu nedenle, bazı kelimeler bu işlem sırasında kaybolabilir. Optimal sonuçlar elde etmek için, hizmetlerin izin verdiği sessizlik süresi, dosya uzunluğu ve parça süresi baz alınarak parça süresini ayarlamanızı öneririz.
 - .srt dosyaları ile optimal sonuçlar için, parçalar için kısa bir süre, örneğin 5 saniye, seçmenizi öneririz.
 - Sound Transcriber, [Microsoft Visual C++ 2015-2022 Redistributable X64](https://aka.ms/vs/17/release/vc_redist.x64.exe) ve [Microsoft Visual C++ 2013 Redistributable X64](https://aka.ms/highdpimfc2013x64enu) gerektirir. Program sizde çalışmıyorsa, lütfen gerekli dosyaları indirmek ve yüklemek için önceki bağlantıları kullanın.
-- Şu anda, Sound Transcriber aşağıdaki dilleri desteklemektedir: Arapça, İngilizce, İspanyolca, Fransızca, Rusça, Türkçe ve Vietnamca.
+
+Sound Transcriber şu anda Arapça, İngilizce, İspanyolca, Fransızca, Rusça, Türkçe ve Vietnamca dillerini desteklemektedir.
+
 - Sound Transcriber, yalnızca 64 bit sistemlerde Windows 8 ve üzeri ile uyumludur.
 
 ## Desteklenen Dosya Uzantıları:
 
-Sound Transcriber aşağıdaki dosya uzantılarını dönüşüm için destekler:
+Sound Transcriber dönüşüm için aşağıdaki dosya uzantılarını  destekler:
 
 .mp3, .wav, .aac, .flac, .oga, .opus, .mp4, .avi, .mkv, .mov, .m4a, .ogg, .ram, .rm, .wma, .wmv, .3gp, .flv.
 
@@ -131,8 +136,8 @@ Program, Alt tuşuna basarak erişilebilen birkaç menü içerir.
 - Ne yeni: Sound Transcriber değişiklik günlüğünü görüntüleyin.
 - Güncelleme Kontrolü: Program güncellemelerini arayın.
 - Bizimle iletişime geç: Program geliştiricileriyle iletişim kurma seçeneklerini içeren menüyü görüntüleyin.
-- Bağış Yap: Sound Transcriber geliştiricilerine bağış yapın.
-- Açık Depo: Sound Transcriber deposunu GitHub'da açar, program açık kaynak değildir.
+-bağıştabulun: sound transcriber geliştiricilerine bağışta bulunmanızı sağlar.
+- depoyu aç: sound transcriber github deposunu açar, program açık kaynak deyildir.
 - Hakkında: Sound Transcriber hakkında bilgi sağlar.
 
 ## Sound Transcriber Ayarları:
@@ -145,7 +150,9 @@ Bu bölüm, program genelinde geçerli olan çeşitli seçenekleri içerir:
 
 - Arayüz Dili: Programın dilini belirtin.
 - Servis: Dosya dönüştürme için kullanılan hizmeti tanımlayın.
-- Aynı anda dönüştürülecek dosyalar: Bu özellik, aynı anda kaç dosyanın dönüştürüleceğini belirlemenize olanak tanır. Bu özellik, aynı anda transkribe edilecek dosya sayısını belirtmenizi sağlar.
+
+Aynı anda dönüştürülecek dosyalar: Bu özellik, aynı anda kaç dosyanın dönüştürüleceğini ve bir dosya bölündükten sonra aynı anda kaç parçanın gönderileceğini kontrol etmenize olanak tanır.
+
 - Pano'da dosya olup olmadığını otomatik algıla: Program başlatıldığında panonuzu kontrol eder ve desteklenen bir dosya bulursa, hızlı dönüşüm için yolunu otomatik olarak seçer.
 - Pano'da bir dosya algılandığında ne yapılacağını sor: Etkinleştirilirse, program algılanan dosyayla nasıl başa çıkılacağını size sorar.
 - Sesler: Dönüşüm başladığında ve bittiğinde uyarı seslerini etkinleştirin.
@@ -275,29 +282,30 @@ Sound Transcriber şu anda yalnızca arayüz seçeneklerinde ve kullanıcı kıl
 
 Bununla birlikte, programı ana dilinize çevirmek isteyen herkesi memnuniyetle karşılıyoruz.
 
-### Arayüz çevirisi:
+### arayüz çevirisi:
 
 Arayüz seçeneklerinin çevirisi öncelikle .po dosyalarına dayanır ve Poedit programı kullanılarak düzenlenebilir. Poedit'i resmi web sitesinden indirip, Sound Transcriber deposuna GitHub'da veya cihazınızdaki program klasörüne gidin. Daha sonra messages.pot dosyasını bulun ve Poedit'te açın. Buradan, dizeleri tercih ettiğiniz dile çevirebilir, dosyayı kaydedebilir (bu, hem .po hem de .mo dosyaları oluşturur) ve bu dosyaları bizimle paylaşabilirsiniz.
 
-### Test çevirisi:## Nasıl Çevirilir:
+### çeviriyi testetme:
 
 Sound Transcriber, yeni çevirileri tanıyabilir ve siz çevirinizi göndermeden önce test etmenize olanak tanır. Bunu yapmak için, Languages klasörüne gidin, dilinizin koduyla (dilin ilk iki harfi) bir klasör oluşturun, ardından LC\_MESSAGES adlı bir alt klasör oluşturun ve .po ve .mo dosyalarını içine yerleştirin. Dosyaları SoundTranscriber.po ve SoundTranscriber.mo olarak adlandırmayı unutmayın.
 
-### Dokümantasyon çevirisi:## Nasıl Çevirilir:
+### dökümantasyon çevirisi:
 
-Güncelleme günlüğü ve kullanıcı kılavuzunun çevirisi zorunlu olmamakla birlikte, bunları .pot dosyalarını kullanarak kendi dilinize çevirebilirsiniz.
+Güncelleme günlüğü ve kullanıcı kılavuzunu dilinize çevirmek zorunlu değilse de, bunu .pot dosyalarını kullanarak yapabilirsiniz.
 
-.md dosyalarını .pot dosyalarını oluşturmak için kullanıyoruz, ardından bunları çevirmenlere gönderiyoruz. Daha sonra, çevirmenlerden aldığımız .po dosyalarını tekrar .md dosyalarına ve ardından programla birlikte eklemek için .html dosyalarına dönüştürüyoruz.
+.md dosyalarını kullanarak .pot dosyaları oluşturuyoruz ve bu dosyaları çevirmenlere gönderiyoruz. Çevirmenlerden aldığımız .po dosyalarını tekrar .md dosyalarına ve ardından .html dosyalarına dönüştürerek programa dahil ediyoruz.
 
-Bu, el kitabının ve değişiklik günlüğünün herhangi bir bölümünde düzeltmeler yapmamıza olanak tanır ve bu düzeltmelerin tüm desteklenen dillerde tutarlı bir şekilde uygulanmasını sağlar. Ayrıca, farklı dillerdeki dosyaların tam olarak aynı format ve yapıda kalmasını garanti eder.
+Bu, kılavuzun ve güncelleme günlüğünün herhangi bir bölümünde düzeltme yapmamıza ve bu düzeltmelerin tüm desteklenen dillerde tutarlı bir şekilde uygulanmasını sağlamamıza izin verir. Ayrıca, farklı dillerdeki dosyaların tam olarak aynı format ve yapıda kalmasını sağlar.
 
-Dosyaları çevirmek için bu adımları izleyin:
+Dosyaları çevirmek için şu adımları takip edin:
 
-- .pot dosyalarını GitHub'daki depodan veya Sound Transcriber dizinindeki Dokümantasyon klasöründen alın.
-- Poedit kullanarak çevirin.
-- Bazı ifadelerin ek noktalarla tekrarlandığını görebilirsiniz. Bu, ifadeleri ayırt etmek ve doğru pozisyonlarda kalmalarını sağlamak için kullanılır. Aynı sayıda nokta ekleyin, biz çeviriyi entegre ederken bunları kaldıracağız.
-- Metinlerin doğru sırada görünmeyebileceğini unutmayın eğer çeviri eksikse. Doğru bir şekilde çevrildikten sonra, dosyayı yeniden açarak metinleri doğru sırada görebilirsiniz.
-- Son olarak, dosyalarınızı bizimle paylaşın.
+- GitHub deposundan veya Sound Transcriber dizinindeki Documentation klasöründen .pot dosyalarını alın.
+- çevirmek için Poedit programını kullanın.
+- Bazı ifadelerin ek noktalarla tekrarlandığını görebilirsiniz. Bu, ifadeler arasında ayrım yapmak ve doğru konumlarında kalmalarını sağlamak için kullanılır. Aynı sayıda nokta ekleyin, biz çeviriyi dahil ederken bunları kaldıracağız.
+- Çeviri tamamlanmamışsa metinler doğru sırada görünmeyebilir. Doğru şekilde çevrildikten sonra, doğru sırayla görüntülemek için dosyayı yeniden açın.
+
+son olarak, dosyaları bizimle paylaşın.
 
 ### Notlar:
 
@@ -326,4 +334,6 @@ Sound Transcriber içinde iletişim listemize erişemiyorsanız, aşağıdaki e-
 - Sound Transcriber'ı İspanyolcaya çeviren Georgiana Frincu'ya teşekkür ederiz.
 - Sound Transcriber'ı Rusçaya çeviren Danil'e teşekkür ederiz.
 - Sound Transcriber'ı Türkçeye çeviren Kadir öz'e teşekkür ederiz.
-- Sound Transcriber'ı Vietnamca'ya çevirdiği için Nguyen Anh Duc'a çok teşekkürler.
+
+sound transcriber'i viyetnamcaya çeviren Nguyen Anh Duc' çok teşekkür ederiz.
+

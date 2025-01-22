@@ -1,3 +1,5 @@
+Sound Transcriber version {} User Guide
+
 # Sound Transcriber User Guide
 
 This user guide aims to provide you with a comprehensive understanding of Sound Transcriber and help you make the most of its features.

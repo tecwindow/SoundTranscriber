@@ -1,5 +1,9 @@
 # Có gì mới trong Sound Transcriber?
 
+## Phiên bản 1.4.5:
+
+- Một số cải tiến.
+
 ## Phiên bản 1.4.4:
 
 - Đã thêm bản dịch tiếng Việt, xin chân thành cảm ơn Nguyễn Anh Đức.

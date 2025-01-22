@@ -1,14 +1,18 @@
 # Sound Transcriber'deki Yenilikler?
 
-## Sürüm 1.4.4:
+##Sürüm  1.4.5:
 
-- Vietnamca çeviri eklendi, Nguyen Anh Duc'a çok teşekkürler.
-- Değişiklik günlüğü ve Sound Transcriber Kullanıcı Kılavuzu için yeni bir çeviri sistemine geçildi. Daha fazla bilgi Kullanıcı Kılavuzu'nda bulunabilir.
-- Sound Transcriber'ın YouTube videolarını başarıyla indirmesini engelleyen bir hata düzeltildi.
-- "İndirilen Dosyaları Sakla" seçeneği etkin olduğunda Sound Transcriber'ın indirmeleri doğru bir şekilde durdurmasını engelleyen bir hata düzeltildi.
-- Sound Transcriber'ın hizmetler tarafından döndürülen hataları yanlış bir şekilde kaydetmesine neden olan bir hata düzeltildi.
-- Sound Transcriber kullanıcı kılavuzu geliştirildi.
-- wxPython 4.2.2 ve Python 3.12.7'ye güncellendi.
+- Bazı iyileştirmeler.
+
+##Sürüm  1.4.4:
+
+- Viyetnamca çeviri eklendi,Nguyen Anh Duc'a çok teşekkür ederiz.
+- deyişiklik günlüğü ve kullanım kılavuzu için yeni bir çeviri sisremine geçiş yabıldı, dahafazla bilgiyi sound transcriber kullanım kılavuzunda bulabilirsiniz.
+- sound transcriberin youtube videolarını indirememesine sebep olan bir hata düzeltildi.
+- İndirilen Dosyaları Sakla" seçeneği etkinleştirildiğinde Sound Transcriber'ın indirmeleri doğru şekilde durdurmasını engelleyen bir hata düzeltildi.
+- sound transcriber'in servisler tarafından  döndürülen hataları yanlış şekilde günlüğe kaydetmesine neden olan bir hata düzeltildi.
+- sound transcriber kullanım kılavuzu geliştirildi.
+- wx python sürüm wxPython 4.2.2 ve python sürümPython 3.12.7 ye güncellendi.
 
 ## Sürüm 1.4.3:
 
