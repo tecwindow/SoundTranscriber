@@ -1,16 +1,16 @@
 {
-  "latest_version": "1.4.5",
+  "latest_version": "1.4.6",
   "release_notes": {
-    "ar": "- بعض التحسينات.",
-    "English": "- Some improvements.",
-    "en": "- Some improvements.",
-    "es": "- Algunas mejoras.",
-    "fr": "- Quelques améliorations.",
-    "ru": "-   Некоторые улучшения  .",
-    "tr": "- Bazı iyileştirmeler.",
-    "vi": "- Một số cải tiến."
+    "ar": "- لم يعد Sound Transcriber يتحقق من مفتاح API أثناء الإضافة بسبب بعض الأخطاء. سيتم إصلاح هذه الميزة لاحقًا.\n- تم تحديث إصدار Python إلى Python 3.13.\n- يمكنك الآن تثبيت Sound Transcriber على أجهزة ARM64.\n- تم تحديث yt-dlp لحل مشكلات التنزيل.\n- تم إصلاح خطأ متعلق بالترميز في ملف السجل.\n- تم تحديث الملحقات إلى أحدث الإصدارات.\n- بعض التحسينات.",
+    "English": "- Sound Transcriber no longer checks the API key during its addition due to some bugs; the feature will be fixed later.\n- Updated  Python version to Python 3.13.\n- You can now install Sound Transcriber on ARM64 devices.\n- Updated yt-dlp to resolve download issues.\n- Fixed an encoding-related bug with the log file.\n- Updated dependencies to the latest versions.\n- Some improvements.",
+    "en": "- Sound Transcriber no longer checks the API key during its addition due to some bugs; the feature will be fixed later.\n- Updated  Python version to Python 3.13.\n- You can now install Sound Transcriber on ARM64 devices.\n- Updated yt-dlp to resolve download issues.\n- Fixed an encoding-related bug with the log file.\n- Updated dependencies to the latest versions.\n- Some improvements.",
+    "es": "- Sound Transcriber ya no verifica la clave API durante su adición debido a algunos errores; esta función se corregirá más adelante.\n- Actualizada la versión de Python usada a Python 3.13.\n- Ahora puedes instalar Sound Transcriber en dispositivos ARM64.\n- Se actualizó yt-dlp para resolver problemas de descarga.\n- Se solucionó un error relacionado con la codificación en el archivo de registro.\n- Se actualizaron las dependencias a sus últimas versiones.\n- Algunas mejoras.",
+    "fr": "- Sound Transcriber ne vérifie plus la clé API lors de son ajout en raison de certains bugs ; cette fonctionnalité sera corrigée plus tard.\n- Mise à jour de la version de Python utilisée à Python 3.13.\n- Vous pouvez désormais installer Sound Transcriber sur les appareils ARM64.\n- Mise à jour de yt-dlp pour résoudre les problèmes de téléchargement.\n- Correction d’un bug lié à l’encodage dans le fichier journal.\n- Mises à jour des dépendances vers leurs dernières versions.\n- Quelques améliorations.",
+    "ru": "- Sound Transcriber больше не проверяет ключ API при добавлении из-за некоторых ошибок; эта функция будет исправлена позже.\n-   Обновлена используемая версия   Python   до   Python 3.13.\n- Теперь можно устанавливать Sound Transcriber на устройства ARM64.\n- Обновлён yt-dlp для устранения проблем со скачиванием.\n- Исправлена ошибка кодировки в лог-файле.\n- Обновлены зависимости до последних версий.\n-   Некоторые улучшения  .",
+    "tr": "- Sound Transcriber, bazı hatalar nedeniyle artık API anahtarını eklerken kontrol etmiyor; bu özellik daha sonra düzeltilecektir.\n- Python sürümü 3.13'e güncellendi.\n- Artık Sound Transcriber'ı ARM64 cihazlara kurabilirsiniz.\n- İndirme sorunlarını gidermek için yt-dlp güncellendi.\n- Günlük dosyasında kodlama ile ilgili bir hata düzeltildi.\n- Bağımlılıklar en son sürümlere güncellendi.\n- Bazı iyileştirmeler.",
+    "vi": "- Sound Transcriber hiện không kiểm tra khóa API khi thêm vào do một số lỗi; tính năng này sẽ được sửa sau.\n- Đã cập nhật phiên bản Python được sử dụng lên Python 3.13.\n- Bạn hiện có thể cài đặt Sound Transcriber trên thiết bị ARM64.\n- Cập nhật yt-dlp để khắc phục sự cố tải xuống.\n- Đã sửa lỗi liên quan đến mã hóa trong tệp nhật ký.\n- Cập nhật các thư viện phụ thuộc lên phiên bản mới nhất.\n- Một số cải tiến nhỏ."
   },
-  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/v1.4.5/SoundTranscriberSetupV1.4.5.exe",
+  "download_url": "https://github.com/tecwindow/SoundTranscriber/releases/download/v1.4.6/SoundTranscriberSetupV1.4.6.exe",
   "supported_versions": {
     "1.0.0": false,
     "1.1.0": false,
@@ -25,9 +25,10 @@
     "1.4.1": false,
     "1.4.2": false,
     "1.4.3": false,
-    "1.4.4": true,
+    "1.4.4": false,
     "1.4.5": true,
     "1.4.6": true,
+    "1.4.7": true,
     "1.5.0": true
   }
 }
