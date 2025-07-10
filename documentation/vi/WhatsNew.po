@@ -1,0 +1,571 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-07-09 11:53+0300\n"
+"PO-Revision-Date: 2025-07-09 12:50+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "# What's new in Sound Transcriber?"
+msgstr "# Có gì mới trong Sound Transcriber?"
+
+msgid "## Version 1.4.6:"
+msgstr "## Phiên bản 1.4.6:"
+
+msgid ""
+"- Sound Transcriber no longer checks the API key during its addition due to "
+"some bugs; the feature will be fixed later."
+msgstr ""
+"- Sound Transcriber hiện không kiểm tra khóa API khi thêm vào do một số lỗi; "
+"tính năng này sẽ được sửa sau."
+
+msgid "- Updated  Python version to Python 3.13."
+msgstr "- Đã cập nhật phiên bản Python được sử dụng lên Python 3.13."
+
+msgid "- You can now install Sound Transcriber on ARM64 devices."
+msgstr "- Bạn hiện có thể cài đặt Sound Transcriber trên thiết bị ARM64."
+
+msgid "- Updated yt-dlp to resolve download issues."
+msgstr "- Cập nhật yt-dlp để khắc phục sự cố tải xuống."
+
+msgid "- Fixed an encoding-related bug with the log file."
+msgstr "- Đã sửa lỗi liên quan đến mã hóa trong tệp nhật ký."
+
+msgid "- Updated dependencies to the latest versions."
+msgstr "- Cập nhật các thư viện phụ thuộc lên phiên bản mới nhất."
+
+msgid "- Some improvements."
+msgstr "Một số cải tiến nhỏ."
+
+msgid "## Version 1.4.5:"
+msgstr "## Phiên bản 1.4.5:"
+
+msgid ""
+"- Sound Transcriber will now display all supported files in the Open File "
+"dialog."
+msgstr ""
+"Sound Transcriber hiện sẽ hiển thị tất cả các tệp được hỗ trợ trong hộp "
+"thoại Mở tệp."
+
+msgid "- Some improvements..."
+msgstr "- Một số cải tiến..."
+
+msgid "## Version 1.4.4:"
+msgstr "## Phiên bản 1.4.4:"
+
+msgid "- Added Vietnamese translation, many thanks to Nguyen Anh Duc."
+msgstr "- Đã thêm bản dịch tiếng Việt, xin chân thành cảm ơn Nguyễn Anh Đức."
+
+msgid ""
+"- Transitioned to a new system for translating the changelog and Sound "
+"Transcriber User Guide. More details can be found in the User Guide."
+msgstr ""
+"- Đã chuyển sang hệ thống mới để dịch nhật ký thay đổi và Hướng dẫn Sử dụng "
+"Sound Transcriber. Bạn có thể tìm thêm thông tin trong Hướng dẫn Sử dụng."
+
+msgid ""
+"- Fixed a bug that prevented Sound Transcriber from successfully downloading "
+"YouTube videos."
+msgstr ""
+"- Đã sửa lỗi khiến Sound Transcriber không thể tải xuống video YouTube thành "
+"công."
+
+msgid ""
+"- Fixed a bug that prevented Sound Transcriber from stopping downloads "
+"correctly when the \"Keep Downloaded Files\" option was enabled."
+msgstr ""
+"- Đã sửa lỗi ngăn chặn Sound Transcriber dừng tải xuống đúng cách khi tùy "
+"chọn \"Giữ Tập Tin Đã Tải Xuống \"được bật\"."
+
+msgid ""
+"- Fixed a bug that caused Sound Transcriber to improperly log errors "
+"returned by services."
+msgstr ""
+"- Đã sửa lỗi khiến Sound Transcriber ghi nhật ký lỗi trả về từ dịch vụ không "
+"chính xác."
+
+msgid "- Improved Sound Transcriber user guide."
+msgstr "- Hướng dẫn sử dụng Sound Transcriber được cải tiến."
+
+msgid "- Upgraded to wxPython 4.2.2 and Python 3.12.7."
+msgstr "- Nâng cấp lên wxPython 4.2.2 và Python 3.12.7."
+
+msgid "## Version 1.4.3:"
+msgstr "## Phiên bản 1.4.3:"
+
+msgid "- Some improvements...."
+msgstr "- Một số cải tiến..."
+
+msgid "## Version 1.4.2:"
+msgstr "## Phiên bản 1.4.2:"
+
+msgid "- Added Turkish translation. Thanks to Kadir öz."
+msgstr "- Đã thêm bản dịch tiếng Thổ Nhĩ Kì. Cảm ơn Kadir öz."
+
+msgid "- fixed a bug related to downloading from YouTube."
+msgstr "- đã sửa lỗi liên quan đến việc tải xuống từ YouTube."
+
+msgid "- Some improvements....."
+msgstr "- Một số cải tiến..."
+
+msgid "## Version 1.4.1:"
+msgstr "## Phiên bản 1.4.1:"
+
+msgid "- Several minor improvements."
+msgstr "- Một số cải tiến nhỏ."
+
+msgid "## Version 1.4.0:"
+msgstr "## Phiên bản 1.4.0:"
+
+msgid ""
+"- Added  Beta updates system. You can enable this option in settings to "
+"receive beta updates. Please note that beta updates may contain significant "
+"bugs. You can disable the option and revert to the latest stable version at "
+"any time."
+msgstr ""
+"- Đã thêm hệ thống cập nhật Beta. Bạn có thể kích hoạt tùy chọn này trong "
+"cài đặt để nhận các bản cập nhật beta. Xin lưu ý rằng các bản cập nhật beta "
+"có thể chứa các lỗi nghiêm trọng. Bạn có thể tắt tùy chọn này và quay lại "
+"phiên bản ổn định mới nhất bất kỳ lúc nào."
+
+msgid ""
+"- Added an option to specify the number of files to be converted "
+"simultaneously."
+msgstr ""
+"- Đã thêm tùy chọn để chỉ định số lượng tệp sẽ được chuyển đổi đồng thời."
+
+msgid ""
+"- Sound Transcriber will no longer generate an event log by default. You can "
+"enable it from the settings when encountering errors and then repeat the "
+"steps. By default, the log will retain the details of the last step, and "
+"previous operations details will be deleted when disabled."
+msgstr ""
+"- Sound Transcriber sẽ không còn tạo nhật ký sự kiện theo mặc định. Bạn có "
+"thể kích hoạt nó từ cài đặt khi gặp lỗi và sau đó lặp lại các bước. Theo mặc "
+"định, nhật ký sẽ giữ chi tiết của bước cuối cùng và chi tiết các thao tác "
+"trước đó sẽ bị xóa khi bị vô hiệu."
+
+msgid "- The logs now display more information."
+msgstr "- Nhật ký bây giờ hiển thị nhiều thông tin hơn."
+
+msgid ""
+"- The functionality of the copy button has been enhanced. As a result, the "
+"copy button should remain available as long as the result field contains "
+"transcribed texts."
+msgstr ""
+"- Chức năng của nút sao chép đã được nâng cao. Do đó, nút sao chép sẽ vẫn "
+"khả dụng miễn là trường kết quả chứa văn bản được phiên âm."
+
+msgid "- Added a donation option for developers."
+msgstr "- Đã thêm tùy chọn quyên góp cho nhà phát triển."
+
+msgid "- Attempted to minimize errors returned by the Google service."
+msgstr "- Đã cố gắng giảm thiểu các lỗi do dịch vụ Google trả về."
+
+msgid ""
+"- Fixed several bugs, particularly those related to pausing and resuming the "
+"transcription process."
+msgstr ""
+"- Đã sửa một số lỗi, đặc biệt là các lỗi liên quan đến việc tạm dừng và tiếp "
+"tục quá trình phiên âm."
+
+msgid ""
+"- Updated the user guide to include translation details, beta updates, and "
+"other important information. We highly recommend reviewing it for the latest "
+"info."
+msgstr ""
+"- Đã cập nhật hướng dẫn sử dụng để bao gồm chi tiết bản dịch, bản cập nhật "
+"beta và các thông tin quan trọng khác. Chúng tôi thực sự khuyên bạn nên xem "
+"lại nó để biết thông tin mới nhất."
+
+msgid "- Updated the Python version used to Python 3.12."
+msgstr "- Đã cập nhật phiên bản Python được sử dụng lên Python 3.12."
+
+msgid "- Several minor improvements..."
+msgstr "- Một số cải tiến nhỏ..."
+
+msgid "## Version 1.3.3:"
+msgstr "## Phiên bản 1.3.3:"
+
+msgid "- Added Russian translation, many thanks to Danil."
+msgstr "- Đã thêm bản dịch tiếng Nga, cảm ơn Danil rất nhiều."
+
+msgid ""
+"- made code improvements that increased response speed and reduced size."
+msgstr ""
+"- thực hiện các cải tiến về mã giúp tăng tốc độ phản hồi và giảm kích thước."
+
+msgid "- replaced Accessible Output 2 with PythonUniversalSpeech."
+msgstr "- Đã thay thế Accessible Output 2 bằng PythonUniversalSpeech."
+
+msgid ""
+"- Sound Transcriber no longer uses Sapi5 to speak actions when used without "
+"a screen reader."
+msgstr ""
+"- Sound Transcriber sẽ không còn sử dụng Sapi5 để đọc lời nhắc hành động khi "
+"được sử dụng mà không có trình đọc màn hình."
+
+msgid "- Updated the version of Python used to Python 3.11.7."
+msgstr "- Cập nhật phiên bản Python được sử dụng lên Python 3.11.7."
+
+msgid "- Several minor improvements...."
+msgstr "- Một số cải tiến nhỏ...."
+
+msgid "## Version 1.3.2:"
+msgstr "## Phiên bản 1.3.2:"
+
+msgid "- You can now add files using drag and drop."
+msgstr "- Bây giờ bạn có thể thêm tập tin bằng cách kéo và thả."
+
+msgid ""
+"- Fixed a major bug that caused extracted text to appear in the wrong order "
+"when converting long files."
+msgstr ""
+"- Đã sửa một lỗi nghiêm trọng khiến văn bản được trích xuất xuất hiện theo "
+"thứ tự sai khi chuyển đổi các tệp dài."
+
+msgid ""
+"- Fixed a bug that caused the save option to be disabled if the conversion "
+"was canceled before completion."
+msgstr ""
+"- Đã sửa lỗi khiến tùy chọn lưu bị vô hiệu nếu quá trình chuyển đổi bị hủy "
+"trước khi hoàn tất."
+
+msgid ""
+"- Several improvements to the Arabic translation. Many "
+"thanks to Zeinab Bahaa."
+msgstr ""
+"- Một số cải tiến cho bản dịch tiếng Ả Rập. Xin cảm ơn Zeinab Bahaa rất "
+"nhiều."
+
+msgid "- Various minor improvements."
+msgstr "- Nhiều cải tiến nhỏ khác nhau."
+
+msgid "## Version 1.3.1:"
+msgstr "## Phiên bản 1.3.1:"
+
+msgid "Some fixes and improvements."
+msgstr "Một số sửa lỗi và cải tiến."
+
+msgid "## Version 1.3.0:"
+msgstr "## Phiên bản 1.3.0:"
+
+msgid "- French translation added. Many thanks to Riad Assoum."
+msgstr "- Đã thêm bản dịch tiếng Pháp. Cảm ơn Riad Assoum rất nhiều."
+
+msgid ""
+"- You can now open files in Sound Transcriber to Transcribe them from the "
+"context menu of supported file types."
+msgstr ""
+"- Giờ bạn có thể mở tập tin trong Sound Transcriber để phiên âm chúng từ "
+"menu ngữ cảnh của các loại tập tin được hỗ trợ."
+
+msgid ""
+"- You can now access Sound Transcriber swiftly by simply typing 'st' in the "
+"Run dialog."
+msgstr ""
+"- Giờ đây, bạn có thể truy cập Sound Transcriber nhanh chóng bằng cách chỉ "
+"cần nhập 'st' trong hộp thoại Run."
+
+msgid ""
+"- Sound Transcriber is now able to automatically recognize interface "
+"translations and integrate new help files. To contribute, translate the "
+"messages.pot file using Poedit and save the files in the same order as the "
+"existing language files."
+msgstr ""
+"- Sound Transcriber giờ đây có thể tự động nhận dạng bản dịch giao diện và "
+"tích hợp các tệp trợ giúp mới. Để đóng góp, hãy dịch tệp messages.pot bằng "
+"Poedit và lưu các tệp theo cùng thứ tự với các tệp ngôn ngữ hiện có."
+
+msgid ""
+"- When the option to keep downloaded files is turned off, Sound Transcriber "
+"will retain them until the program is closed. This is particularly handy if "
+"you wish to repeat the conversion process with different options."
+msgstr ""
+"- Khi tùy chọn giữ tệp đã tải xuống bị tắt, Sound Transcriber sẽ giữ chúng "
+"cho đến khi chương trình được đóng. Điều này đặc biệt hữu ích nếu bạn muốn "
+"lặp lại quá trình chuyển đổi với các tùy chọn khác nhau."
+
+msgid ""
+"- Several bugs related to the paste from clipboard feature have been fixed. "
+"Like ignoring certain paths, failure to start conversions from the detection "
+"message, pasting links at any time, and more. Many thanks to Dawlat Hassan "
+"for the note that helped uncover many of these bugs associated with this "
+"feature."
+msgstr ""
+"- Một số lỗi liên quan đến tính năng dán từ khay nhớ tạm đã được sửa. Như bỏ "
+"qua một số đường dẫn, không bắt đầu chuyển đổi từ thông báo phát hiện, dán "
+"liên kết bất kỳ lúc nào và hơn thế nữa. Cảm ơn rất nhiều Dawlat Hassan vì "
+"ghi chú đã giúp phát hiện ra nhiều lỗi liên quan đến tính năng này."
+
+msgid ""
+"- Fixed a bug that occasionally caused Sound Transcriber to start in a "
+"different language after the last update."
+msgstr ""
+"- Đã sửa lỗi đôi khi khiến Sound Transcriber bắt đầu bằng một ngôn ngữ khác "
+"sau lần cập nhật cuối cùng."
+
+msgid ""
+"- You can no longer open two instances of Sound Transcriber simultaneously."
+msgstr "- Bạn không thể mở hai phiên bản Sound Transcriber cùng một lúc nữa."
+
+msgid "- Implemented changes to the conversion stopping method."
+msgstr "- Thực hiện các thay đổi đối với phương pháp dừng chuyển đổi."
+
+msgid "- Various minor improvements..."
+msgstr "- Những cải tiến nhỏ khác nhau..."
+
+msgid "## Version 1.2.0:"
+msgstr "## Phiên bản 1.2.0:"
+
+msgid ""
+"Important, starting with this version, Sound Transcriber will only support "
+"64 bit versions of Windows."
+msgstr ""
+"Quan trọng, bắt đầu từ phiên bản này, Sound Transcriber sẽ chỉ hỗ trợ phiên "
+"bản Windows 64 bit."
+
+msgid "- Added Spanish translation. Many thanks to Georgiana Frincu."
+msgstr ""
+"- Đã thêm bản dịch tiếng Tây Ban Nha. Cảm ơn Georgiana Frincu rất nhiều."
+
+msgid ""
+"- You can now convert videos from Youtube, Facebook, Twitter (X) and other "
+"services into text, so that Sound Transcriber will download the video and "
+"then convert it."
+msgstr ""
+"- Bây giờ bạn có thể chuyển đổi video từ Youtube, Facebook, Twitter (X) và "
+"các dịch vụ khác thành văn bản để Sound Transcriber tải video xuống rồi "
+"chuyển đổi."
+
+msgid ""
+"- You can choose to keep the original file after conversion or delete it "
+"from the settings."
+msgstr ""
+"- Bạn có thể chọn giữ lại tập tin gốc sau khi chuyển đổi hoặc xóa nó khỏi "
+"cài đặt."
+
+msgid "- Pause and resume feature has been added to the transcription process."
+msgstr "- Tính năng tạm dừng và tiếp tục đã được thêm vào quá trình phiên âm."
+
+msgid "- You can now paste file paths to be converted."
+msgstr "- Bây giờ bạn có thể dán đường dẫn tập tin cần chuyển đổi."
+
+msgid ""
+"- You can specify the file extension that is sent to wit.ai for conversion "
+"from settings."
+msgstr ""
+"- Bạn có thể chỉ định phần mở rộng tập tin được gửi tới wit.ai để chuyển đổi "
+"từ cài đặt."
+
+msgid "- Sound Transcriber will try to handle files with names contain Emojis."
+msgstr ""
+"- Sound Transcriber sẽ cố gắng xử lý các tập tin có tên chứa biểu tượng cảm "
+"xúc."
+
+msgid ""
+"- Sound Transcriber no longer stops during conversion. If this happens, you "
+"will still be able to continue the process."
+msgstr ""
+"- Sound Transcriber sẽ không còn dừng lại trong quá trình chuyển đổi. Nếu "
+"điều này xảy ra, bạn vẫn có thể tiếp tục quá trình."
+
+msgid "- Small improvements here and there."
+msgstr "- Những cải tiến nhỏ chỗ này chỗ kia."
+
+msgid "### Notes"
+msgstr "### Ghi chú"
+
+msgid ""
+"- Pausing is supported while extracting text but not while splitting files."
+msgstr ""
+"- Hỗ trợ tạm dừng trong quá trình trích xuất văn bản nhưng không hỗ trợ "
+"trong quá trình chia nhỏ tập tin."
+
+msgid ""
+"- If you temporarily stop a process and then start a new conversion process, "
+"you will lose everything related to the previous process; Therefore, it is "
+"advisable to save the current result before starting a new conversion."
+msgstr ""
+"- Nếu bạn tạm dừng một quy trình và sau đó bắt đầu một quy trình chuyển đổi "
+"mới, bạn sẽ mất mọi thứ liên quan đến quy trình trước đó; Do đó, nên lưu kết "
+"quả hiện tại trước khi bắt đầu quá trình chuyển đổi mới."
+
+msgid ""
+"- Choosing the wav format in wit.ai settings speeds up file splitting but "
+"leads to slower conversion and increased data usage. Consider trying .ogg "
+"and sharing your feedback on the results."
+msgstr ""
+"- Việc chọn định dạng wav trong cài đặt wit.ai sẽ tăng tốc độ chia nhỏ tệp "
+"nhưng dẫn đến chuyển đổi chậm hơn và tăng mức sử dụng dữ liệu. Hãy cân nhắc "
+"dùng thử định dạng .ogg và chia sẻ phản hồi của bạn về kết quả."
+
+msgid "## Version 1.1.2:"
+msgstr "## Phiên bản 1.1.2:"
+
+msgid "- Fixed a bug that prevented proper conversion of .mp4 files."
+msgstr "- Đã sửa lỗi khiến việc chuyển đổi các tập tin .mp4 không đúng cách."
+
+msgid ""
+"- Fixed a bug that caused the saved file format to retain the extension of "
+"the original file with the output files, and sometimes saved the output "
+"files with the same extension as the original file when opening a file via "
+"the clipboard."
+msgstr ""
+"- Đã sửa lỗi khiến định dạng tập tin được lưu giữ lại phần mở rộng của tập "
+"tin gốc với các tập tin đầu ra và đôi khi lưu các tập tin đầu ra với cùng "
+"phần mở rộng với tập tin gốc khi mở tập tin qua khay nhớ tạm."
+
+msgid ""
+"- You can no longer switch between services and open Sound Transcriber "
+"settings during the conversion process."
+msgstr ""
+"- Bạn không thể chuyển đổi giữa các dịch vụ và mở cài đặt của Sound "
+"Transcriber trong quá trình chuyển đổi nữa."
+
+msgid ""
+"- Sound Transcriber will now attempt to alert you when converting using an "
+"incorrect wit.ai API key."
+msgstr ""
+"- Sound Transcriber bây giờ sẽ cố gắng cảnh báo bạn khi chuyển đổi sử dụng "
+"khóa API wit.ai không chính xác."
+
+msgid ""
+"- Fixed a bug that caused the \"Edit\" button to appear twice after adding a "
+"wit.ai key."
+msgstr ""
+"- Đã sửa lỗi khiến nút \"Chỉnh sửa\" hiển thị hai lần sau khi thêm khóa "
+"wit.ai."
+
+msgid ""
+"- Fixed a bug that caused the Update and Cancel buttons to appear in English "
+"when using Sound Transcriber in Arabic.."
+msgstr ""
+"- Đã sửa lỗi khiến các nút Cập nhật và Hủy xuất hiện bằng tiếng Anh khi sử "
+"dụng Sound Transcriber bằng tiếng Ả Rập."
+
+msgid "- Various other bug fixes."
+msgstr "- Một số lỗi khác đã được sửa."
+
+msgid "## Version 1.1.1:"
+msgstr "## Phiên bản 1.1.1:"
+
+msgid ""
+"- Fixed a bug that caused the cursor position to move to the beginning of "
+"the text constantly with the screen reader while extracting text."
+msgstr ""
+"- Đã sửa lỗi khiến vị trí con trỏ di chuyển về đầu văn bản liên tục với "
+"trình đọc màn hình trong khi trích xuất văn bản."
+
+msgid ""
+"- Fixed a bug that caused the save options to not work after the text "
+"extraction process was finished."
+msgstr ""
+"- Đã sửa lỗi khiến tùy chọn lưu không hoạt động sau khi quá trình trích xuất "
+"văn bản hoàn tất."
+
+msgid "- Fix some other bugs."
+msgstr "- Đã sửa một số lỗi khác."
+
+msgid "## Version 1.1:"
+msgstr "## Phiên bản 1.1:"
+
+msgid "This version includes several bug fixes and some new features."
+msgstr "Phiên bản này bao gồm một số sửa lỗi và một số tính năng mới."
+
+msgid "- Support for various audio and video file formats has been added."
+msgstr "- Đã hỗ trợ thêm nhiều định dạng tập tin âm thanh và video khác nhau."
+
+msgid "- Word files are now saved as .docx instead of .doc."
+msgstr "- Các tập tin Word hiện được lưu dưới dạng .docx thay vì .doc."
+
+msgid ""
+"- Sound Transcriber will display a warning when closed during file "
+"conversion."
+msgstr ""
+"- Sound Transcriber sẽ hiển thị cảnh báo khi đóng trong quá trình chuyển đổi "
+"tập tin."
+
+msgid ""
+"- If auto saving is disabled and the extracted text is not saved in any "
+"file, Sound Transcriber will prompt you for what to do upon closing. If you "
+"choose to save, the file will be saved according to the options specified in "
+"the Save Options section in the settings."
+msgstr ""
+"- Nếu tự động lưu bị tắt và văn bản được trích xuất không được lưu trong bất "
+"kỳ tập tin nào, Sound Transcriber sẽ nhắc bạn về việc cần làm khi đóng. Nếu "
+"bạn chọn lưu, tập tin sẽ được lưu theo các tùy chọn được chỉ định trong phần "
+"Tùy chọn Lưu trong cài đặt."
+
+msgid ""
+"- Sound Transcriber now remembers the selected language for file conversion "
+"for each service."
+msgstr ""
+"- Sound Transcriber bây giờ sẽ ghi nhớ ngôn ngữ đã chọn để chuyển đổi tập "
+"tin cho mỗi dịch vụ."
+
+msgid ""
+"- The extracted text is now displayed during the extraction process. In "
+"other words, if the extraction process stops for any reason, you will not "
+"lose the extracted text. The new text will be added as the process continues."
+msgstr ""
+"- Văn bản được trích xuất giờ đây sẽ được hiển thị trong quá trình trích "
+"xuất. Nói cách khác, nếu quá trình trích xuất dừng lại vì bất kỳ lý do nào, "
+"bạn sẽ không bị mất văn bản đã trích xuất. Văn bản mới sẽ được thêm vào khi "
+"quá trình tiếp tục."
+
+msgid "- You can now check the progress of the extraction by pressing P."
+msgstr "- Bây giờ bạn có thể kiểm tra tiến trình trích xuất bằng cách nhấn P."
+
+msgid ""
+"- Fixed a bug that prevented the auto save path \"Browse\" button from "
+"working."
+msgstr ""
+"- Đã sửa lỗi khiến nút \"Duyệt\" đường dẫn tự động lưu không hoạt động."
+
+msgid ""
+"- Fixed a bug that prevented changing API keys for languages other than the "
+"primary language in the wit.ai language list."
+msgstr ""
+"- Đã sửa lỗi ngăn không cho thay đổi khóa API cho các ngôn ngữ khác ngoài "
+"ngôn ngữ chính trong danh sách ngôn ngữ của wit.ai."
+
+msgid ""
+"- Fixed a bug that prevented from converting files with a language other "
+"than the primary language using Wit.ai."
+msgstr ""
+"- Đã sửa lỗi khiến việc chuyển đổi tệp bằng Wit.ai không hoạt động với các "
+"ngôn ngữ khác ngoài ngôn ngữ chính."
+
+msgid "- Fixed a bug that prevented restoring default settings."
+msgstr "- Đã sửa lỗi khiến việc khôi phục cài đặt mặc định không hoạt động."
+
+msgid ""
+"- Adjusted the layout of the settings dialog to display items correctly."
+msgstr ""
+"- Điều chỉnh bố cục của hộp thoại cài đặt để hiển thị các mục chính xác."
+
+msgid "- Made some improvements to the Arabic translation."
+msgstr "- Đã thực hiện một số cải tiến đối với bản dịch tiếng Ả Rập."
+
+msgid "- Fixed some minor bugs here and there."
+msgstr "- Sửa một số lỗi nhỏ chỗ này chỗ kia."
+
+msgid "## Version 1.0:"
+msgstr "## Phiên bản 1.0:"
+
+msgid "Initial release."
+msgstr "Bản phát hành đầu tiên."

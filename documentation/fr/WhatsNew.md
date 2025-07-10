@@ -1,7 +1,18 @@
 # Quoi de neuf dans Sound Transcriber ?
 
+## Version 1.4.6:
+
+- Sound Transcriber ne vérifie plus la clé API lors de son ajout en raison de certains bugs ; cette fonctionnalité sera corrigée plus tard.
+- Mise à jour de la version de Python utilisée à Python 3.13.
+- Vous pouvez désormais installer Sound Transcriber sur les appareils ARM64.
+- Mise à jour de yt-dlp pour résoudre les problèmes de téléchargement.
+- Correction d’un bug lié à l’encodage dans le fichier journal.
+- Mises à jour des dépendances vers leurs dernières versions.
+- Quelques améliorations.
+
 ## Version 1.4.5:
 
+- Sound Transcriber affiche désormais tous les fichiers pris en charge dans la boîte de dialogue Ouvrir un fichier.
 - Quelques améliorations.
 
 ## Version 1.4.4:
@@ -17,13 +28,13 @@ Mis à niveau vers wxPython 4.2.2 et Python 3.12.7.
 
 ## Version 1.4.3:
 
-- Correction d'un bug lié au téléchargement depuis YouTube.
+- Quelques améliorations.
 
 ## Version 1.4.2:
 
 - Ajout de la traduction turque. Merci à Kadir öz.
 - Correction d'un bug lié au téléchargement depuis YouTube.
-- Correction d'un bug lié au téléchargement depuis YouTube.
+- Quelques améliorations.
 
 ## Version 1.4.1:
 

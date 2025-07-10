@@ -1,7 +1,18 @@
 # Sound Transcriber'deki Yenilikler?
 
+##Sürüm  1.4.6:
+
+- Sound Transcriber, bazı hatalar nedeniyle artık API anahtarını eklerken kontrol etmiyor; bu özellik daha sonra düzeltilecektir.
+- Python sürümü 3.13'e güncellendi.
+- Artık Sound Transcriber'ı ARM64 cihazlara kurabilirsiniz.
+- İndirme sorunlarını gidermek için yt-dlp güncellendi.
+- Günlük dosyasında kodlama ile ilgili bir hata düzeltildi.
+- Bağımlılıklar en son sürümlere güncellendi.
+- Bazı iyileştirmeler.
+
 ##Sürüm  1.4.5:
 
+- Sound Transcriber artık Dosya Aç iletişim kutusunda tüm desteklenen dosyaları gösterecek.
 - Bazı iyileştirmeler.
 
 ##Sürüm  1.4.4:

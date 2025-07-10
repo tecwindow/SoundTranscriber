@@ -8,22 +8,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-22 16:25+0300\n"
+"POT-Creation-Date: 2025-07-09 11:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 msgid "# What's new in Sound Transcriber?"
+msgstr ""
+
+msgid "## Version 1.4.6:"
+msgstr ""
+
+msgid ""
+"- Sound Transcriber no longer checks the API key during its addition due "
+"to some bugs; the feature will be fixed later."
+msgstr ""
+
+msgid "- Updated  Python version to Python 3.13."
+msgstr ""
+
+msgid "- You can now install Sound Transcriber on ARM64 devices."
+msgstr ""
+
+msgid "- Updated yt-dlp to resolve download issues."
+msgstr ""
+
+msgid "- Fixed an encoding-related bug with the log file."
+msgstr ""
+
+msgid "- Updated dependencies to the latest versions."
+msgstr ""
+
+msgid "- Some improvements."
 msgstr ""
 
 msgid "## Version 1.4.5:"
 msgstr ""
 
-msgid "- Some improvements."
+msgid ""
+"- Sound Transcriber will now display all supported files in the Open File"
+" dialog."
+msgstr ""
+
+msgid "- Some improvements..."
 msgstr ""
 
 msgid "## Version 1.4.4:"
@@ -61,7 +92,7 @@ msgstr ""
 msgid "## Version 1.4.3:"
 msgstr ""
 
-msgid "- Some improvements..."
+msgid "- Some improvements...."
 msgstr ""
 
 msgid "## Version 1.4.2:"
@@ -73,7 +104,7 @@ msgstr ""
 msgid "- fixed a bug related to downloading from YouTube."
 msgstr ""
 
-msgid "- Some improvements...."
+msgid "- Some improvements....."
 msgstr ""
 
 msgid "## Version 1.4.1:"

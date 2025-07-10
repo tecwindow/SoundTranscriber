@@ -1,7 +1,18 @@
 # Novedades en Sound Transcriber?
 
+## Versión 1.4.6:
+
+- Sound Transcriber ya no verifica la clave API durante su adición debido a algunos errores; esta función se corregirá más adelante.
+- Actualizada la versión de Python usada a Python 3.13.
+- Ahora puedes instalar Sound Transcriber en dispositivos ARM64.
+- Se actualizó yt-dlp para resolver problemas de descarga.
+- Se solucionó un error relacionado con la codificación en el archivo de registro.
+- Se actualizaron las dependencias a sus últimas versiones.
+- Algunas mejoras.
+
 ## Versión 1.4.5:
 
+- Sound Transcriber ahora mostrará todos los archivos compatibles en el cuadro de diálogo de abrir
 - Algunas mejoras.
 
 ## Versión 1.4.4:
